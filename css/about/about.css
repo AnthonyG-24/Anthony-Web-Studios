@@ -1,0 +1,212 @@
+.about-section {
+  min-height: 100vh;
+  text-align: center;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-body);
+  margin-top: 8rem;
+  background: var(--neutral-light);
+  color: var(--neutral-dark);
+}
+
+.about-top-title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  letter-spacing: var(--ls-h2);
+  font-weight: var(--fw-bold);
+  color: var(--neutral-dark);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.about-top-title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(3rem, 10vw, 5rem);
+  height: 0.25rem;
+  background: var(--accent-gradient);
+  border-radius: 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-left-content {
+  flex: 1;
+  text-align: left;
+}
+
+.about-left-content h3 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h4);
+  line-height: var(--lh-h4);
+  letter-spacing: var(--ls-h4);
+  font-weight: var(--fw-semibold);
+  color: var(--primary);
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.about-left-text {
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  font-family: var(--font-body);
+  color: var(--neutral-dark);
+  margin-bottom: 2rem;
+  font-weight: var(--fw-regular);
+  opacity: 0.9;
+}
+
+.about-highlights {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.about-highlights li {
+  padding: 0.5rem 0;
+  color: var(--neutral-dark);
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  position: relative;
+}
+
+.about-highlights li::before {
+  content: "•";
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+.about-mission {
+  background: var(--neutral-light);
+  padding: 1.5rem 2rem;
+  border: 2px solid var(--primary);
+  border-radius: 2rem;
+  box-shadow: 0 4px 12px rgba(27, 58, 75, 0.08);
+}
+
+.about-mission h4 {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h6);
+  line-height: var(--lh-h6);
+  letter-spacing: var(--ls-h6);
+  color: var(--primary);
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-weight: var(--fw-semibold);
+}
+
+.about-mission p {
+  font-family: var(--font-body);
+  color: var(--neutral-dark);
+  font-weight: var(--fw-regular);
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.about-right-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex: 1;
+}
+
+.about-right-image {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(27, 58, 75, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-right-image:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(27, 58, 75, 0.15);
+}
+
+.about-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  background: var(--primary);
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+}
+
+.about-cta {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--accent-gradient);
+  color: var(--neutral-light);
+  text-decoration: none;
+  border-radius: 1.125rem;
+  font-family: var(--font-heading);
+  font-weight: var(--fw-semibold);
+  font-size: var(--fs-base);
+  box-shadow: 0 4px 16px rgba(27, 58, 75, 0.15);
+  overflow: hidden;
+  transition: all 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-0.125rem) scale(1.02);
+  box-shadow: 0 6px 20px rgba(27, 58, 75, 0.2);
+  background: var(--primary);
+  color: var(--neutral-light);
+}
+
+@media (max-width: 820px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-mission {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 2rem 1rem;
+  }
+
+  .about-top-title {
+    margin-bottom: 2rem;
+  }
+
+  .about-left-text,
+  .about-left-content h3,
+  .about-highlights,
+  .about-mission,
+  .about-cta {
+    text-align: center;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+}

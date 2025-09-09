@@ -1,0 +1,125 @@
+.project-showcase,
+.project-showcase-outro {
+  position: relative;
+  width: 100vw;
+  height: 100shv;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--neutral-light);
+  color: var(--neutral-dark);
+}
+
+.project-showcase h1 {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-extra-bold);
+}
+
+.sticky-cards {
+  position: relative;
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+.card {
+  position: sticky;
+  width: 100%;
+  height: 125svh;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transform-origin: 50% 100%;
+  will-change: transform;
+  text-align: center;
+}
+
+#card-1 .card-inner {
+  background-color: var(--accent-1);
+}
+
+#card-2 .card-inner {
+  background-color: var(--accent-2);
+}
+
+#card-3 .card-inner {
+  background-color: var(--accent-3);
+}
+
+#card-4 .card-inner {
+  background-color: var(--accent-4);
+}
+
+#card-5 .card-inner {
+  background-color: var(--accent-5);
+}
+
+.card-info {
+  width: 25%;
+  padding: 4rem;
+  text-align: left;
+}
+
+.card-info p {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.card-title h1 {
+  font-size: var(--fs-h1);
+  padding: 2rem 0;
+}
+
+.card-description {
+  width: 60%;
+  margin: 0 auto 2rem auto;
+}
+
+.card-description p {
+  font-size: 1.5rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  margin-top: 4rem;
+  overflow: hidden;
+}
+
+.card-inner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: var(--after-opacity, 0);
+  will-change: opacity;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  h1,
+  .card-description {
+    width: calc(100% - 4rem);
+    font-size: 3rem;
+    margin: 0 auto;
+  }
+
+  .card-info {
+    width: 75%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+}
