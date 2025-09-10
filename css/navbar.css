@@ -1,0 +1,357 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--neutral-light);
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav {
+  height: 4rem;
+  width: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  position: relative;
+  z-index: 1001;
+}
+
+.hamburger i {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.hamburger .fa-xmark {
+  position: absolute;
+  opacity: 0;
+  transform: rotate(180deg);
+}
+
+.hamburger.active .fa-bars {
+  opacity: 0;
+  transform: rotate(-180deg);
+}
+
+.hamburger.active .fa-xmark {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+  background-color: rgba(var(--accent-rgb), 0.1);
+}
+
+.nav-link.active {
+  color: var(--accent);
+  background-color: rgba(var(--accent-rgb), 0.15);
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0.25rem;
+  left: 50%;
+  width: 0;
+  height: 0.125rem;
+  background-color: var(--accent);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 80%;
+}
+
+/* CTA Button Styling */
+.nav-link-cta {
+  background: var(--accent);
+  color: white !important;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem !important;
+  margin-left: 0.5rem;
+}
+
+.nav-link-cta:hover {
+  background: var(--accent-dark, var(--accent)) !important;
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.25rem 0.75rem rgba(var(--accent-rgb), 0.3);
+}
+
+.nav-link-cta::after {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .nav-wrapper {
+    max-width: 90%;
+    padding: 1rem 1.25rem;
+  }
+
+  .nav-right {
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.625rem 0.875rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.625rem 1.25rem !important;
+  }
+}
+
+@media (max-width: 820px) {
+  .nav-wrapper {
+    padding: 0.875rem 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-right {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 18.75rem;
+    height: 100vh;
+    background: var(--neutral-light);
+    box-shadow: -0.25rem 0 1rem rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 999;
+    padding: 5rem 1rem 1rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .nav-right.active {
+    right: 0;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+    margin-left: 0;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link-cta {
+    background: var(--accent);
+    color: white !important;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem !important;
+  }
+
+  .nav-link-cta:hover {
+    background: var(--accent-dark, var(--accent)) !important;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .logo-nav {
+    height: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    padding: 0.75rem 0.875rem;
+  }
+
+  .nav-right {
+    width: 16.25rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.875rem 1.25rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.875rem 1.25rem !important;
+  }
+
+  .logo-nav {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .nav-wrapper {
+    padding: 0.625rem 0.75rem;
+  }
+
+  .nav-right {
+    width: 100%;
+    right: -100%;
+    padding: 5rem 0.75rem 1rem 0.75rem;
+  }
+
+  .nav-right.active {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.75rem 1rem !important;
+  }
+
+  .logo-nav {
+    height: 2.5rem;
+  }
+
+  .hamburger i {
+    font-size: 1.25rem;
+  }
+}
+
+/* Overlay for mobile menu */
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 998;
+}
+
+.nav-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent body scroll when menu is open */
+body.nav-open {
+  overflow: hidden;
+}
+
+/* Focus states for accessibility */
+.nav-link a:focus {
+  outline: 0.125rem solid var(--accent);
+  outline-offset: 0.125rem;
+}
+
+.hamburger:focus {
+  outline: 0.125rem solid var(--accent);
+  outline-offset: 0.125rem;
+}
+
+/* Animation for mobile menu items */
+@media (max-width: 820px) {
+  .nav-right.active .nav-link {
+    animation: slideInRight 0.3s ease forwards;
+  }
+
+  .nav-right.active .nav-link:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .nav-right.active .nav-link:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .nav-right.active .nav-link:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .nav-right.active .nav-link:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Hover effects for desktop */
+@media (min-width: 821px) {
+  .nav-link:hover {
+    transform: translateY(-0.125rem);
+  }
+
+  .nav-link-cta:hover {
+    transform: translateY(-0.125rem);
+  }
+}

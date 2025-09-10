@@ -65,8 +65,54 @@
 @media (max-width: 820px) {
   .about-header {
     padding: 2rem 1rem;
+    max-width: 45rem;
   }
 
+  .about-header-title {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-h1);
+    letter-spacing: var(--ls-h1);
+    margin-bottom: 2rem;
+  }
+
+  .about-header-subtitle {
+    font-size: var(--fs-h5);
+    line-height: 1.6;
+    margin-bottom: 3.5rem;
+  }
+
+  .about-header-cta {
+    font-size: var(--fs-h6);
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-header {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .about-header-title {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-h1);
+    letter-spacing: var(--ls-h1);
+    margin-bottom: 1.5rem;
+  }
+
+  .about-header-subtitle {
+    font-size: var(--fs-h6);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+  }
+
+  .about-header-cta {
+    font-size: var(--fs-base);
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
   .about-header-title {
     font-size: var(--fs-h2);
     line-height: var(--lh-h2);
@@ -74,20 +120,8 @@
   }
 
   .about-header-subtitle {
-    font-size: var(--fs-h6);
-  }
-
-  .about-header-cta {
     font-size: var(--fs-base);
-    padding: 0.875rem 1.75rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .about-header-title {
-    font-size: var(--fs-h3);
-    line-height: var(--lh-h3);
-    letter-spacing: var(--ls-h3);
+    line-height: 1.8;
   }
 }
 

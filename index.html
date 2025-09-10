@@ -3,50 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anthony Website</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <title>Anthony Web Studio</title>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
     <link rel="stylesheet" href="css/root.css" />
-    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/hero/hero.css" />
     <link rel="stylesheet" href="css/about/about-header.css" />
     <link rel="stylesheet" href="css/about/about.css" />
     <link rel="stylesheet" href="css/showcase/showcase.css" />
+    <link rel="stylesheet" href="css/section-spacing.css" />
     <link rel="stylesheet" href="css/service/service.css" />
+    <link rel="stylesheet" href="css/pricing/pricing.css" />
+    <link rel="stylesheet" href="css/testimonial/testimonial.css" />
   </head>
   <body>
-    <!--Navigation Bar-->
-    <header class="main-header">
-      <div class="brand-logo">My Business</div>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-wrapper">
+        <div class="left-nav">
+          <img
+            class="logo-nav"
+            src="assets/logo/Anthony Web Studio.jpg"
+            alt="Anthony Web Studio logo"
+          />
+        </div>
 
-      <input type="checkbox" id="nav-toggle" title="Toggle navigation menu" />
-      <label for="nav-toggle" class="menu-btn">
-        <box-icon name="menu" id="open-icon"></box-icon>
-        <box-icon name="x" id="close-icon"></box-icon>
-      </label>
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
 
-      <nav class="nav-links">
-        <a href="#home" style="--i: 1">Home</a>
-        <a href="#about" style="--i: 4">About</a>
-        <a href="#services" style="--i: 4">Services</a>
-        <a href="#showcase" style="--i: 3">Showcase</a>
-        <a href="#testimonials" style="--i: 4">Testimonials</a>
-        <a href="#pricing" style="--i: 5">Pricing</a>
-        <a href="#contact" style="--i: 6">Contact</a>
-      </nav>
-    </header>
+        <div class="nav-right" id="navRight">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#showcase" class="nav-link">Showcase</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link nav-link-cta">Contact</a>
+        </div>
+      </div>
+    </nav>
 
     <!--Hero Section-->
     <header id="home" class="hero-section">
       <div class="hero-content">
-        <h1 class="hero-business-name">Business Name</h1>
-        <p class="hero-subtext">Bold Websites. Small Price. Big Impact.</p>
+        <div class="hero-background">
+          <img
+            src="assets/logo/Anthony Web Studio.jpg"
+            alt="Anthony Web Studio logo"
+          />
+        </div>
+        <h1 class="hero-business-name">Anthony Web Studio</h1>
+        <p class="hero-subtext">Bold Websites. Big Impact.</p>
 
         <button class="hero-cta">Explore</button>
       </div>
@@ -54,7 +71,7 @@
     </header>
 
     <!--About Section Header-->
-    <header id="about" class="about-section-header">
+    <header class="about-section-header">
       <div class="about-header">
         <h1 class="about-header-title">
           Crafting Beautiful Websites<br />
@@ -70,198 +87,108 @@
         </a>
       </div>
     </header>
-    <!--About Section Info-->
-    <section id="aboutme" class="about-section">
-      <h3 class="about-top-title">Hi, I'm Anthony</h3>
 
-      <div class="about-content">
-        <!-- Left Content -->
-        <div class="about-left-content">
-          <h3>About Me</h3>
-          <p class="about-left-text">
-            I'm a freelance web developer passionate about creating clean,
-            modern, and user-friendly websites. I work directly with clients to
-            turn their ideas into functional, responsive designs that help their
-            business grow online. Every project is handled personally by me so
-            you can expect clear communication, attention to detail, and a
-            website that truly reflects your brand.
-          </p>
+    <!--About Section-->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <h2 class="about-title">Hi, I'm Anthony</h2>
+        <p class="about-subtitle">
+          Freelance web developer passionate about creating beautiful websites
+        </p>
 
-          <!-- Highlights List -->
-          <ul class="about-highlights">
-            <li>
-              <i class="fa-solid fa-code"></i>
-              <span>Custom websites tailored to your business</span>
-            </li>
-            <li>
-              <i class="fa-solid fa-spinner"></i>
-              <span>Fast-loading sites that keep visitors happy</span>
-            </li>
-            <li>
-              <i class="fa-solid fa-mobile"></i>
-              <span>Looks great on phones, tablets, and computers</span>
-            </li>
-          </ul>
-
-          <!-- Personal Approach -->
-          <div class="about-mission">
-            <h4>Why Work With Me?</h4>
-            <p>
-              I don’t just build websites. I help create an online presence that
-              works for you. Since I work solo, you’ll have my full attention
-              from start to finish, ensuring your project is delivered exactly
-              how you envisioned it.
+        <div class="about-content">
+          <!-- Content Left -->
+          <div class="about-text">
+            <h3>About Me</h3>
+            <p class="about-description">
+              I'm a freelance web developer who loves creating clean, modern,
+              and user-friendly websites. I work directly with clients to turn
+              their ideas into functional, responsive designs that help their
+              business grow online. Every project is handled personally by me,
+              so you can expect clear communication, attention to detail, and a
+              website that truly reflects your brand.
             </p>
+
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-code"></i>
+                <div>
+                  <h5>Custom Development</h5>
+                  <p>
+                    I build your website from scratch, designed to match your
+                    brand and vision
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <div>
+                  <h5>Responsive Design</h5>
+                  <p>
+                    Your site will look perfect on phones, tablets, and
+                    computers
+                  </p>
+                </div>
+              </div>
+              <div class="feature">
+                <i class="fas fa-headset"></i>
+                <div>
+                  <h5>Personal Support</h5>
+                  <p>
+                    Since I work solo, you'll have my full attention from start
+                    to finish
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-mission">
+              <h4>Why Work With Me?</h4>
+              <p>
+                I don't just build websites. I help create an online presence
+                that works for you. Working solo means you get dedicated,
+                personal service and a website delivered exactly how you
+                envisioned it.
+              </p>
+            </div>
+
+            <a href="#contact" class="about-cta">Let's Build Your Website</a>
           </div>
 
-          <!-- Call to Action -->
-          <div class="about-cta">
-            <a href="#contact" class="cta-button">Let’s Build Your Website</a>
-          </div>
-        </div>
+          <!-- Image Right -->
+          <div class="about-image-container">
+            <div class="about-image-wrapper">
+              <img
+                src="assets/photo-of-coding-website-1.png"
+                alt="Anthony working on web development"
+                class="about-image"
+              />
 
-        <!-- Right Content -->
-        <div class="about-right-content">
-          <div class="about-right-image">
-            <img
-              class="about-image"
-              src="assets/photo-of-coding-website.png"
-              alt="Freelance web developer working on a laptop"
-            />
+              <img
+                src="assets/photo-of-coding-website-2.png"
+                alt="Anthony working on web development"
+                class="about-image"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!--Project Showcase-->
-    <section class="project-showcase">
-      <h1>Lets Sing Of Love And Victory</h1>
-    </section>
-
-    <section class="sticky-cards">
-      <div class="card" id="card-1">
-        <div class="card-inner">
-          <div class="card-info">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-title">
-            <h1>Website Title</h1>
-          </div>
-          <div class="card-description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quod, quia, voluptates quos voluptatem quibusdam
-              quibusdam.
-            </p>
-          </div>
-          <div class="card-img">
-            <img
-              src="assets/showcase-of-projects/tkshirtsandprints.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="card" id="card-2">
-        <div class="card-inner">
-          <div class="card-info">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-title">
-            <h1>Website Title</h1>
-          </div>
-          <div class="card-description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quod, quia, voluptates quos voluptatem quibusdam
-              quibusdam.
-            </p>
-          </div>
-          <div class="card-img">
-            <img
-              src="assets/showcase-of-projects/lume-clothing-fakebrand.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="card" id="card-3">
-        <div class="card-inner">
-          <div class="card-info">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-title">
-            <h1>Website Title</h1>
-          </div>
-          <div class="card-description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quod, quia, voluptates quos voluptatem quibusdam
-              quibusdam.
-            </p>
-          </div>
-          <div class="card-img">
-            <img
-              src="assets/showcase-of-projects/scoops-and-smiles-fakebrand.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="card" id="card-4">
-        <div class="card-inner">
-          <div class="card-info">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-title">
-            <h1>Website Title</h1>
-          </div>
-          <div class="card-description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quod, quia, voluptates quos voluptatem quibusdam
-              quibusdam.
-            </p>
-          </div>
-          <div class="card-img">
-            <img src="assets/showcase-of-projects/amj-website.png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="card" id="card-5">
-        <div class="card-inner">
-          <div class="card-info">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          </div>
-          <div class="card-title">
-            <h1>Website Title</h1>
-          </div>
-          <div class="card-description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quod, quia, voluptates quos voluptatem quibusdam
-              quibusdam.
-            </p>
-          </div>
-          <div class="card-img">
-            <img src="assets/showcase-of-projects/ctc-website.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="project-showcase-outro">
-      <h1>Let us sing of love</h1>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="service-section">
       <div class="service-content">
-        <h2 class="service-top-title">What I Offer</h2>
+        <h2 class="service-top-title">Professional Services</h2>
+
+        <div class="testimonial-video-container">
+          <video
+            class="testimonial-video"
+            src="assets/videos/Testimonial Video.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
 
         <!-- Service Cards -->
         <div class="service-cards">
@@ -322,7 +249,335 @@
       </div>
     </section>
 
-    <script src="js/nav.js"></script>
+    <!--Project Showcase-->
+    <section class="project-showcase" id="showcase">
+      <h1>My Portfolio</h1>
+      <p>Take a look at some of the websites I've created for my clients</p>
+    </section>
+    <section class="sticky-cards">
+      <div class="card" id="card-1">
+        <div class="card-inner">
+          <div class="card-info">
+            <p>Custom Apparel & Printing</p>
+          </div>
+          <div class="card-title">
+            <h1>TK Shirts & Prints</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Professional custom printing and apparel business website with
+              product showcase and ordering system.
+            </p>
+            <a
+              href="https://tkshirtsandprints.com/"
+              target="_blank"
+              class="card-link"
+              >Visit Website</a
+            >
+          </div>
+          <div class="card-img">
+            <img
+              src="assets/showcase-of-projects/tkshirtsandprints.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="card-2">
+        <div class="card-inner">
+          <div class="card-info">
+            <p>Fashion Brand</p>
+          </div>
+          <div class="card-title">
+            <h1>Lume Clothing</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Modern fashion brand website with sleek design and e-commerce
+              functionality for online shopping.
+            </p>
+            <a
+              href="https://lumeclothing.netlify.app/"
+              target="_blank"
+              class="card-link"
+              >Visit Website</a
+            >
+          </div>
+          <div class="card-img">
+            <img
+              src="assets/showcase-of-projects/lume-clothing-fakebrand.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="card-3">
+        <div class="card-inner">
+          <div class="card-info">
+            <p>Ice Cream Business</p>
+          </div>
+          <div class="card-title">
+            <h1>Scoops & Smiles</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Fun and vibrant ice cream parlor website with location
+              information, menu, and contact details.
+            </p>
+            <a
+              href="https://scoopsandsmilesparlors.netlify.app/"
+              target="_blank"
+              class="card-link"
+              >Visit Website</a
+            >
+          </div>
+          <div class="card-img">
+            <img
+              src="assets/showcase-of-projects/scoops-and-smiles-fakebrand.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="card-4">
+        <div class="card-inner">
+          <div class="card-info">
+            <p>Professional Services</p>
+          </div>
+          <div class="card-title">
+            <h1>AMJ LLC Services</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Corporate website for professional services company with clean
+              design and service information.
+            </p>
+            <a
+              href="https://amjllcservices.com/"
+              target="_blank"
+              class="card-link"
+              >Visit Website</a
+            >
+          </div>
+          <div class="card-img">
+            <img src="assets/showcase-of-projects/amj-website.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="card-5">
+        <div class="card-inner">
+          <div class="card-info">
+            <p>Religious Organization</p>
+          </div>
+          <div class="card-title">
+            <h1>Community Temple Church</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Church website with events calendar, community information, and
+              spiritual resources for congregation.
+            </p>
+            <a
+              href="https://communitytemplechurch.com/"
+              target="_blank"
+              class="card-link"
+              >Visit Website</a
+            >
+          </div>
+          <div class="card-img">
+            <img src="assets/showcase-of-projects/ctc-website.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project-showcase-outro">
+      <h1>Ready to Work Together?</h1>
+      <p>Let's create something amazing for your business</p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+      <h2 class="pricing-title">Pricing</h2>
+      <p class="pricing-subtitle">
+        Three packages designed to fit your business needs and budget
+      </p>
+      <div class="pricing-cards">
+        <!-- Starter Package -->
+        <article class="pricing-card">
+          <header class="pricing-header">
+            <div class="pricing-badge">
+              <i class="fas fa-rocket"></i> STARTER
+            </div>
+            <h3>Get Your Business Online</h3>
+            <p class="price">$800</p>
+          </header>
+
+          <div class="pricing-content">
+            <ul class="pricing-features">
+              <li>
+                <i class="fas fa-check"></i> 3–4 Custom Pages (Home, About,
+                Services, Contact)
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Modern Design that Works on Phones
+                & Computers
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Easy Contact Form for Visitors
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Help Connecting Your Website
+                Address
+              </li>
+              <li>
+                <i class="fas fa-check"></i> 2 Weeks Free Help After Launch
+              </li>
+            </ul>
+
+            <div class="pricing-timeline">
+              <p>
+                <strong>1–2 weeks</strong> • Up to 3 rounds of design tweaks
+                (colors, text, images, or layout)
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Professional Package -->
+        <article class="pricing-card">
+          <header class="pricing-header">
+            <div class="pricing-badge">
+              <i class="fas fa-briefcase"></i> PROFESSIONAL
+            </div>
+            <h3>Complete Business Website</h3>
+            <p class="price">$1,200</p>
+          </header>
+
+          <div class="pricing-content">
+            <p class="package-includes">Everything in Starter, PLUS:</p>
+            <ul class="pricing-features">
+              <li>
+                <i class="fas fa-check"></i> Up to 8 Custom Pages (for example:
+                Home, About, Services, Contact, Gallery, Testimonials, FAQ,
+                Pricing)
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Photo Gallery & Customer
+                Testimonials
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Newsletter Signup & Social Media
+                Links
+              </li>
+              <li>
+                <i class="fas fa-check"></i> 1 Month Free Help After Launch
+              </li>
+            </ul>
+
+            <div class="pricing-timeline">
+              <p>
+                <strong>2–3 weeks</strong> • Up to 5 rounds of design tweaks
+                (colors, text, images, or layout)
+              </p>
+            </div>
+
+            <p class="package-note">
+              *This package includes standard pages and features. Any extra
+              pages or special features may cost more.*
+            </p>
+          </div>
+        </article>
+
+        <!-- E-Commerce Package -->
+        <article class="pricing-card">
+          <header class="pricing-header">
+            <div class="pricing-badge">
+              <i class="fas fa-shopping-cart"></i> E-COMMERCE
+            </div>
+            <h3>Complete Online Store</h3>
+            <p class="price">$3,500</p>
+          </header>
+
+          <div class="pricing-content">
+            <p class="package-includes">Everything in Professional, PLUS:</p>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Full Online Store</li>
+              <li>
+                <i class="fas fa-check"></i> Shopping Cart & Secure Checkout
+              </li>
+              <li><i class="fas fa-check"></i> Custom Design Upload System</li>
+              <li>
+                <i class="fas fa-check"></i> Payment Processing (Credit Cards,
+                PayPal)
+              </li>
+              <li><i class="fas fa-check"></i> Inventory & Order Management</li>
+              <li><i class="fas fa-check"></i> 3 Months Free Support</li>
+            </ul>
+
+            <div class="pricing-timeline">
+              <p><strong>4-6 weeks</strong> • Unlimited small fixes</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Main Contact Button -->
+      <div class="pricing-cta">
+        <a href="#contact" class="pricing-main-btn">
+          <span>Get Your Website Quote</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Additional Info -->
+      <div class="pricing-additional">
+        <div class="pricing-extras">
+          <h3>Optional Add-Ons</h3>
+          <p>
+            <strong>Professional Logo:</strong> +$200 |
+            <strong>Professional Photos:</strong> +$150 |
+            <strong>Extra Pages:</strong> +$75 each |
+            <strong>Rush Job:</strong> +50%
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonial-section">
+      <h2 class="testimonial-title">What My Clients Say</h2>
+
+      <p class="testimonial-subtitle">
+        Hear from some of my satisfied clients about their experience working
+        with me.
+      </p>
+      <div class="testimonial-container">
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <p>
+              "Anthony was fantastic to work with! He took our ideas and turned
+              them into a beautiful website that exceeded our expectations."
+            </p>
+            <h5>- Pastor Gillard. ~ Community Temple C.O.O.L.J.C</h5>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              "I loved how responsive and professional Anthony was throughout
+              the project. The site looks amazing and works perfectly! He also
+              worked super fast."
+            </p>
+            <h5>- Tiwan G. ~ AMJ LLC</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/navbar.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>
