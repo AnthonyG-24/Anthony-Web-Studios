@@ -1,0 +1,119 @@
+LEGAL SERVICES WEBSITE FORMS REFERENCE
+=======================================
+
+WHAT I BUILD FOR LAWYERS/LAW FIRMS:
+- Professional marketing websites with consultation request forms
+- NO case management, legal databases, or payment processing
+- Just beautiful forms that capture potential clients for consultation
+
+FORM 1: "FREE CONSULTATION REQUEST"
+===================================
+Use for: General legal inquiries
+
+Required Fields:
+- Name, Email, Phone
+- Legal issue type (dropdown)
+- Brief description of issue
+
+Legal Issue Types:
+- Personal Injury
+- Family Law (Divorce, Custody)
+- Criminal Defense
+- Business Law
+- Estate Planning
+- Real Estate Law
+- Employment Law
+- Other
+
+Optional Fields:
+- Preferred contact method
+- Urgency level (Immediate, This week, This month, General inquiry)
+- Best time to call
+- Have you spoken with other attorneys?
+
+Button Text: "Request Free Consultation"
+Form Name: "consultation-request"
+
+FORM 2: "CASE EVALUATION"
+=========================
+Use for: Specific case assessment
+
+Required Fields:
+- Name, Email, Phone
+- Case type
+- Date of incident/issue
+- Basic case details (textarea)
+
+Optional Fields:
+- Opposing party information
+- Insurance involved (Yes/No)
+- Previous legal representation
+- Desired outcome
+- Timeline concerns
+
+Button Text: "Get My Case Evaluated"
+Form Name: "case-evaluation"
+
+FORM 3: "DOCUMENT REVIEW REQUEST"
+=================================
+Use for: Contract/document review services
+
+Required Fields:
+- Name, Email, Phone
+- Document type (Contract, Agreement, Legal Notice, Other)
+- Urgency (Same day, 1-2 days, This week, No rush)
+
+Optional Fields:
+- Number of pages
+- Specific concerns
+- Additional context
+
+Button Text: "Request Document Review"
+Form Name: "document-review"
+
+TYPICAL LEGAL SERVICES SITE PAGES:
+===================================
+1. Home - Firm overview, practice areas, consultation CTA
+2. About - Attorney bios, credentials, bar admissions
+3. Practice Areas - Detailed service descriptions
+4. Case Results - Success stories, settlements (if allowed)
+5. Resources - Legal guides, FAQs, blog posts
+6. Testimonials - Client reviews (if bar rules allow)
+7. Contact - Multiple consultation request forms
+
+WHAT LAWYERS HANDLE SEPARATELY:
+===============================
+- Case management software
+- Legal research databases
+- Client billing systems
+- Court filing systems
+- Actual legal services
+- Retainer agreements
+
+MY VALUE PROPOSITION:
+====================
+"I create professional marketing websites for law firms. I build 
+beautiful pages that establish credibility and generate consultation 
+requests through contact forms. I don't build case management 
+systems or legal databases - I focus on making you look professional 
+and capturing potential clients."
+
+COMPLIANCE CONSIDERATIONS:
+=========================
+- Include attorney disclaimers
+- "Attorney Advertising" notices (if required by state)
+- No guarantees of outcomes
+- Clear that form submission doesn't create attorney-client relationship
+- Bar association compliance varies by state
+
+PRICING FITS PERFECTLY:
+=======================
+- Starter ($800): Solo practitioners, simple practice areas
+- Professional ($1,200): Firms with multiple practice areas
+
+IMPORTANT DISCLAIMERS TO INCLUDE:
+================================
+- "Submission of this form does not create an attorney-client relationship"
+- "Attorney Advertising" (if required by state bar)
+- "Results may vary and no guarantee of outcome"
+- Privacy/confidentiality notices

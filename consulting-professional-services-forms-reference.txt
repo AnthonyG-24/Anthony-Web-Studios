@@ -1,0 +1,173 @@
+CONSULTING/PROFESSIONAL SERVICES FORMS REFERENCE
+================================================
+
+WHAT I BUILD FOR CONSULTANTS/PROFESSIONALS:
+- Professional marketing websites with consultation request forms
+- NO project management tools, CRM systems, or complex workflows
+- Just beautiful forms that capture leads and consultation requests
+
+FORM 1: "FREE CONSULTATION REQUEST"
+===================================
+Use for: General business inquiries
+
+Required Fields:
+- Name, Email, Phone
+- Company name
+- Service needed (dropdown)
+- Brief description of challenge/need
+
+Service Types (customize per consultant):
+- Business Strategy
+- Marketing Consulting
+- Financial Planning
+- HR Consulting
+- IT Consulting
+- Management Consulting
+- Process Improvement
+- Other
+
+Optional Fields:
+- Company size (1-10, 11-50, 51-200, 200+)
+- Industry
+- Timeline for project
+- Budget range
+- Current situation details
+
+Button Text: "Request Free Consultation"
+Form Name: "consultation-request"
+
+FORM 2: "PROJECT INQUIRY"
+=========================
+Use for: Specific project requests
+
+Required Fields:
+- Name, Email, Phone
+- Company name
+- Project type
+- Project timeline
+- Brief project description
+
+Optional Fields:
+- Budget range
+- Team size involved
+- Current challenges
+- Desired outcomes
+- Previous consulting experience
+
+Button Text: "Discuss My Project"
+Form Name: "project-inquiry"
+
+FORM 3: "SPEAKING ENGAGEMENT REQUEST"
+====================================
+Use for: Consultants who do speaking
+
+Required Fields:
+- Name, Email, Phone
+- Organization name
+- Event type (Conference, Workshop, Training, Webinar)
+- Event date
+- Expected audience size
+
+Optional Fields:
+- Event location
+- Speaking fee budget
+- Topic preferences
+- Audience description
+- Technical requirements
+
+Button Text: "Book Speaking Engagement"
+Form Name: "speaking-request"
+
+FORM 4: "TRAINING WORKSHOP REQUEST"
+===================================
+Use for: Corporate training services
+
+Required Fields:
+- Name, Email, Phone
+- Company name
+- Training topic needed
+- Number of participants
+- Preferred format (In-person, Virtual, Hybrid)
+
+Optional Fields:
+- Participant skill levels
+- Training duration preference
+- Budget considerations
+- Specific learning objectives
+- Available dates
+
+Button Text: "Request Training Quote"
+Form Name: "training-request"
+
+TYPICAL CONSULTING SITE PAGES:
+===============================
+1. Home - Value proposition, services overview, consultation CTA
+2. About - Background, expertise, credentials, photo
+3. Services - Detailed service descriptions, methodologies
+4. Case Studies - Success stories, results achieved
+5. Resources - Blog posts, guides, whitepapers
+6. Speaking - Topics, testimonials, booking info
+7. Contact - Multiple consultation request forms
+
+COMMON CONSULTING SPECIALTIES:
+==============================
+- Business Strategy & Planning
+- Marketing & Digital Strategy  
+- Financial Consulting
+- HR & Organizational Development
+- IT & Technology Consulting
+- Process Improvement & Operations
+- Change Management
+- Executive Coaching
+- Industry-specific consulting
+
+WHAT CONSULTANTS HANDLE SEPARATELY:
+===================================
+- Project management tools
+- CRM systems
+- Proposal creation software
+- Time tracking systems
+- Client communication platforms
+- Actual consulting delivery
+
+MY VALUE PROPOSITION:
+====================
+"I create professional marketing websites for consultants and 
+professional service providers. I build beautiful pages that 
+establish expertise and generate consultation requests through 
+contact forms. I don't build project management or CRM systems - 
+I focus on making you look credible and capturing qualified leads."
+
+CREDIBILITY ELEMENTS TO INCLUDE:
+================================
+- Professional headshots
+- Credentials and certifications
+- Client logos (with permission)
+- Testimonials and case studies
+- Speaking engagements
+- Media mentions
+- Industry recognition
+
+PRICING FITS PERFECTLY:
+=======================
+- Starter ($800): Solo consultants, focused specialty
+- Professional ($1,200): Established consultants, multiple services
+
+TYPICAL CONSULTANT NEEDS:
+=========================
+- Lead generation forms
+- Credibility establishment
+- Service explanation
+- Process transparency  
+- Easy contact methods
+- Professional presentation
+- Mobile-responsive design
+
+KEY SUCCESS FACTORS:
+===================
+- Clear value propositions
+- Specific service descriptions
+- Proof of results/outcomes
+- Easy consultation booking
+- Professional design
+- Trust-building elements

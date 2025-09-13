@@ -1,0 +1,102 @@
+REAL ESTATE WEBSITE FORMS REFERENCE
+=====================================
+
+WHAT I BUILD FOR REAL ESTATE AGENTS:
+- Professional marketing websites with lead capture forms
+- NO property search, MLS integration, or transaction processing
+- Just beautiful forms that capture leads for the agent to follow up
+
+FORM 1: "GET MY HOME VALUATION" 
+===============================
+Use for: Sellers wanting to know their home's worth
+
+Required Fields:
+- Name, Email, Phone (standard contact)
+- Property Address, City
+- Property Type (Single Family, Condo, Multi-Family)
+
+Optional Fields:
+- Bedrooms, Bathrooms, Square Feet
+- Timeline (Immediately, 3 months, 6 months, 1 year, just curious)
+- Additional details (textarea)
+
+Button Text: "Get My Free Home Valuation"
+Form Name: "home-valuation"
+
+FORM 2: "HELP ME FIND PROPERTIES"
+=================================
+Use for: Buyers looking for homes
+
+Required Fields:
+- Name, Email, Phone
+- Pre-approval status (Yes, No, Cash buyer)
+
+Optional Fields:
+- Budget Range
+- Preferred neighborhoods/areas
+- Minimum bedrooms/bathrooms
+- Timeline (Ready now, 30 days, 90 days, 6 months)
+- Must-have features (textarea)
+
+Button Text: "Start My Home Search"
+Form Name: "buyer-assistance"
+
+FORM 3: "SCHEDULE CONSULTATION"
+===============================
+Use for: General inquiries
+
+Required Fields:
+- Name, Email, Phone
+- Service needed (Buying, Selling, Both, General Question)
+
+Optional Fields:
+- Preferred contact method
+- Best time to call
+- Timeline
+- Message (textarea)
+
+Button Text: "Schedule My Consultation" 
+Form Name: "consultation-request"
+
+TYPICAL REAL ESTATE SITE PAGES:
+===============================
+1. Home - Agent hero, recent sales, contact forms
+2. About - Professional bio, credentials, headshot
+3. Sell Your Home - Process + "Get Home Valued" form
+4. Buy a Home - Process + "Find Properties" form
+5. Neighborhoods - Static area guides
+6. Success Stories - Testimonials, sold properties
+7. Contact - Multiple contact forms, office info
+
+WHAT AGENTS HANDLE SEPARATELY:
+==============================
+- Property listings (IDX solutions)
+- MLS integration
+- Transaction management
+- CRM systems
+- Actual real estate services
+
+MY VALUE PROPOSITION:
+====================
+"I create professional marketing websites for real estate agents. 
+I build beautiful pages that showcase your expertise and generate 
+leads through contact forms. I don't build property search tools 
+or MLS integrations - I focus on making you look professional 
+and capturing leads."
+
+PRICING FITS PERFECTLY:
+=======================
+- Starter ($800): 4-5 core pages for new agents
+- Professional ($1,200): 6-8 pages with full showcase
+
+NETLIFY FORM SETUP:
+==================
+- Use data-netlify="true" 
+- Add hidden form-name field
+- Set up email notifications in Netlify dashboard
+- Subject line: "New Real Estate Lead from [name]"
+
+KEY POINT:
+==========
+Real estate websites are just fancy contact forms + pretty content.
+The agent does all the actual real estate work - I just capture leads beautifully.
