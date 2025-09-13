@@ -176,3 +176,66 @@
     padding: 0.875rem 1.5rem;
   }
 }
+
+/* Form Validation Styles */
+.form-group input:invalid,
+.form-group select:invalid,
+.form-group textarea:invalid {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 0.125rem rgba(220, 38, 38, 0.1);
+}
+
+.form-group input:valid,
+.form-group select:valid,
+.form-group textarea:valid {
+  border-color: #16a34a;
+}
+
+.form-group input:invalid:focus,
+.form-group select:invalid:focus,
+.form-group textarea:invalid:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 0.1875rem rgba(220, 38, 38, 0.15);
+  outline: none;
+}
+
+/* Custom validation messages */
+.form-group input:invalid + .error-message,
+.form-group select:invalid + .error-message,
+.form-group textarea:invalid + .error-message {
+  display: block;
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  font-family: var(--font-body);
+}
+
+.error-message {
+  display: none;
+}
+
+/* Required field indicator */
+label::after {
+  content: "";
+}
+
+label[for="name"]::after,
+label[for="email"]::after,
+label[for="business-type"]::after,
+label[for="package"]::after,
+label[for="description"]::after {
+  content: " *";
+  color: #dc2626;
+  font-weight: bold;
+}
+
+/* Form submission state */
+.quote-form:invalid .quote-form-submit {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.quote-form:valid .quote-form-submit {
+  opacity: 1;
+  cursor: pointer;
+}
