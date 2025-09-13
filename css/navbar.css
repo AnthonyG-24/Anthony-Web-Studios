@@ -123,8 +123,10 @@ nav {
   margin-left: 0.5rem;
 }
 
-.nav-link-cta:hover {
+.nav-link-cta:hover,
+.nav-link-cta.active {
   background: var(--accent-dark, var(--accent)) !important;
+  color: white !important;
   transform: translateY(-0.125rem);
   box-shadow: 0 0.25rem 0.75rem rgba(var(--accent-rgb), 0.3);
 }

@@ -55,4 +55,21 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+
+  // Video autoplay on scroll into view
+  const video = document.querySelector('.testimonial-video');
+  if (video) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: 0.5 });
+    
+    observer.observe(video);
+  }
+
 });

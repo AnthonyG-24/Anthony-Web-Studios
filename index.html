@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="css/section-spacing.css" />
     <link rel="stylesheet" href="css/service/service.css" />
     <link rel="stylesheet" href="css/pricing/pricing.css" />
+    <link rel="stylesheet" href="css/quote-form/quote-form.css" />
+    <link rel="stylesheet" href="css/faq/faq.css" />
     <link rel="stylesheet" href="css/testimonial/testimonial.css" />
+    <link rel="stylesheet" href="css/contact/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -62,18 +66,18 @@
             alt="Anthony Web Studio logo"
           />
         </div>
-        <h1 class="hero-business-name">Anthony Web Studio</h1>
+        <!--  <h1 class="hero-business-name">Anthony Web Studio</h1> -->
         <p class="hero-subtext">Bold Websites. Big Impact.</p>
 
-        <button class="hero-cta">Explore</button>
+        <a href="#about-header" class="hero-cta">Explore</a>
       </div>
       <div class="curve"></div>
     </header>
 
     <!--About Section Header-->
-    <header class="about-section-header">
+    <header id="about-header" class="about-section-header">
       <div class="about-header">
-        <h1 class="about-header-title">
+        <h1 class="about-header-title" >
           Crafting Beautiful Websites<br />
           One Pixel at a Time
         </h1>
@@ -81,7 +85,7 @@
           Turning your ideas into modern, responsive websites that leave a
           lasting impression.
         </p>
-        <a href="#aboutme" class="about-header-cta">
+        <a href="#about" class="about-header-cta">
           <span>Learn more about me</span>
           <i class="fa-solid fa-arrow-down"></i>
         </a>
@@ -101,12 +105,7 @@
           <div class="about-text">
             <h3>About Me</h3>
             <p class="about-description">
-              I'm a freelance web developer who loves creating clean, modern,
-              and user-friendly websites. I work directly with clients to turn
-              their ideas into functional, responsive designs that help their
-              business grow online. Every project is handled personally by me,
-              so you can expect clear communication, attention to detail, and a
-              website that truly reflects your brand.
+              I'm Anthony, a freelance web developer who graduated from Winthrop University in 2024 with a Computer Science degree and Mathematics minor. My passion for coding started in college, and I've been helping small businesses and entrepreneurs establish their online presence ever since. I believe in building more than just websites. I create digital experiences that connect with your audience and drive real results for your business.
             </p>
 
             <div class="about-features">
@@ -114,30 +113,21 @@
                 <i class="fas fa-code"></i>
                 <div>
                   <h5>Custom Development</h5>
-                  <p>
-                    I build your website from scratch, designed to match your
-                    brand and vision
-                  </p>
+                  <p>Every line of code is crafted specifically for your brand, ensuring a unique online presence</p>
                 </div>
               </div>
               <div class="feature">
                 <i class="fas fa-mobile-alt"></i>
                 <div>
                   <h5>Responsive Design</h5>
-                  <p>
-                    Your site will look perfect on phones, tablets, and
-                    computers
-                  </p>
+                  <p>Your website will provide an excellent user experience across all devices and screen sizes</p>
                 </div>
               </div>
               <div class="feature">
                 <i class="fas fa-headset"></i>
                 <div>
                   <h5>Personal Support</h5>
-                  <p>
-                    Since I work solo, you'll have my full attention from start
-                    to finish
-                  </p>
+                  <p>You'll work directly with me throughout the entire process, with clear communication every step of the way</p>
                 </div>
               </div>
             </div>
@@ -145,14 +135,10 @@
             <div class="about-mission">
               <h4>Why Work With Me?</h4>
               <p>
-                I don't just build websites. I help create an online presence
-                that works for you. Working solo means you get dedicated,
-                personal service and a website delivered exactly how you
-                envisioned it.
+                When you work with me, you're not just getting a website. You're getting a partner who cares about your success. I take the time to understand your business goals and deliver a solution that truly represents your brand while driving measurable results.
               </p>
             </div>
 
-            <a href="#contact" class="about-cta">Let's Build Your Website</a>
           </div>
 
           <!-- Image Right -->
@@ -162,12 +148,16 @@
                 src="assets/photo-of-coding-website-1.png"
                 alt="Anthony working on web development"
                 class="about-image"
+               
+               
               />
 
               <img
                 src="assets/photo-of-coding-website-2.png"
                 alt="Anthony working on web development"
                 class="about-image"
+               
+               
               />
             </div>
           </div>
@@ -184,7 +174,6 @@
           <video
             class="testimonial-video"
             src="assets/videos/Testimonial Video.mp4"
-            autoplay
             muted
             loop
           ></video>
@@ -251,12 +240,12 @@
 
     <!--Project Showcase-->
     <section class="project-showcase" id="showcase">
-      <h1>My Portfolio</h1>
-      <p>Take a look at some of the websites I've created for my clients</p>
+      <h1 >Featured Work</h1>
+      <p>Showcasing client projects and professional demo websites</p>
     </section>
     <section class="sticky-cards">
       <div class="card" id="card-1">
-        <div class="card-inner">
+        <div class="card-inner" >
           <div class="card-info">
             <p>Custom Apparel & Printing</p>
           </div>
@@ -278,6 +267,8 @@
           <div class="card-img">
             <img
               src="assets/showcase-of-projects/tkshirtsandprints.png"
+             
+             
               alt=""
             />
           </div>
@@ -285,7 +276,7 @@
       </div>
 
       <div class="card" id="card-2">
-        <div class="card-inner">
+        <div class="card-inner" >
           <div class="card-info">
             <p>Fashion Brand</p>
           </div>
@@ -308,13 +299,15 @@
             <img
               src="assets/showcase-of-projects/lume-clothing-fakebrand.png"
               alt=""
+             
+             
             />
           </div>
         </div>
       </div>
 
       <div class="card" id="card-3">
-        <div class="card-inner">
+        <div class="card-inner" >
           <div class="card-info">
             <p>Ice Cream Business</p>
           </div>
@@ -343,7 +336,7 @@
       </div>
 
       <div class="card" id="card-4">
-        <div class="card-inner">
+        <div class="card-inner" >
           <div class="card-info">
             <p>Professional Services</p>
           </div>
@@ -369,7 +362,7 @@
       </div>
 
       <div class="card" id="card-5">
-        <div class="card-inner">
+        <div class="card-inner" >
           <div class="card-info">
             <p>Religious Organization</p>
           </div>
@@ -395,7 +388,7 @@
       </div>
     </section>
     <section class="project-showcase-outro">
-      <h1>Ready to Work Together?</h1>
+      <h1 >Ready to Work Together?</h1>
       <p>Let's create something amazing for your business</p>
     </section>
 
@@ -403,8 +396,27 @@
     <section id="pricing" class="pricing-section">
       <h2 class="pricing-title">Pricing</h2>
       <p class="pricing-subtitle">
-        Three packages designed to fit your business needs and budget
+        Two design-focused packages designed to fit your business needs and
+        budget
       </p>
+
+      <div class="pricing-info">
+        <p>
+          <strong>Perfect for:</strong> Churches, Real Estate Agents, Service
+          Businesses, Local Businesses (restaurants, salons, etc.).
+        </p>
+        <div class="pricing-disclaimer">
+          <div class="disclaimer-icon">
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          <div class="disclaimer-content">
+            <h4>Important Notice</h4>
+            <p>
+              I specialize in informational and promotional websites only. I do not build e-commerce stores, online shops, or websites requiring complex APIs or heavy JavaScript functionality.
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="pricing-cards">
         <!-- Starter Package -->
         <article class="pricing-card">
@@ -466,14 +478,6 @@
                 Pricing)
               </li>
               <li>
-                <i class="fas fa-check"></i> Photo Gallery & Customer
-                Testimonials
-              </li>
-              <li>
-                <i class="fas fa-check"></i> Newsletter Signup & Social Media
-                Links
-              </li>
-              <li>
                 <i class="fas fa-check"></i> 1 Month Free Help After Launch
               </li>
             </ul>
@@ -491,58 +495,268 @@
             </p>
           </div>
         </article>
-
-        <!-- E-Commerce Package -->
-        <article class="pricing-card">
-          <header class="pricing-header">
-            <div class="pricing-badge">
-              <i class="fas fa-shopping-cart"></i> E-COMMERCE
-            </div>
-            <h3>Complete Online Store</h3>
-            <p class="price">$3,500</p>
-          </header>
-
-          <div class="pricing-content">
-            <p class="package-includes">Everything in Professional, PLUS:</p>
-            <ul class="pricing-features">
-              <li><i class="fas fa-check"></i> Full Online Store</li>
-              <li>
-                <i class="fas fa-check"></i> Shopping Cart & Secure Checkout
-              </li>
-              <li><i class="fas fa-check"></i> Custom Design Upload System</li>
-              <li>
-                <i class="fas fa-check"></i> Payment Processing (Credit Cards,
-                PayPal)
-              </li>
-              <li><i class="fas fa-check"></i> Inventory & Order Management</li>
-              <li><i class="fas fa-check"></i> 3 Months Free Support</li>
-            </ul>
-
-            <div class="pricing-timeline">
-              <p><strong>4-6 weeks</strong> • Unlimited small fixes</p>
-            </div>
-          </div>
-        </article>
       </div>
 
       <!-- Main Contact Button -->
       <div class="pricing-cta">
-        <a href="#contact" class="pricing-main-btn">
+        <a href="#quote-form" class="pricing-main-btn">
           <span>Get Your Website Quote</span>
           <i class="fas fa-arrow-right"></i>
         </a>
       </div>
 
-      <!-- Additional Info -->
-      <div class="pricing-additional">
-        <div class="pricing-extras">
-          <h3>Optional Add-Ons</h3>
-          <p>
-            <strong>Professional Logo:</strong> +$200 |
-            <strong>Professional Photos:</strong> +$150 |
-            <strong>Extra Pages:</strong> +$75 each |
-            <strong>Rush Job:</strong> +50%
-          </p>
+      <!-- Payment Terms -->
+      <div class="pricing-payment-terms">
+        <h3>Payment Structure</h3>
+        <div class="payment-structure">
+          <div class="payment-step">
+            <div class="payment-icon">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="payment-details">
+              <h4>50% Upfront Payment</h4>
+              <p>Required before project starts</p>
+            </div>
+          </div>
+          <div class="payment-step">
+            <div class="payment-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="payment-details">
+              <h4>50% Final Payment</h4>
+              <p>Due upon project completion & launch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section id="quote-form" class="quote-form-section">
+      <div class="quote-form-container">
+        <h2 class="quote-form-title">Get Your Website Quote</h2>
+        <p class="quote-form-subtitle">
+          Tell me about your project and I'll send you a detailed quote with
+          your Stripe payment link
+        </p>
+
+        <form name="website-quote" method="POST" netlify class="quote-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="business">Business Name</label>
+              <input type="text" id="business" name="business" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="business-type">Business Type *</label>
+              <select id="business-type" name="business-type" required>
+                <option value="">Select your business type</option>
+                <option value="church">Church/Religious Organization</option>
+                <option value="real-estate">Real Estate Agent/Agency</option>
+                <option value="restaurant">Restaurant/Food Service</option>
+                <option value="salon">Salon/Beauty Services</option>
+                <option value="fitness">Fitness Studio/Gym</option>
+                <option value="medical">Medical/Healthcare</option>
+                <option value="legal">Legal Services</option>
+                <option value="consulting">
+                  Consulting/Professional Services
+                </option>
+                <option value="nonprofit">Non-profit Organization</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="package">Interested Package *</label>
+              <select id="package" name="package" required>
+                <option value="">Select a package</option>
+                <option value="starter">Starter Package ($800)</option>
+                <option value="professional">
+                  Professional Package ($1,200)
+                </option>
+                <option value="unsure">Not sure - help me decide</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="timeline">Preferred Timeline</label>
+            <select id="timeline" name="timeline">
+              <option value="">No rush</option>
+              <option value="1-2-weeks">1-2 weeks</option>
+              <option value="3-4-weeks">3-4 weeks</option>
+              <option value="1-2-months">1-2 months</option>
+              <option value="flexible">I'm flexible</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Project Description *</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="5"
+              placeholder="Tell me about your business and what kind of website you need. Include any specific features or pages you want..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="existing-website"
+              >Do you have an existing website?</label
+            >
+            <input
+              type="text"
+              id="existing-website"
+              name="existing-website"
+              placeholder="Enter URL if you have one"
+            />
+          </div>
+
+          <button type="submit" class="quote-form-submit">
+            <span>Request My Quote</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+      <div class="faq-container">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <p class="faq-subtitle">
+          Common questions about my web development process and how we'll work together
+        </p>
+
+        <div class="faq-items">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How would I get my domain setup?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Simple 3-step process:</strong>
+              </p>
+              <ol>
+                <li><strong>You purchase your domain</strong> - I'll recommend Porkbun (costs $8-12/year) and guide you through the process if needed</li>
+                <li><strong>Share temporary access</strong> - Give me your login details so I can configure everything</li>
+                <li><strong>I handle the technical setup</strong> - DNS, nameservers, and connection to your website</li>
+              </ol>
+              <p>You own the domain completely, I just handle the technical connection to make your website live!</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does the payment process work?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Split payments for your protection:</strong>
+              </p>
+              <ol>
+                <li><strong>50% deposit</strong> - Secure your project and I begin work immediately</li>
+                <li><strong>I build your website</strong> - Regular updates and communication throughout</li>
+                <li><strong>50% final payment</strong> - Due when your website is complete and ready to launch</li>
+              </ol>
+              <p>All payments are processed securely through Stripe. You'll receive email receipts for everything.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What happens after I request a quote?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Here's what happens next:</strong>
+              </p>
+              <ol>
+                <li><strong>I review your project</strong> - Usually within 24 hours of your quote request</li>
+                <li><strong>We discuss your needs</strong> - I'll email you with questions and project timeline</li>
+                <li><strong>You pay the deposit</strong> - I'll send you a secure payment link to get started</li>
+                <li><strong>Project begins</strong> - Regular updates and communication throughout development</li>
+              </ol>
+              <p>No pressure, no surprises - just clear communication every step of the way.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How long does a website take to complete?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Timeline depends on your package:</strong>
+              </p>
+              <ul>
+                <li><strong>Starter Package (3-4 pages):</strong> 1-2 weeks from deposit to launch</li>
+                <li><strong>Professional Package (up to 8 pages):</strong> 2-3 weeks from deposit to launch</li>
+              </ul>
+              <p>These timelines include design, development, revisions, and launch. I'll keep you updated on progress throughout the project.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What if I need changes after my website is live?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>You're covered with free support:</strong>
+              </p>
+              <ul>
+                <li><strong>Starter Package:</strong> 2 weeks of free support after launch</li>
+                <li><strong>Professional Package:</strong> 1 month of free support after launch</li>
+              </ul>
+              <p>This includes minor content changes, bug fixes, and technical support. After the free period, I offer affordable maintenance packages for ongoing updates.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you build online stores or e-commerce websites?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>No, I specialize in informational websites only.</strong>
+              </p>
+              <p>I focus on creating beautiful, professional websites for:</p>
+              <ul>
+                <li>Service businesses (restaurants, salons, contractors)</li>
+                <li>Churches and religious organizations</li>
+                <li>Real estate agents and small businesses</li>
+                <li>Professional portfolios and company websites</li>
+              </ul>
+              <p>I don't build e-commerce stores, complex web applications, or sites requiring heavy JavaScript functionality.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -558,27 +772,137 @@
       <div class="testimonial-container">
         <div class="testimonial-cards">
           <div class="testimonial-card">
-            <p>
-              "Anthony was fantastic to work with! He took our ideas and turned
-              them into a beautiful website that exceeded our expectations."
-            </p>
-            <h5>- Pastor Gillard. ~ Community Temple C.O.O.L.J.C</h5>
+            <div class="user-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "Anthony was fantastic to work with! He took our ideas and
+                turned them into a beautiful website that exceeded our
+                expectations."
+              </p>
+              <h5>- Pastor Gillard. ~ Community Temple C.O.O.L.J.C</h5>
+            </div>
           </div>
 
           <div class="testimonial-card">
-            <p>
-              "I loved how responsive and professional Anthony was throughout
-              the project. The site looks amazing and works perfectly! He also
-              worked super fast."
-            </p>
-            <h5>- Tiwan G. ~ AMJ LLC</h5>
+            <div class="user-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "I loved how responsive and professional Anthony was throughout
+                the project. The site looks amazing and works perfectly! He also
+                worked super fast."
+              </p>
+              <h5>- Tiwan G. ~ AMJ LLC</h5>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <h2 class="contact-title">Let's Connect</h2>
+        <p class="contact-subtitle">
+          Ready to start your project? Get in touch with me through any of these
+          platforms
+        </p>
+
+        <div class="contact-email">
+          <p>anthony4work9000@gmail.com</p>
+        </div>
+
+        <div class="contact-icons">
+          <a
+            href="mailto:anthony4work9000@gmail.com"
+            class="contact-icon email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/teri.gillard"
+            target="_blank"
+            class="contact-icon facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/anthony-gillard-dev"
+            target="_blank"
+            class="contact-icon linkedin"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container" >
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="assets/logo/Anthony Web Studio.jpg"
+              alt="Anthony Web Studio"
+            />
+            <h3>Anthony Web Studio</h3>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="footer-social">
+            <a
+              href="mailto:anthony4work9000@gmail.com"
+              class="footer-social-icon"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/teri.gillard"
+              target="_blank"
+              class="footer-social-icon"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anthony-gillard-dev"
+              target="_blank"
+              class="footer-social-icon"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year"></span> Anthony Web Studio. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
     <script src="js/navbar.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/faq.js"></script>
+    <script>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>
 </html>
