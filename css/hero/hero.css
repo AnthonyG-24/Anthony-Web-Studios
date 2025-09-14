@@ -197,7 +197,25 @@
   }
 }
 
+@media (max-width: 540px) {
+  .hero-cta {
+    margin-bottom: 8rem;
+  }
+
+  .curve::before {
+    transform: translate(70%, 58%);
+  }
+
+  .curve::after {
+    transform: translate(-5%, 36%);
+  }
+}
+
 @media (max-width: 350px) {
+  .hero-cta {
+    margin-bottom: 2rem;
+  }
+
   .hero-business-name {
     font-size: 3rem;
   }
