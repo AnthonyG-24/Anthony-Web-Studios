@@ -13,7 +13,7 @@
   padding: 0 2rem;
 }
 
-.testimonial-video-container {
+.service-video-container {
   width: 100%;
   height: 25rem;
   margin-bottom: 4rem;
@@ -21,7 +21,7 @@
   border-radius: 1rem;
 }
 
-.testimonial-video {
+.service-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -129,7 +129,7 @@
     padding: 0 1.5rem;
   }
 
-  .testimonial-video-container {
+  .service-video-container {
     height: 22rem;
     margin-bottom: 3rem;
   }
@@ -157,8 +157,9 @@
     padding: 3rem 0;
   }
 
-  .testimonial-video-container {
-    display: none;
+  .service-video-container {
+    height: 18rem;
+    margin-bottom: 2.5rem;
   }
 
   .service-cards {
@@ -195,7 +196,7 @@
     padding: 2rem 1rem;
   }
 
-  .testimonial-video-container {
+  .service-video-container {
     height: 15rem;
     margin-bottom: 2rem;
   }
@@ -246,7 +247,7 @@
     padding: 0 0.75rem;
   }
 
-  .testimonial-video-container {
+  .service-video-container {
     height: 12rem;
     margin-bottom: 1.5rem;
   }
