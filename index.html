@@ -410,29 +410,13 @@
     <section id="pricing" class="pricing-section">
       <h2 class="pricing-title">Pricing</h2>
       <p class="pricing-subtitle">
-        Two design-focused packages designed to fit your business needs and
-        budget
+        Professional web development packages designed for businesses that demand excellence
       </p>
 
       <div class="pricing-info">
         <p>
-          <strong>Perfect for:</strong> Churches, Real Estate Agents, Service
-          Businesses, Local Businesses (restaurants, salons, etc.).
+          <strong>Perfect for:</strong> Churches, Real Estate Agents, Service Businesses, Local Businesses, and E-commerce Stores.
         </p>
-        <div class="pricing-disclaimer">
-          <div class="disclaimer-icon">
-            <i class="fas fa-exclamation-triangle"></i>
-          </div>
-          <div class="disclaimer-content">
-            <h4>Important Notice</h4>
-            <p>
-              I build websites that showcase your business and services. I do
-              not build online stores where customers can buy products or
-              websites that need complex features like customer accounts,
-              payment processing, or advanced web applications.
-            </p>
-          </div>
-        </div>
       </div>
       <div class="pricing-cards">
         <!-- Starter Package -->
@@ -510,6 +494,53 @@
             <p class="package-note">
               *This package includes up to 8 custom pages. Additional pages are
               $75 each.*
+            </p>
+          </div>
+        </article>
+
+        <!-- E-commerce Package -->
+        <article class="pricing-card">
+          <header class="pricing-header">
+            <div class="pricing-badge">
+              <i class="fas fa-shopping-cart"></i> E-COMMERCE
+            </div>
+            <h3>Custom Shopify Store</h3>
+            <p class="price">$4,500</p>
+          </header>
+
+          <div class="pricing-content">
+            <ul class="pricing-features">
+              <li>
+                <i class="fas fa-check"></i> Custom Store Design & Layout
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Custom Product Page Design
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Custom Shopping Cart Design
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Mobile-Friendly Design
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Brand Colors & Styling
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Help Setting Up Your Store
+              </li>
+              <li>
+                <i class="fas fa-check"></i> 3 Months Free Support After Launch
+              </li>
+            </ul>
+
+            <div class="pricing-timeline">
+              <p>
+                <strong>4–6 weeks</strong>
+              </p>
+            </div>
+
+            <p class="package-note">
+              *Complete online store with custom design that lets customers buy your products.*
             </p>
           </div>
         </article>
@@ -779,8 +810,10 @@
                   deposit to launch
                 </li>
                 <li>
-                  <strong>Professional Package (up to 8 pages):</strong> 2-3
-                  weeks from deposit to launch
+                  <strong>Professional Package (up to 8 pages):</strong> 2-3 weeks from deposit to launch
+                </li>
+                <li>
+                  <strong>E-commerce Package:</strong> 4-6 weeks from deposit to launch
                 </li>
               </ul>
               <p>
@@ -809,6 +842,10 @@
                   <strong>Professional Package:</strong> 1 month of free support
                   after launch
                 </li>
+                <li>
+                  <strong>E-commerce Package:</strong> 3 months of free support
+                  after launch
+                </li>
               </ul>
               <p>
                 This includes minor content changes, bug fixes, and technical
@@ -826,19 +863,46 @@
             <div class="faq-answer">
               <p>
                 <strong
-                  >No, I specialize in informational websites only.</strong
+                  >Yes! I specialize in custom Shopify e-commerce solutions.</strong
                 >
               </p>
-              <p>I focus on creating beautiful, professional websites for:</p>
+              <p>My E-commerce Package includes:</p>
               <ul>
-                <li>Service businesses (restaurants, salons, contractors)</li>
-                <li>Churches and religious organizations</li>
-                <li>Real estate agents and small businesses</li>
-                <li>Professional portfolios and company websites</li>
+                <li>Custom store design that matches your brand</li>
+                <li>Beautiful product page layouts</li>
+                <li>Custom shopping cart design</li>
+                <li>Mobile-friendly design for all devices</li>
+                <li>Help setting up your products and store</li>
+                <li>Training on how to manage your store</li>
               </ul>
               <p>
-                I don't build e-commerce stores, complex web applications, or
-                sites requiring heavy JavaScript functionality.
+                I design beautiful online stores that stand out from basic templates.
+                Perfect for businesses ready to sell online with style.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Why does the E-commerce package cost more?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Online stores require much more work:</strong>
+              </p>
+              <ul>
+                <li>Custom store design requires advanced coding</li>
+                <li>Creating unique layouts for each page</li>
+                <li>Making everything work perfectly on phones</li>
+                <li>Designing beautiful product displays</li>
+                <li>Matching your exact brand style</li>
+                <li>Training you on how to use your new store</li>
+              </ul>
+              <p>
+                The $4,500 covers a complete online store that will help you sell more
+                and give customers a great shopping experience.
+                This is professional work that gets results.
               </p>
             </div>
           </div>
@@ -975,6 +1039,32 @@
           </div>
         </div>
 
+        <div class="footer-terms-btn-container">
+          <button class="footer-terms-btn" onclick="toggleTermsModal()">
+            <i class="fas fa-file-contract"></i>
+            Terms & Policies
+          </button>
+        </div>
+
+        <!-- Terms Modal -->
+        <div id="termsModal" class="terms-modal">
+          <div class="terms-modal-content">
+            <div class="terms-modal-header">
+              <h4>Terms & Policies</h4>
+              <button class="terms-modal-close" onclick="toggleTermsModal()">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="terms-modal-body">
+              <p><strong>Payment:</strong> 50% deposit required to start. 50% due on completion.</p>
+              <p><strong>Refunds:</strong> Deposit non-refundable after work begins. Final payment refundable within 7 days if unsatisfied.</p>
+              <p><strong>Timeline:</strong> Project timelines depend on client feedback and content provided.</p>
+              <p><strong>Scope Changes:</strong> Additional features beyond original scope may require extra payment.</p>
+              <p><strong>Ownership:</strong> You own your website completely after final payment.</p>
+            </div>
+          </div>
+        </div>
+
         <div class="footer-bottom">
           <p>
             &copy; <span id="current-year"></span> Anthony Web Studio. All
@@ -990,6 +1080,18 @@
     <script>
       document.getElementById("current-year").textContent =
         new Date().getFullYear();
+
+      function toggleTermsModal() {
+        const modal = document.getElementById('termsModal');
+        modal.classList.toggle('active');
+      }
+
+      // Close modal when clicking outside
+      document.getElementById('termsModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+          toggleTermsModal();
+        }
+      });
     </script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>
