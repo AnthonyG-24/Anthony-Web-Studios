@@ -1,0 +1,114 @@
+ANTHONY WEB STUDIO - PRICING & SERVICES REFERENCE
+=================================================
+
+WHAT I DO:
+----------
+- Informational websites for churches, restaurants, service businesses, local businesses
+- Custom HTML/CSS/JavaScript development
+- Responsive design (works on all devices)
+- Domain setup assistance
+- Basic logo design (if needed)
+
+WHAT I DON'T DO RIGHT NOW:
+--------------------------
+- E-commerce/online stores
+- Customer accounts or payment processing
+- Complex web applications
+- Advanced features requiring specialized expertise
+
+PRICING PACKAGES:
+================
+
+STARTER PACKAGE - $800
+----------------------
+- 3-4 custom pages (Home, About, Services, Contact)
+- Modern responsive design
+- Contact form
+- Domain connection help
+- Simple logo design (if needed)
+- 2 weeks free support after launch
+- Timeline: 1-2 weeks
+
+PROFESSIONAL PACKAGE - $1,200
+------------------------------
+- UP TO 8 custom pages (examples: Home, About, Services, Contact, Gallery, Testimonials, FAQ, Pricing)
+- Everything from Starter package PLUS:
+- 1 month free support after launch
+- Timeline: 2-3 weeks
+- **IMPORTANT: Full $1,200 price applies whether client uses 5 pages or 8 pages**
+- This is package pricing, NOT per-page pricing
+
+PAYMENT STRUCTURE:
+==================
+- 50% deposit required to start project
+- 50% final payment due upon completion and launch
+- All payments processed through Stripe
+
+ADDITIONAL COSTS (BEYOND PACKAGES):
+===================================
+- Additional pages beyond package limits: $125 each
+- Custom features (galleries, contact forms, etc.): Starting at $150
+- **NOTE: These costs apply even during free support period**
+
+SUPPORT BREAKDOWN:
+==================
+
+FREE SUPPORT (Always free, even after support period):
+- Text changes/updates
+- Image swaps
+- Bug fixes
+- Basic technical help
+
+PAID WORK (Costs extra even during free support):
+- Adding new pages ($125 each)
+- Custom features ($150+)
+- Major functionality changes
+
+STRIPE PAYMENT LINKS NEEDED:
+============================
+1. Starter Package - 50% Deposit ($400)
+2. Starter Package - Final Payment ($400)
+3. Professional Package - 50% Deposit ($600)
+4. Professional Package - Final Payment ($600)
+5. Additional Page ($125)
+6. Custom Feature - Base Rate ($150)
+
+COMMON CLIENT QUESTIONS & ANSWERS:
+==================================
+
+Q: "Can I pay less if I only need 5 pages instead of 8?"
+A: No, the Professional Package is $1,200 regardless of page count (5 pages = same price as 8 pages). It's package pricing, not per-page pricing. If you only need 3-4 pages, the Starter Package ($800) might be better.
+
+Q: "What's included in free support?"
+A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($125) or custom features ($150+) cost extra even during the free support period.
+
+Q: "Do you build online stores?"
+A: I don't specialize in e-commerce right now. I focus on informational websites that showcase businesses and services.
+
+Q: "How long does a project take?"
+A: Starter Package: 1-2 weeks, Professional Package: 2-3 weeks from deposit to launch.
+
+Q: "What if I need changes after launch?"
+A: Small updates (text, images) remain free forever. New pages or custom features require additional payment.
+
+Q: "Can you help with domain setup?"
+A: Yes, I provide guidance and can help configure DNS settings, but you purchase and own the domain.
+
+POSITIONING TIPS:
+================
+- Emphasize quality and custom development over template solutions
+- Focus on business results and professional appearance
+- Highlight direct communication and personal service
+- Be clear about what's included vs. what costs extra
+- Don't apologize for boundaries - position as professional focus
+
+PROJECT WORKFLOW:
+================
+1. Client fills out quote form
+2. Review project within 24 hours
+3. Email with questions and timeline
+4. Send deposit payment link
+5. Begin work after deposit received
+6. Regular updates throughout project
+7. Final payment and launch
+8. Support period begins
