@@ -16,12 +16,15 @@
 
 .quote-form-title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 4vw + 1rem, 3rem);
+  font-size: var(--fs-h3);
   font-weight: var(--fw-extra-bold);
   color: var(--primary);
   margin-bottom: 1rem;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: var(--lh-h3);
+  letter-spacing: var(--ls-h3);
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.1875rem;
 }
 
 .quote-form-subtitle {
