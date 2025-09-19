@@ -18,7 +18,6 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  animation: heroFadeIn 1.2s ease-out;
 }
 
 .hero-business-name {
@@ -131,98 +130,209 @@
   transform: translate(-5%, 36%);
 }
 
-@keyframes heroFadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.hero-background {
+}
+
+.hero-background img {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 116, 102, 0.8), 0 0 20px rgba(0, 116, 102, 0.4),
+    0 0 40px rgba(0, 116, 102, 0.3);
+}
+
+.hero-background img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 0 15px rgba(0, 116, 102, 1), 0 0 30px rgba(0, 116, 102, 0.6),
+    0 0 60px rgba(0, 116, 102, 0.4);
 }
 
 @media (max-width: 1024px) {
+  .hero-section {
+    padding: 4rem 2rem;
+  }
+
+  .hero-content {
+    gap: 1.75rem;
+  }
+
   .hero-business-name {
-    padding-top: 8rem;
+    padding-top: 6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtext {
+    margin-bottom: 1rem;
+  }
+
+  .hero-cta {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 912px) {
+  .hero-section {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .hero-content {
+    gap: 1.5rem;
+  }
+
+  .hero-business-name {
+    font-size: var(--fs-display-lg);
+    line-height: var(--lh-display-lg);
+    letter-spacing: var(--ls-display-lg);
+    padding-top: 4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtext {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+    margin-bottom: 1rem;
+  }
+
+  .hero-cta {
+    font-size: var(--fs-h5);
+    padding: 1rem 2.5rem;
+    margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 820px) {
   .hero-section {
-    padding: 3rem 1rem;
+    padding: 3rem 1.25rem;
+  }
+
+  .hero-content {
+    gap: 1.25rem;
   }
 
   .hero-business-name {
     font-size: var(--fs-display-xl);
     line-height: var(--lh-display-xl);
     letter-spacing: var(--ls-display-xl);
-  }
-
-  .hero-business-name::after {
-    width: 60px;
-    height: 3px;
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-subtext {
-    font-size: var(--fs-h2);
-    line-height: var(--lh-h5);
+    font-size: var(--fs-h4);
+    line-height: var(--lh-h4);
+    margin-bottom: 1rem;
   }
 
   .hero-cta {
     font-size: var(--fs-h6);
-    padding: 0.875rem 2.5rem;
+    padding: 0.875rem 2.25rem;
+    margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 600px) {
   .hero-section {
-    padding: 2rem 0.75rem;
+    padding: 2.5rem 1rem;
+  }
+
+  .hero-content {
+    gap: 1rem;
   }
 
   .hero-business-name {
     font-size: var(--fs-h1);
     line-height: var(--lh-h1);
     letter-spacing: var(--ls-h1);
-  }
-
-  .hero-business-name::after {
-    width: 50px;
-    height: 2px;
+    padding-top: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-subtext {
-    font-size: var(--fs-h6);
-    line-height: var(--lh-h6);
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+    margin-bottom: 1rem;
   }
 
   .hero-cta {
     font-size: var(--fs-base);
     padding: 0.75rem 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .curve {
+    height: 180px;
   }
 }
 
-@media (max-width: 540px) {
-  .hero-cta {
-    margin-bottom: 8rem;
-  }
-
-  .curve::before {
-    transform: translate(70%, 58%);
-  }
-
-  .curve::after {
-    transform: translate(-5%, 36%);
+@media (max-width: 428px) {
+  .curve {
+    height: 100px;
   }
 }
 
 @media (max-width: 350px) {
-  .hero-cta {
-    margin-bottom: 2rem;
+  .hero-section {
+    padding: 2rem 0.75rem;
+  }
+
+  .hero-content {
+    gap: 0.75rem;
   }
 
   .hero-business-name {
-    font-size: 3rem;
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+    letter-spacing: var(--ls-h2);
+    padding-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-subtext {
+    font-size: var(--fs-h6);
+    line-height: var(--lh-h6);
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-cta {
+    font-size: var(--fs-base);
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .curve {
+    height: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-section {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .hero-content {
+    gap: 0.5rem;
+  }
+
+  .hero-business-name {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+    letter-spacing: var(--ls-h3);
+    padding-top: 1rem;
+    margin-bottom: 0.375rem;
+  }
+
+  .hero-subtext {
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-cta {
+    font-size: var(--fs-base);
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .curve {
+    height: 120px;
   }
 }
 

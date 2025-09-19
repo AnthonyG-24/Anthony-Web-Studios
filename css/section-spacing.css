@@ -1,18 +1,13 @@
-/* Global Section Spacing - No White Gaps */
-
-/* Remove default margins */
 section {
   margin: 0;
 }
 
-/* Use padding for breathing room instead of margins */
 .about-section,
 .service-section,
 .pricing-section {
   padding: 6rem 0;
 }
 
-/* Project showcase sections */
 .project-showcase {
   padding: 4rem 0;
 }
@@ -21,25 +16,21 @@ section {
   padding: 4rem 0;
 }
 
-/* Special handling for sticky cards (no extra padding) */
 .sticky-cards {
   padding: 0;
   margin: 0;
 }
 
-/* Hero section padding */
 .hero-section {
   padding-bottom: 6rem;
   margin: 0;
 }
 
-/* About header section padding */
 .about-section-header {
   padding: 6rem 0;
   margin: 0;
 }
 
-/* Ensure sections have background colors to eliminate gaps */
 .about-section {
   background: var(--neutral-light);
 }
@@ -60,23 +51,22 @@ section {
   background: var(--primary);
 }
 
-/* Responsive spacing */
 @media (max-width: 768px) {
   .about-section,
   .service-section,
   .pricing-section {
     padding: 4rem 0;
   }
-  
+
   .project-showcase,
   .project-showcase-outro {
     padding: 3rem 0;
   }
-  
+
   .hero-section {
     padding-bottom: 4rem;
   }
-  
+
   .about-section-header {
     padding: 4rem 0;
   }
@@ -88,22 +78,21 @@ section {
   .pricing-section {
     padding: 2rem 0;
   }
-  
+
   .project-showcase,
   .project-showcase-outro {
     padding: 2rem 0;
   }
-  
+
   .hero-section {
     padding-bottom: 2rem;
   }
-  
+
   .about-section-header {
     padding: 2rem 0;
   }
 }
 
-/* Add body top padding to account for fixed navbar */
 body {
   padding-top: 5rem;
 }
