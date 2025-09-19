@@ -142,13 +142,11 @@
 }
 
 .hero-background img {
-  transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 116, 102, 0.8), 0 0 20px rgba(0, 116, 102, 0.4),
     0 0 40px rgba(0, 116, 102, 0.3);
 }
 
 .hero-background img:hover {
-  transform: scale(1.05) rotate(2deg);
   box-shadow: 0 0 15px rgba(0, 116, 102, 1), 0 0 30px rgba(0, 116, 102, 0.6),
     0 0 60px rgba(0, 116, 102, 0.4);
 }
