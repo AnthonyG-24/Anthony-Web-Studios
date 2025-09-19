@@ -262,7 +262,6 @@
   }
 }
 
-/* Form Validation Styles */
 .form-group input:invalid,
 .form-group select:invalid,
 .form-group textarea:invalid {

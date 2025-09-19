@@ -6,9 +6,20 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background: var(--primary);
+  /*   background: var(--primary);
+ */
   z-index: 1;
   text-align: center;
+  background: linear-gradient(
+    -45deg,
+    #0b525b,
+    #006466,
+    #212f45,
+    #4d194d,
+    #0b525b
+  );
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease-in-out infinite;
 }
 
 .hero-content {
@@ -124,7 +135,9 @@
   border-radius: 100% 50%;
   width: 55%;
   height: 100%;
-  background: var(--primary);
+  background: linear-gradient(45deg, #212f45, #4d194d);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease-in-out infinite;
   transform: translate(-5%, 36%);
 }
 
@@ -135,6 +148,7 @@
 }
 
 .hero-background img:hover {
+  transform: scale(1.05) rotate(2deg);
   box-shadow: 0 0 15px rgba(0, 116, 102, 1), 0 0 30px rgba(0, 116, 102, 0.6),
     0 0 60px rgba(0, 116, 102, 0.4);
 }
