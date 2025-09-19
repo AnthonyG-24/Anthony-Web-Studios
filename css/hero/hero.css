@@ -95,7 +95,6 @@
 }
 
 .hero-cta:active {
-  transform: translateY(-1px) scale(1.02);
   box-shadow: 0 4px 15px rgba(77, 25, 77, 0.4), 0 2px 8px rgba(0, 0, 0, 0.15);
   background: linear-gradient(135deg, #005456, #0a525a, #1f2845, #4d194d);
 }
