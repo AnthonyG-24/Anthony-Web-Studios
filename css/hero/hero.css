@@ -85,7 +85,6 @@
 }
 
 .hero-cta:hover {
-  transform: translateY(-3px) scale(1.05);
   box-shadow: 0 8px 30px rgba(77, 25, 77, 0.5), 0 6px 15px rgba(0, 0, 0, 0.2);
   background: linear-gradient(135deg, #007466, #0c626b, #253055, #5e1a5e);
 }
