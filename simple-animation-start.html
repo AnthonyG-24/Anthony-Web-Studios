@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Animation Learning</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 50px;
+        background-color: #f5f5f5;
+      }
+
+      /* Step 1: Basic Box */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        margin: 50px auto;
+      }
+
+      /* Step 2: Add animation */
+      .animated-box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 50px auto;
+        animation: moveUP 10s;
+      }
+
+      /* Step 3: Define what the animation does */
+      @keyframes moveUP {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-200px);
+        }
+      }
+
+      /* Step 4: Spinning animation with animated gradient */
+      .spinning-box {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(45deg, red, blue, green, yellow, red);
+        background-size: 400% 400%;
+        margin: 50px auto;
+        animation: spin 8s infinite linear,
+          gradientShift 3s infinite ease-in-out;
+        border-radius: 15px;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .instructions {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instructions">
+      <h1>Learning CSS Animation - Step by Step</h1>
+
+      <h3>Step 1: Static Box (no animation)</h3>
+      <p>This is just a normal box with no animation:</p>
+    </div>
+
+    <div class="box"></div>
+
+    <div class="instructions">
+      <h3>Step 2: Animated Box</h3>
+      <p>This box moves to the right when the page loads:</p>
+    </div>
+
+    <div class="animated-box"></div>
+
+    <div class="instructions">
+      <h3>Step 3: Spinning Box</h3>
+      <p>This green box spins constantly like a wheel:</p>
+    </div>
+
+    <div class="spinning-box"></div>
+
+    <div class="instructions">
+      <h3>🔍 How Spinning + ANIMATED Gradient Works:</h3>
+      <p><strong>1. transform: rotate()</strong> - Spins the element around!</p>
+      <p>
+        <strong>2. background-size: 400% 400%</strong> - Makes gradient bigger
+        than the box!
+      </p>
+      <p>
+        <strong>3. background-position</strong> - Moves the gradient around
+        inside the box!
+      </p>
+      <p>
+        <strong>4. Two animations at once:</strong> spinning + gradient
+        shifting! 🤯
+      </p>
+
+      <h3>✏️ Try These ANIMATED Gradient Experiments:</h3>
+      <p>
+        1. Change <code>3s</code> to <code>1s</code> - gradient changes super
+        fast! ⚡
+      </p>
+      <p>
+        2. Change <code>400% 400%</code> to <code>200% 200%</code> - less
+        dramatic gradient movement! 📏
+      </p>
+      <p>
+        3. Change <code>ease-in-out</code> to <code>linear</code> - constant
+        speed gradient! ⚖️
+      </p>
+      <p>
+        4. Try <code>border-radius: 50%</code> - animated gradient in a circle!
+        ⭕
+      </p>
+
+      <h3>🎯 Animated Gradient Like You're 5:</h3>
+      <p>
+        <strong>background-size: 400%</strong> = Make the rainbow painting 4
+        times bigger than the box! 📐<br />
+        <strong>background-position</strong> = Move the big rainbow painting
+        around inside the little box! 🖼️<br />
+        <strong>Two animations</strong> = The box spins AND the rainbow moves at
+        the same time! 🌪️🌈<br />
+        <strong>It's like</strong> = A spinning kaleidoscope with moving colors!
+        🔮
+      </p>
+
+      <h3>🚀 Mind-Blowing Effect:</h3>
+      <p>
+        Now you have a box that spins AND has colors that shift inside it! It's
+        like a magical rainbow tornado! 🌪️🌈
+      </p>
+    </div>
+  </body>
+</html>

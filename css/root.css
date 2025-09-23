@@ -3,14 +3,14 @@
 
 :root {
   /* 60% Neutral (backgrounds / big areas) */
-  --neutral-light: #f8f9fa; /* light neutral text, borders */
-  --neutral-dark: #1b3a4b; /* deep charcoal blue */
+  --neutral-light: #f8f9fa;
+  --neutral-dark: #1b3a4b;
 
   /* 30% Primary (sections / buttons / headings) */
-  --primary: #0b525b; /* midnight green */
+  --primary: #0b525b;
 
   /* 10% Accent (links / CTA / hover) */
-  --accent: #4d194d; /* palatinate purple */
+  --accent: #4d194d;
 
   /* Accent Gradient (use ONLY for CTA buttons, highlights) */
   --accent-gradient: linear-gradient(
@@ -103,7 +103,7 @@ body {
   background-color: var(--primary);
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 h1,
@@ -183,7 +183,8 @@ img {
 
 /* Global fix - prevents layout breaking at all breakpoints */
 @media (max-width: 1440px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden !important;
     width: 100% !important;
     max-width: 100vw !important;
@@ -206,13 +207,14 @@ img {
     padding-right: 1.5rem !important;
     box-sizing: border-box !important;
   }
-  
-  body, html {
+
+  body,
+  html {
     overflow-x: hidden !important;
     width: 100% !important;
     max-width: 100vw !important;
   }
-  
+
   section {
     width: 100% !important;
     max-width: 100% !important;
@@ -225,7 +227,7 @@ img {
   * {
     box-sizing: border-box !important;
   }
-  
+
   .about-container,
   .service-content,
   .pricing-cards {
