@@ -130,16 +130,6 @@
   transform: translate(-5%, 36%);
 }
 
-.hero-background img {
-  box-shadow: 0 0 10px rgba(0, 116, 102, 0.8), 0 0 20px rgba(0, 116, 102, 0.4),
-    0 0 40px rgba(0, 116, 102, 0.3);
-}
-
-.hero-background img:hover {
-  box-shadow: 0 0 15px rgba(0, 116, 102, 1), 0 0 30px rgba(0, 116, 102, 0.6),
-    0 0 60px rgba(0, 116, 102, 0.4);
-}
-
 @media (max-width: 1024px) {
   .hero-section {
     padding: 4rem 2rem;
