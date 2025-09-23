@@ -40,9 +40,10 @@ PROFESSIONAL PACKAGE - $1,200
 
 PAYMENT STRUCTURE:
 ==================
-- 50% deposit required to start project
+- 50% deposit required to start project (FULLY REFUNDABLE until client approves initial design)
 - 50% final payment due upon completion and launch
 - All payments processed through Stripe
+- Deposit becomes non-refundable only after design approval
 
 ADDITIONAL COSTS (BEYOND PACKAGES):
 ===================================
