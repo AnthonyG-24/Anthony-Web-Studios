@@ -438,39 +438,102 @@
         </div>
       </div>
 
-      <!-- Single Pricing Card -->
+      <!-- Limited Time Offer Banner -->
+      <div class="pricing-special-banner">
+        <div class="banner-badge">
+          <i class="fas fa-fire"></i> LIMITED TIME OFFER
+        </div>
+        <h3 class="banner-title">Portfolio Building Special</h3>
+        <p class="banner-subtitle">
+          Building my client base - offering reduced rates for my first 5 clients only
+        </p>
+        <div class="banner-urgency">
+          <div class="urgency-item">
+            <i class="fas fa-star"></i>
+            <span><strong>Limited to 5 clients total</strong></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Card with Comparison -->
       <div class="pricing-cards">
-        <article class="pricing-card-single">
+        <article class="pricing-card-single pricing-card-featured">
+          <div class="featured-ribbon">
+            <i class="fas fa-star"></i> BEST VALUE
+          </div>
+
           <header class="pricing-header-single">
-            <h3>Custom Website Development</h3>
-            <div class="price-range">
-              <p class="price-starting">Starting at</p>
-              <p class="price">$800</p>
+            <h3>Professional Website Package</h3>
+
+            <!-- Price Comparison -->
+            <div class="price-comparison">
+              <div class="regular-price">
+                <span class="price-label">Regular Rate</span>
+                <span class="price-strikethrough">$2,000</span>
+              </div>
+              <div class="special-price">
+                <span class="price-label">Portfolio Special</span>
+                <div class="price-range">
+                  <p class="price">$950</p>
+                  <p class="price-savings">Save $1,050!</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="price-subtext">
+              For a complete 4-page professional website
             </div>
           </header>
 
           <div class="pricing-content-single">
+            <div class="pricing-value-prop">
+              <div class="value-highlight">
+                <i class="fas fa-bolt"></i>
+                <span>You're getting <strong>$2,000 worth of professional work</strong> for less than half price</span>
+              </div>
+            </div>
+
             <div class="pricing-explanation">
+              <h4 style="margin-bottom: 1rem; color: var(--primary);">
+                <i class="fas fa-calculator"></i> Pricing Breakdown
+              </h4>
               <p>
-                <strong>Starting at $800 for 4 pages</strong>
+                <strong>4 pages = $950</strong> (Regular: $2,000)
               </p>
               <p>
-                <strong>$250 per additional page</strong> beyond the base 4
-                pages
+                <strong>Each additional page = $400</strong> (Regular: $500)
               </p>
             </div>
 
             <div class="pricing-examples">
-              <h4>How It Works:</h4>
+              <h4>Example Projects:</h4>
               <ul>
-                <li>4 pages = $800</li>
-                <li>5 pages = $800 + $250 = $1,050</li>
-                <li>6 pages = $800 + $500 = $1,300</li>
-                <li>8 pages = $800 + $1,000 = $1,800</li>
+                <li>
+                  <span class="example-pages">4 pages</span>
+                  <span class="example-price">$950</span>
+                  <span class="example-savings">(Save $1,050)</span>
+                </li>
+                <li>
+                  <span class="example-pages">5 pages</span>
+                  <span class="example-price">$1,350</span>
+                  <span class="example-savings">(Save $1,150)</span>
+                </li>
+                <li>
+                  <span class="example-pages">6 pages</span>
+                  <span class="example-price">$1,750</span>
+                  <span class="example-savings">(Save $1,250)</span>
+                </li>
+                <li>
+                  <span class="example-pages">8 pages</span>
+                  <span class="example-price">$2,550</span>
+                  <span class="example-savings">(Save $1,450)</span>
+                </li>
               </ul>
             </div>
 
-            <h4 class="features-title">Every Project Includes:</h4>
+            <h4 class="features-title">
+              <i class="fas fa-gift"></i> Every Project Includes:
+            </h4>
             <ul class="pricing-features">
               <li>
                 <i class="fas fa-check"></i> Modern, responsive design that
@@ -490,16 +553,38 @@
                 <i class="fas fa-check"></i> Always free updates (text changes,
                 images, bug fixes)
               </li>
+              <li>
+                <i class="fas fa-check"></i> 50/50 payment plan with fully refundable deposit
+              </li>
             </ul>
 
             <div class="pricing-timeline">
               <p>
-                <strong>Timeline:</strong> 4-6 weeks for smaller sites (4-5
+                <i class="fas fa-calendar-alt"></i> <strong>Timeline:</strong> 4-6 weeks for smaller sites (4-5
                 pages), 6-8 weeks for larger sites (6-8 pages)
               </p>
             </div>
+
+            <div class="pricing-guarantee">
+              <div class="guarantee-badge">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="guarantee-content">
+                <h5>Risk-Free Guarantee</h5>
+                <p>Your 50% deposit is <strong>fully refundable</strong> until you approve the initial design. No questions asked.</p>
+              </div>
+            </div>
           </div>
         </article>
+      </div>
+
+      <!-- Urgency Reminder -->
+      <div class="pricing-urgency-footer">
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>
+          <strong>Don't miss out!</strong> After these 5 portfolio spots are filled,
+          all new projects return to the regular rate of <strong>$2,000+</strong>
+        </p>
       </div>
 
       <!-- Additional Pricing Info -->
@@ -511,7 +596,7 @@
         </p>
         <p>
           <strong>Need More Pages Later?</strong> Additional pages after your
-          site launches are $250 per page and include all standard content and
+          site launches are $400 per page (portfolio special rate) and include all standard content and
           features like text, images, FAQs, galleries, contact forms, and
           testimonials.
         </p>
@@ -519,10 +604,13 @@
 
       <!-- Main Contact Button -->
       <div class="pricing-cta">
-        <a href="#quote-form" class="pricing-main-btn">
-          <span>Get Your Website Quote</span>
+        <a href="#quote-form" class="pricing-main-btn pricing-cta-pulse">
+          <span>Claim Your Portfolio Special Rate</span>
           <i class="fas fa-arrow-right"></i>
         </a>
+        <p class="cta-subtext">
+          <i class="fas fa-star"></i> Limited to first 5 clients only
+        </p>
       </div>
 
       <!-- Payment Terms -->
@@ -611,11 +699,11 @@
               <label for="package">Project Size *</label>
               <select id="package" name="package" required>
                 <option value="">Select project size</option>
-                <option value="4-pages">4 Pages ($800)</option>
-                <option value="5-pages">5 Pages ($1,050)</option>
-                <option value="6-pages">6 Pages ($1,300)</option>
-                <option value="7-pages">7 Pages ($1,550)</option>
-                <option value="8-pages">8 Pages ($1,800)</option>
+                <option value="4-pages">4 Pages - $950 (Save $1,050!)</option>
+                <option value="5-pages">5 Pages - $1,350 (Save $1,150!)</option>
+                <option value="6-pages">6 Pages - $1,750 (Save $1,250!)</option>
+                <option value="7-pages">7 Pages - $2,150 (Save $1,350!)</option>
+                <option value="8-pages">8 Pages - $2,550 (Save $1,450!)</option>
                 <option value="unsure">Not sure - help me decide</option>
               </select>
             </div>
@@ -823,14 +911,16 @@
             </button>
             <div class="faq-answer">
               <p>
-                <strong>Simple per-page pricing:</strong>
+                <strong>Portfolio Special Pricing (Limited Time):</strong>
               </p>
               <p>
-                The base project starts at $800 for 4 pages. Beyond that, it's
-                $250 per additional page. So a 5-page site is $800 + $250 =
-                $1,050. A 6-page site is $800 + $500 = $1,300. An 8-page site is
-                $800 + $1,000 = $1,800. Every additional page is $250 - clear and
-                straightforward.
+                I'm currently offering reduced rates as I build my client base. The regular rate is $2,000 for a 4-page website, but the <strong>portfolio special is $950</strong> - saving you over $1,050!
+              </p>
+              <p>
+                Beyond the base 4 pages, each additional page is $400 (regular: $500). So a 5-page site is $950 + $400 = $1,350. A 6-page site is $950 + $800 = $1,750. An 8-page site is $950 + $1,600 = $2,550.
+              </p>
+              <p>
+                <strong>This special rate is only available for the first 5 clients.</strong> After that, pricing returns to the regular rate.
               </p>
             </div>
           </div>
@@ -855,17 +945,17 @@
               </p>
               <p>
                 <strong>Example 1 - Fewer pages:</strong><br />
-                You paid $525 deposit for a 5-page site ($1,050 total).<br />
-                You decide you only need 4 pages ($800 total).<br />
-                → Your final payment: $275 (instead of $525)<br />
-                → You save $250 overall ✓
+                You paid $675 deposit for a 5-page site ($1,350 total).<br />
+                You decide you only need 4 pages ($950 total).<br />
+                → Your final payment: $275 (instead of $675)<br />
+                → You save $400 overall ✓
               </p>
               <p>
                 <strong>Example 2 - More pages:</strong><br />
-                You paid $525 deposit for a 5-page site ($1,050 total).<br />
-                You decide you want 6 pages ($1,200 total).<br />
-                → Your final payment: $675 (instead of $525)<br />
-                → You pay $150 more overall ✓
+                You paid $675 deposit for a 5-page site ($1,350 total).<br />
+                You decide you want 6 pages ($1,750 total).<br />
+                → Your final payment: $1,075 (instead of $675)<br />
+                → You pay $400 more overall ✓
               </p>
 
               <p
@@ -1061,10 +1151,7 @@
                 everything.
               </p>
               <p>
-                <strong>Pricing:</strong> Projects start at $800 for 4 pages.
-                Each additional page beyond 4 is $250. Payment is split 50/50:
-                half upfront to start, half when you're happy with the final
-                result before launch.
+                <strong>Pricing:</strong> Regular rate is $2,000 for 4 pages. <strong>Portfolio special:</strong> $950 for 4 pages (limited to first 5 clients - save $1,050!). Each additional page beyond 4 is $400 during the portfolio special ($500 regular rate). Payment is split 50/50: half upfront to start, half when you're happy with the final result before launch.
               </p>
 
               <h5>Refund Policy (Simple & Fair)</h5>
@@ -1107,10 +1194,7 @@
                 work perfectly.
               </p>
               <p>
-                <strong>Costs extra:</strong> New pages are $250 per page and
-                include all standard content and features like text, images,
-                FAQs, galleries, contact forms, and testimonials. Major design
-                overhauls are also quoted based on scope.
+                <strong>Costs extra:</strong> New pages are $400 per page during the portfolio special ($500 regular rate) and include all standard content and features like text, images, FAQs, galleries, contact forms, and testimonials. Major design overhauls are also quoted based on scope.
               </p>
 
               <h5>Changes & Additions</h5>
