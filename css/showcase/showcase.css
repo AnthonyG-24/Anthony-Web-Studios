@@ -1,7 +1,7 @@
 .project-showcase,
 .project-showcase-outro {
   position: relative;
-  width: 100vw;
+  width: 100%;
   min-height: 50vh;
   padding: 4rem 2rem;
   display: flex;
@@ -49,7 +49,7 @@
 
 .sticky-cards {
   position: relative;
-  width: 100vw;
+  width: 100%;
   background-color: #0f0f0f;
 }
 
