@@ -612,7 +612,6 @@
   margin-right: 0.25rem;
 }
 
-/* Price Comparison */
 .price-comparison {
   display: flex;
   flex-direction: column;
@@ -666,7 +665,6 @@
   font-style: italic;
 }
 
-/* Value Proposition Highlight */
 .pricing-value-prop {
   margin-bottom: 2rem;
 }
@@ -676,8 +674,6 @@
   color: white;
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
   gap: 1rem;
   box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
   border: 2px solid rgba(255, 255, 255, 0.2);
