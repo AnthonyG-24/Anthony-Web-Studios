@@ -1065,6 +1065,10 @@
   .payment-icon i {
     font-size: 1.125rem;
   }
+
+  .featured-ribbon {
+    display: none;
+  }
 }
 
 @media (max-width: 350px) {
