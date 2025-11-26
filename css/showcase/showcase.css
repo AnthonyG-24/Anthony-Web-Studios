@@ -385,7 +385,6 @@
 
   .project-showcase h1,
   .project-showcase-outro h1 {
-    font-size: var(--fs-h4);
     line-height: var(--lh-h4);
     letter-spacing: var(--ls-h4);
     margin-bottom: 0.875rem;
