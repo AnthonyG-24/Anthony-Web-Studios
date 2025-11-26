@@ -1,0 +1,416 @@
+================================================================================
+STRIPE INVOICES - COMPLETE GUIDE FOR ANTHONY WEB STUDIO
+================================================================================
+
+HOW STRIPE INVOICES WORK
+-------------------------
+
+1. You create an invoice in Stripe Dashboard with the exact amount
+2. Stripe sends the client a professional email with the invoice
+3. Client clicks "Pay Invoice" button in the email
+4. They enter their card info and pay
+5. Stripe automatically sends them a receipt
+6. You get notified of the payment
+7. Money goes into your Stripe account (then transfers to your bank)
+
+
+================================================================================
+STEP-BY-STEP: CREATING AN INVOICE
+================================================================================
+
+STEP 1: Log into Stripe Dashboard
+----------------------------------
+Go to: https://dashboard.stripe.com
+Log in with your credentials
+
+
+STEP 2: Navigate to Invoices
+-----------------------------
+- Click "Invoices" in the left sidebar
+- Click the blue "+ New" button (top right)
+
+
+STEP 3: Add Customer Information
+---------------------------------
+- Click "Add customer"
+- Enter their email address (REQUIRED)
+- Optionally add: Name, Phone number
+- Click "Add customer"
+
+
+STEP 4: Add Line Items (What They're Paying For)
+-------------------------------------------------
+Click "Add line item" and fill out:
+
+For DEPOSIT:
+- Description: "Website Development - [X] pages - Deposit (50%)"
+- Quantity: 1
+- Unit price: [enter the deposit amount]
+
+Example for 5-page site:
+- Description: "Website Development - 5 pages - Deposit (50%)"
+- Quantity: 1
+- Unit price: $525
+
+
+For FINAL PAYMENT:
+- Description: "Website Development - [X] pages - Final Payment (50%)"
+- Quantity: 1
+- Unit price: [enter the final amount]
+
+
+STEP 5: Add Optional Details (Recommended)
+-------------------------------------------
+- Memo (optional): Add note like "Fully refundable until design approval"
+- Due date: Set when you want them to pay (default is "Due on receipt")
+
+
+STEP 6: Send the Invoice
+-------------------------
+- Click "Review invoice" (top right)
+- Double-check everything is correct
+- Click "Send invoice"
+- Stripe immediately emails the invoice to the client
+
+
+================================================================================
+COMMON PRICING EXAMPLES
+================================================================================
+
+3-4 PAGE SITE ($800 total)
+---------------------------
+DEPOSIT INVOICE:
+- Description: "Website Development - 4 pages - Deposit (50%)"
+- Amount: $400
+
+FINAL INVOICE:
+- Description: "Website Development - 4 pages - Final Payment (50%)"
+- Amount: $400
+
+
+5 PAGE SITE ($1,050 total)
+---------------------------
+DEPOSIT INVOICE:
+- Description: "Website Development - 5 pages - Deposit (50%)"
+- Amount: $525
+
+FINAL INVOICE:
+- Description: "Website Development - 5 pages - Final Payment (50%)"
+- Amount: $525
+
+
+6 PAGE SITE ($1,300 total)
+---------------------------
+DEPOSIT INVOICE:
+- Description: "Website Development - 6 pages - Deposit (50%)"
+- Amount: $650
+
+FINAL INVOICE:
+- Description: "Website Development - 6 pages - Final Payment (50%)"
+- Amount: $650
+
+
+8 PAGE SITE ($1,800 total)
+---------------------------
+DEPOSIT INVOICE:
+- Description: "Website Development - 8 pages - Deposit (50%)"
+- Amount: $900
+
+FINAL INVOICE:
+- Description: "Website Development - 8 pages - Final Payment (50%)"
+- Amount: $900
+
+
+================================================================================
+WHAT HAPPENS AFTER YOU SEND AN INVOICE
+================================================================================
+
+CLIENT RECEIVES EMAIL FROM STRIPE:
+- Professional email with your business name
+- Shows invoice details (description, amount)
+- Big "Pay Invoice" button
+
+WHEN THEY PAY:
+- They click "Pay Invoice"
+- Enter card information
+- Stripe processes payment
+- Client gets instant receipt via email
+
+YOU GET NOTIFIED:
+- Stripe sends you email: "Payment received"
+- Invoice status changes to "Paid" in your dashboard
+- Money appears in your Stripe balance
+
+MONEY TRANSFER TO YOUR BANK:
+- Stripe automatically transfers to your bank account
+- Usually takes 2-3 business days
+- You can see pending transfers in Dashboard → Payouts
+
+
+================================================================================
+CHECKING INVOICE STATUS
+================================================================================
+
+To see if someone paid:
+
+1. Go to Stripe Dashboard → Invoices
+2. Look at the "Status" column:
+   - DRAFT = Not sent yet
+   - OPEN = Sent but not paid yet
+   - PAID = They paid! ✓
+   - VOID = Cancelled
+
+3. Click on any invoice to see full details
+
+
+================================================================================
+IF CLIENT HASN'T PAID YET
+================================================================================
+
+STRIPE SENDS AUTOMATIC REMINDERS:
+- Stripe can automatically send payment reminders
+- You can enable this in Settings
+
+MANUAL REMINDER:
+1. Go to Dashboard → Invoices
+2. Find the unpaid invoice
+3. Click the three dots (...)
+4. Click "Send invoice" to resend
+
+
+================================================================================
+COMMON QUESTIONS
+================================================================================
+
+Q: Does Stripe charge me fees?
+A: Yes - 2.9% + $0.30 per transaction
+   Example: $400 payment = $11.90 fee (you receive $388.10)
+
+Q: Do I need to send receipts manually?
+A: NO! Stripe automatically sends receipts after every payment
+
+Q: Can I edit an invoice after sending?
+A: Not directly. You have to "void" it and create a new one.
+
+Q: What if client says they didn't receive the invoice?
+A: Check their spam folder, or resend from Stripe Dashboard
+
+Q: Can clients save their card for the final payment?
+A: Yes! Stripe can save their card info securely (you can enable this)
+
+Q: What email address do invoices come from?
+A: Stripe's email (receipts@stripe.com) but it shows YOUR business name
+
+
+================================================================================
+TYPICAL WORKFLOW FOR A NEW CLIENT
+================================================================================
+
+1. CLIENT FILLS OUT QUOTE FORM
+   → You receive their project details
+
+2. YOU CALCULATE THE TOTAL
+   Example: 5 pages = $800 + $250 = $1,050
+   50% deposit = $525
+
+3. YOU EMAIL THEM
+   "Hi [Name],
+
+   Thanks for reaching out! Your 5-page website will be $1,050 total.
+
+   To get started, I'll need a 50% deposit ($525). I'm sending you a
+   Stripe invoice now - just click the 'Pay Invoice' button in the email.
+
+   The deposit is fully refundable until you approve the initial design.
+
+   Looking forward to working with you!
+   Anthony"
+
+4. YOU CREATE THE DEPOSIT INVOICE IN STRIPE
+   → Stripe sends them the invoice automatically
+
+5. CLIENT PAYS
+   → You get notified
+   → You start the project
+
+6. PROJECT IS COMPLETE
+   → You create the FINAL PAYMENT invoice ($525)
+   → Client pays
+   → Done!
+
+
+================================================================================
+WHAT IF CLIENT CHANGES NUMBER OF PAGES AFTER PAYING DEPOSIT?
+================================================================================
+
+This happens! Don't panic - it's easy to handle.
+
+THE RULE:
+---------
+Take the NEW total price, subtract what they already paid, and that's what
+they owe you at the end.
+
+Formula: NEW TOTAL - DEPOSIT PAID = FINAL PAYMENT
+
+
+SCENARIO 1: CLIENT WANTS FEWER PAGES
+-------------------------------------
+
+Original: 5 pages ($1,050 total, deposit $525 paid ✓)
+Change: "Actually, I only need 4 pages"
+New total: $800
+
+THE MATH:
+- New total: $800
+- Already paid: $525
+- Final payment: $800 - $525 = $275
+
+WHAT YOU DO:
+1. Email them:
+   "Hi [Client],
+
+   No problem changing from 5 pages to 4 pages!
+
+   Your new project total is $800 (instead of $1,050).
+
+   You already paid $525 as your deposit, so your final payment when
+   the site is complete will be $275 (instead of $525).
+
+   Everything else stays the same!
+
+   Anthony"
+
+2. When project is done, create final invoice for $275 (not $525)
+3. They pay $275
+4. Total paid: $525 + $275 = $800 ✓
+
+NOTE: You don't need to refund anything. Just adjust the final payment.
+
+
+SCENARIO 2: CLIENT WANTS MORE PAGES
+------------------------------------
+
+Original: 5 pages ($1,050 total, deposit $525 paid ✓)
+Change: "Actually, I want 6 pages"
+New total: $1,300
+
+THE MATH:
+- New total: $1,300
+- Already paid: $525
+- Final payment: $1,300 - $525 = $775
+
+WHAT YOU DO:
+1. Email them:
+   "Hi [Client],
+
+   Adding the extra page will bring your total to $1,300 (instead of $1,050).
+
+   You already paid $525 as your deposit, so your final payment when
+   the site is complete will be $775.
+
+   Sound good?
+
+   Anthony"
+
+2. When project is done, create final invoice for $775 (not $525)
+3. They pay $775
+4. Total paid: $525 + $775 = $1,300 ✓
+
+
+QUICK REFERENCE - FINAL PAYMENT CALCULATOR
+-------------------------------------------
+
+If they originally wanted 5 pages (paid $525 deposit) but changed to:
+
+3 pages ($800 total):
+  Final payment = $800 - $525 = $275
+
+4 pages ($800 total):
+  Final payment = $800 - $525 = $275
+
+5 pages ($1,050 total) - ORIGINAL PLAN:
+  Final payment = $1,050 - $525 = $525
+
+6 pages ($1,300 total):
+  Final payment = $1,300 - $525 = $775
+
+7 pages ($1,550 total):
+  Final payment = $1,550 - $525 = $1,025
+
+8 pages ($1,800 total):
+  Final payment = $1,800 - $525 = $1,275
+
+
+IMPORTANT TIPS FOR SCOPE CHANGES:
+----------------------------------
+
+✓ ALWAYS communicate the change in writing (email)
+✓ State the NEW total clearly
+✓ Show them the math so there's no confusion
+✓ Get their confirmation before continuing work
+✓ Update your project notes/contract with the new scope
+✓ Create the final invoice for the ADJUSTED amount (not the original 50%)
+
+
+EXAMPLE EMAIL TEMPLATE FOR SCOPE CHANGES:
+------------------------------------------
+
+"Hi [Client Name],
+
+Thanks for letting me know about the change!
+
+Here's the updated pricing breakdown:
+
+ORIGINAL: [X] pages = $[original total]
+NEW: [Y] pages = $[new total]
+
+You already paid: $[deposit amount]
+Your final payment will be: $[new total - deposit] (instead of $[original final])
+
+Let me know if this works for you, and I'll continue with the project!
+
+Best,
+Anthony"
+
+
+================================================================================
+PRO TIPS
+================================================================================
+
+✓ Always include the number of pages in the description
+✓ Save customer info in Stripe - you can reuse it for final payment
+✓ Add a memo about the refund policy on deposit invoices
+✓ Check your Stripe email notifications are turned ON
+✓ Set up automatic bank transfers (Stripe → Settings → Payouts)
+✓ Keep your Stripe business profile updated (shows on receipts)
+
+
+================================================================================
+IMPORTANT REMINDERS
+================================================================================
+
+⚠ ALWAYS CREATE DEPOSIT INVOICE FIRST
+  Don't start work until you receive the 50% deposit
+
+⚠ CREATE FINAL INVOICE ONLY WHEN PROJECT IS DONE
+  Send the final payment invoice when the site is ready to launch
+
+⚠ DOUBLE-CHECK AMOUNTS BEFORE SENDING
+  You can't edit invoices after they're sent
+
+⚠ SAVE THE CLIENT'S EMAIL IN STRIPE
+  Makes it easy to create the final payment invoice later
+
+
+================================================================================
+NEED HELP?
+================================================================================
+
+Stripe Support: https://support.stripe.com
+Stripe Dashboard: https://dashboard.stripe.com
+Stripe Docs on Invoicing: https://stripe.com/docs/invoicing
+
+
+================================================================================
+END OF GUIDE
+================================================================================

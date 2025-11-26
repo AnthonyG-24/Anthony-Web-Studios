@@ -134,96 +134,128 @@
 }
 
 .pricing-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 64rem;
+  max-width: 800px;
   margin: 0 auto;
-  width: 100%;
 }
 
-.pricing-card {
-  background: var(--neutral-light);
-  border-radius: 1rem;
-  box-shadow: 0 0.25rem 1rem rgba(27, 58, 75, 0.06);
+.pricing-card-single {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition: all 0.3s ease;
-  border: 0.0625rem solid rgba(27, 58, 75, 0.08);
-  display: grid;
-  grid-template-columns: 20rem 1fr;
-  min-height: 24rem;
+  border: 2px solid rgba(27, 58, 75, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.pricing-card:hover {
-  transform: translateY(-0.125rem);
-  box-shadow: 0 0.5rem 2rem rgba(27, 58, 75, 0.12);
-  border-color: rgba(27, 58, 75, 0.15);
+.pricing-card-single:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
-.pricing-header {
-  background: var(--primary);
+.pricing-header-single {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
   padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.pricing-header-single h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.price-range {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  position: relative;
+  gap: 0.25rem;
 }
 
-.pricing-badge {
-  background: rgba(255, 255, 255, 0.15);
-  color: var(--neutral-light);
-  padding: 0.375rem 1rem;
-  border-radius: 1rem;
-  font-family: var(--font-heading);
-  font-weight: var(--fw-semibold);
-  font-size: var(--fs-sm);
-  margin-bottom: 1rem;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
-
-.pricing-badge i {
-  margin-right: 0.5rem;
+.price-starting {
   font-size: 0.875rem;
-}
-
-.pricing-header h3 {
-  font-family: var(--font-heading);
-  font-size: var(--fs-h4);
-  font-weight: var(--fw-bold);
-  color: var(--neutral-light);
-  margin-bottom: 0.5rem;
-  line-height: var(--lh-h4);
-  letter-spacing: var(--ls-h4);
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
 }
 
 .price {
-  font-family: var(--font-heading);
-  font-size: var(--fs-display-sm);
-  font-weight: var(--fw-extra-bold);
-  color: var(--neutral-light);
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
   margin: 0;
   line-height: 1;
 }
 
-.pricing-content {
-  padding: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: var(--neutral-light);
+.pricing-content-single {
+  padding: 2.5rem 2rem;
 }
 
-.package-includes {
-  font-family: var(--font-body);
-  font-size: var(--fs-base);
-  font-weight: var(--fw-semibold);
+.pricing-explanation {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.pricing-explanation p {
+  font-size: 1.05rem;
+  color: var(--neutral-dark);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.7;
+}
+
+.pricing-explanation p:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-examples {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 1.75rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.pricing-examples h4 {
+  font-size: 1rem;
+  font-weight: 700;
   color: var(--primary);
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.25rem 0;
   text-transform: uppercase;
-  letter-spacing: 0.025rem;
+  letter-spacing: 0.05em;
+}
+
+.pricing-examples ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.pricing-examples li {
+  font-size: 0.95rem;
+  color: var(--neutral-dark);
+  padding: 0.5rem 1rem;
+  background: white;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.features-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .pricing-features {
@@ -337,54 +369,49 @@
 
 .pricing-payment-terms h3 {
   font-family: var(--font-heading);
-  font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
+  font-size: 1.5rem;
   font-weight: var(--fw-bold);
   color: var(--primary);
   text-align: center;
   margin-bottom: 2rem;
-  line-height: 1.2;
 }
 
 .payment-structure {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 2rem;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  background: white;
   padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 2rem rgba(27, 58, 75, 0.15);
-  border: 0.125rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .payment-step {
+  flex: 1;
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: var(--neutral-light);
-  background: rgba(255, 255, 255, 0.15);
-  padding: 1.5rem 2rem;
-  border-radius: 1rem;
-  backdrop-filter: blur(0.625rem);
-  border: 0.125rem solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  background: rgba(27, 58, 75, 0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(27, 58, 75, 0.1);
 }
 
 .payment-icon {
   flex-shrink: 0;
-  width: 3rem;
-  height: 3rem;
-  background: rgba(16, 185, 129, 0.2);
+  width: 50px;
+  height: 50px;
+  background: var(--accent);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.125rem solid rgba(16, 185, 129, 0.4);
 }
 
 .payment-icon i {
   font-size: 1.25rem;
-  color: #10b981;
+  color: white;
 }
 
 .payment-details {
@@ -393,20 +420,19 @@
 
 .payment-details h4 {
   font-family: var(--font-heading);
-  font-size: clamp(1rem, 1.5vw + 0.5rem, 1.125rem);
+  font-size: 1.125rem;
   font-weight: var(--fw-bold);
-  color: var(--neutral-light);
+  color: var(--primary);
   margin: 0 0 0.25rem 0;
-  line-height: 1.2;
 }
 
 .payment-details p {
   font-family: var(--font-body);
-  font-size: clamp(0.875rem, 1.2vw + 0.3rem, 0.9rem);
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  color: var(--neutral-dark);
+  opacity: 0.8;
   margin: 0;
   line-height: 1.4;
-  font-weight: var(--fw-regular);
 }
 
 .pricing-additional {
@@ -462,12 +488,6 @@
     max-width: 30rem;
   }
 
-  .pricing-card {
-    grid-template-columns: 14rem 1fr;
-    max-width: 50rem;
-    margin: 0 auto;
-  }
-
   .pricing-info {
     max-width: 35rem;
   }
@@ -492,19 +512,8 @@
     max-width: 28rem;
   }
 
-  .pricing-card {
-    grid-template-columns: 1fr;
-    min-height: auto;
-    max-width: 40rem;
-    margin: 0 auto;
-  }
-
-  .pricing-header {
-    padding: 2rem 1.75rem;
-  }
-
-  .pricing-content {
-    padding: 2rem 1.75rem;
+  .pricing-content-single {
+    padding: 2rem;
   }
 
   .pricing-info {
@@ -569,12 +578,25 @@
     text-align: center;
   }
 
-  .pricing-header {
+  .pricing-header-single {
     padding: 2rem 1.5rem;
   }
 
-  .pricing-content {
+  .pricing-header-single h3 {
+    font-size: 1.25rem;
+  }
+
+  .price {
+    font-size: 3rem;
+  }
+
+  .pricing-content-single {
     padding: 2rem 1.5rem;
+  }
+
+  .pricing-examples ul {
+    flex-direction: column;
+    gap: 0.75rem;
   }
 
   .pricing-payment-terms {
@@ -583,6 +605,11 @@
 
   .payment-structure {
     padding: 1.5rem;
+    flex-direction: column;
+  }
+
+  .payment-step {
+    width: 100%;
   }
 }
 
@@ -630,12 +657,32 @@
     padding: 0.5rem 0.75rem;
   }
 
-  .pricing-header {
-    padding: 1.75rem 1.25rem;
+  .pricing-header-single {
+    padding: 2rem 1rem;
   }
 
-  .pricing-content {
-    padding: 1.75rem 1.25rem;
+  .pricing-header-single h3 {
+    font-size: 1.125rem;
+  }
+
+  .price {
+    font-size: 2.75rem;
+  }
+
+  .pricing-content-single {
+    padding: 1.5rem 1rem;
+  }
+
+  .pricing-explanation {
+    padding: 0 0.5rem;
+  }
+
+  .pricing-explanation p {
+    font-size: 1rem;
+  }
+
+  .pricing-examples {
+    padding: 1.5rem 1rem;
   }
 
   .pricing-features li {
@@ -649,35 +696,21 @@
   }
 
   .payment-structure {
-    flex-direction: column;
     gap: 1rem;
     padding: 1.25rem;
   }
 
   .payment-step {
-    width: 100%;
-    text-align: center;
-    padding: 1.25rem 1.5rem;
+    padding: 1.25rem;
   }
 
   .payment-icon {
-    margin: 0 auto 0.5rem auto;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 45px;
+    height: 45px;
   }
 
   .payment-icon i {
-    font-size: 1rem;
-  }
-
-  .payment-details h4 {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-  }
-
-  .payment-details p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
+    font-size: 1.125rem;
   }
 }
 
@@ -812,33 +845,22 @@
   }
 
   .payment-structure {
-    padding: 0.75rem;
-    gap: 0.5rem;
+    padding: 1rem;
+    gap: 0.75rem;
   }
 
   .payment-step {
-    padding: 0.75rem;
-    gap: 0.5rem;
+    padding: 1rem;
+    gap: 0.75rem;
   }
 
   .payment-icon {
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 40px;
+    height: 40px;
   }
 
   .payment-icon i {
-    font-size: 0.75rem;
-  }
-
-  .payment-details h4 {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-    margin-bottom: 0.25rem;
-  }
-
-  .payment-details p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
+    font-size: 1rem;
   }
 }
 
@@ -972,32 +994,21 @@
   }
 
   .payment-structure {
-    padding: 0.625rem;
-    gap: 0.375rem;
+    padding: 0.875rem;
+    gap: 0.625rem;
   }
 
   .payment-step {
-    padding: 0.625rem;
-    gap: 0.375rem;
+    padding: 0.875rem;
+    gap: 0.625rem;
   }
 
   .payment-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 35px;
+    height: 35px;
   }
 
   .payment-icon i {
-    font-size: 0.625rem;
-  }
-
-  .payment-details h4 {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-    margin-bottom: 0.1875rem;
-  }
-
-  .payment-details p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
+    font-size: 0.875rem;
   }
 }

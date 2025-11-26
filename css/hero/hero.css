@@ -124,7 +124,7 @@
   border-radius: 100% 50%;
   width: 55%;
   height: 100%;
-  background: linear-gradient(45deg, #212f45, #4d194d);
+  background: var(--primary);
   background-size: 400% 400%;
   animation: gradientShift 8s ease-in-out infinite;
   transform: translate(-5%, 36%);
