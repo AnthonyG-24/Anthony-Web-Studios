@@ -44,10 +44,11 @@
 
 .footer-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
   flex: 2;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -56,15 +57,16 @@
   font-family: var(--font-body);
   font-size: clamp(0.875rem, 1.5vw + 0.25rem, 1rem);
   font-weight: var(--fw-medium);
-  opacity: 0.8;
+  opacity: 0.85;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .footer-links a:hover {
   opacity: 1;
-  color: var(--accent);
+  color: var(--neutral-light);
   transform: translateY(-0.125rem);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 .footer-links a::after {
@@ -74,8 +76,9 @@
   left: 0;
   width: 0;
   height: 0.125rem;
-  background: var(--accent);
+  background: var(--neutral-light);
   transition: width 0.3s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 .footer-links a:hover::after {
@@ -159,6 +162,8 @@
   transition: all 0.3s ease;
   padding: 1rem;
   box-sizing: border-box;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .terms-modal.active {
@@ -172,10 +177,15 @@
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 600px;
-  max-height: 80vh;
-  overflow-y: auto;
+  max-height: 85vh;
+  overflow: hidden;
   transform: scale(0.9);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
 }
 
 .terms-modal.active .terms-modal-content {
@@ -188,6 +198,7 @@
   justify-content: space-between;
   padding: clamp(1rem, 2vw, 1.5rem);
   border-bottom: 1px solid rgba(77, 25, 77, 0.1);
+  flex-shrink: 0;
 }
 
 .terms-modal-header h4 {
@@ -221,6 +232,19 @@
 
 .terms-modal-body {
   padding: clamp(1rem, 2vw, 1.5rem);
+  overflow-y: auto;
+  flex: 1;
+}
+
+.terms-last-updated {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1.2vw, 0.9rem);
+  color: var(--neutral-dark);
+  opacity: 0.75;
+  font-style: italic;
+  margin-bottom: clamp(1.25rem, 2vw, 1.5rem);
+  padding-bottom: clamp(0.75rem, 1.5vw, 1rem);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .terms-modal-body p {

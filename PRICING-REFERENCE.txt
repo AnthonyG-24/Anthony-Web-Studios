@@ -16,27 +16,28 @@ WHAT I DON'T DO RIGHT NOW:
 - Complex web applications
 - Advanced features requiring specialized expertise
 
-PRICING PACKAGES:
+PRICING MODEL:
 ================
 
-STARTER PACKAGE - $800
-----------------------
-- 3-4 custom pages (Home, About, Services, Contact)
+BASE WEBSITE - $800
+-------------------
+- 4 custom pages (typical: Home, About, Services, Contact)
 - Modern responsive design
 - Contact form
 - Domain connection help
 - Simple logo design (if needed)
-- 2 weeks free support after launch
-- Timeline: 1-2 weeks
+- Free support after launch (details below)
+- Timeline: 3-4 weeks
 
-PROFESSIONAL PACKAGE - $1,200
-------------------------------
-- UP TO 8 custom pages (examples: Home, About, Services, Contact, Gallery, Testimonials, FAQ, Pricing)
-- Everything from Starter package PLUS:
-- 1 month free support after launch
-- Timeline: 2-3 weeks
-- **IMPORTANT: Full $1,200 price applies whether client uses 5 pages or 8 pages**
-- This is package pricing, NOT per-page pricing
+ADDITIONAL PAGES - $250 per page
+---------------------------------
+- Each additional page beyond 4 pages costs $250
+- Examples:
+  * 5 pages = $1,050 ($800 + $250)
+  * 6 pages = $1,300 ($800 + $500)
+  * 7 pages = $1,550 ($800 + $750)
+  * 8 pages = $1,800 ($800 + $1,000)
+- Timeline: 4-6 weeks for larger sites (6-8 pages)
 
 PAYMENT STRUCTURE:
 ==================
@@ -45,11 +46,11 @@ PAYMENT STRUCTURE:
 - All payments processed through Stripe
 - Deposit becomes non-refundable only after design approval
 
-ADDITIONAL COSTS (BEYOND PACKAGES):
-===================================
-- Additional pages beyond package limits: $125 each
-- Custom features (galleries, contact forms, etc.): Starting at $150
-- **NOTE: These costs apply even during free support period**
+ADDITIONAL COSTS (BEYOND BASE PAGES):
+======================================
+- Additional pages beyond 4 pages: $250 each
+- Custom features beyond standard offerings: Starting at $150
+- **NOTE: New pages added after launch cost extra, even during free support period**
 
 SUPPORT BREAKDOWN:
 ==================
@@ -61,33 +62,39 @@ FREE SUPPORT (Always free, even after support period):
 - Basic technical help
 
 PAID WORK (Costs extra even during free support):
-- Adding new pages ($125 each)
+- Adding new pages ($250 each)
 - Custom features ($150+)
 - Major functionality changes
 
 STRIPE PAYMENT LINKS NEEDED:
 ============================
-1. Starter Package - 50% Deposit ($400)
-2. Starter Package - Final Payment ($400)
-3. Professional Package - 50% Deposit ($600)
-4. Professional Package - Final Payment ($600)
-5. Additional Page ($125)
-6. Custom Feature - Base Rate ($150)
+1. 4-Page Website - 50% Deposit ($400)
+2. 4-Page Website - Final Payment ($400)
+3. 5-Page Website - 50% Deposit ($525)
+4. 5-Page Website - Final Payment ($525)
+5. 6-Page Website - 50% Deposit ($650)
+6. 6-Page Website - Final Payment ($650)
+7. 7-Page Website - 50% Deposit ($775)
+8. 7-Page Website - Final Payment ($775)
+9. 8-Page Website - 50% Deposit ($900)
+10. 8-Page Website - Final Payment ($900)
+11. Additional Page ($250)
+12. Custom Feature - Base Rate ($150)
 
 COMMON CLIENT QUESTIONS & ANSWERS:
 ==================================
 
-Q: "Can I pay less if I only need 5 pages instead of 8?"
-A: No, the Professional Package is $1,200 regardless of page count (5 pages = same price as 8 pages). It's package pricing, not per-page pricing. If you only need 3-4 pages, the Starter Package ($800) might be better.
+Q: "How does your pricing work?"
+A: Projects start at $800 for 4 pages. Each additional page beyond 4 is $250. For example: 5 pages = $1,050, 6 pages = $1,300, 8 pages = $1,800. You only pay for what you need.
 
 Q: "What's included in free support?"
-A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($125) or custom features ($150+) cost extra even during the free support period.
+A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($250) or custom features ($150+) cost extra even during the free support period.
 
 Q: "Do you build online stores?"
 A: I don't specialize in e-commerce right now. I focus on informational websites that showcase businesses and services.
 
 Q: "How long does a project take?"
-A: Starter Package: 1-2 weeks, Professional Package: 2-3 weeks from deposit to launch.
+A: Smaller sites (4-5 pages): 3-4 weeks. Larger sites (6-8 pages): 4-6 weeks from deposit to launch.
 
 Q: "What if I need changes after launch?"
 A: Small updates (text, images) remain free forever. New pages or custom features require additional payment.
