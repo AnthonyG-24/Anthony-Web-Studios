@@ -585,7 +585,6 @@
   font-size: 1.125rem;
 }
 
-/* Featured Ribbon */
 .pricing-card-featured {
   position: relative;
   border: 3px solid #ff6b6b;
@@ -594,7 +593,7 @@
 
 .featured-ribbon {
   position: absolute;
-  top: 15px;
+  top: 30px;
   right: -50px;
   background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
   color: #333;
