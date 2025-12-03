@@ -20,39 +20,54 @@ document.addEventListener("DOMContentLoaded", () => {
     if (index < cards.length - 1) {
       const cardInner = card.querySelector(".card-inner");
 
-      // Animation for the card inner element
-      gsap.fromTo(
-        cardInner,
-        {
-          y: "0%",
-          z: 0,
-          rotationX: 0,
-        },
-        {
-          y: "-50%",
-          z: -250,
-          rotationX: 45,
+      // Only apply pin animations on larger screens to avoid scroll jumping on mobile
+      if (window.innerWidth > 820) {
+        // Animation for the card inner element
+        gsap.fromTo(
+          cardInner,
+          {
+            y: "0%",
+            z: 0,
+            rotationX: 0,
+          },
+          {
+            y: "-50%",
+            z: -250,
+            rotationX: 45,
+            scrollTrigger: {
+              trigger: cards[index + 1],
+              start: "top 85%",
+              end: "top -75%",
+              scrub: true,
+              pin: card,
+              pinSpacing: false,
+            },
+          }
+        );
+
+        // Animation for the card's after element (gradient overlay)
+        gsap.to(cardInner, {
+          "--after-opacity": 1,
+          scrollTrigger: {
+            trigger: cards[index + 1],
+            start: "top 73%",
+            end: "top 25%",
+            scrub: true,
+          },
+        });
+      } else {
+        // Simple fade animation for mobile devices without pinning
+        gsap.to(cardInner, {
+          opacity: 0.7,
+          scale: 0.95,
           scrollTrigger: {
             trigger: cards[index + 1],
             start: "top 85%",
-            end: "top -75%",
+            end: "top 25%",
             scrub: true,
-            pin: card,
-            pinSpacing: false,
           },
-        }
-      );
-
-      // Animation for the card's after element (gradient overlay)
-      gsap.to(cardInner, {
-        "--after-opacity": 1,
-        scrollTrigger: {
-          trigger: cards[index + 1],
-          start: "top 73%",
-          end: "top 25%",
-          scrub: true,
-        },
-      });
+        });
+      }
     }
   });
 

@@ -1051,42 +1051,105 @@
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
       <div class="contact-container">
-        <h2 class="contact-title">Let's Connect</h2>
-        <h3 class="contact-instruction">
-          Click the icons below to get in touch
-        </h3>
+        <h2 class="contact-title">Get In Touch</h2>
         <p class="contact-subtitle">
-          Ready to start your project? Get in touch with me through any of these
-          platforms
+          Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.
         </p>
 
-        <div class="contact-email">
-          <p>Email: anthony4work9000@gmail.com</p>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          class="contact-form"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+
+          <div class="form-group">
+            <label for="contact-name">Name *</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              required
+              placeholder="Your full name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email *</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              required
+              placeholder="your.email@example.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-phone">Phone Number (Optional)</label>
+            <input
+              type="tel"
+              id="contact-phone"
+              name="phone"
+              placeholder="(123) 456-7890"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message *</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="6"
+              required
+              placeholder="Tell me about your project or question..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-submit">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+
+        <div class="contact-divider">
+          <span>Or reach out directly</span>
         </div>
 
-        <div class="contact-icons">
-          <a
-            href="mailto:anthony4work9000@gmail.com"
-            class="contact-icon email"
-          >
+        <div class="contact-info">
+          <p class="contact-email-text">
             <i class="fas fa-envelope"></i>
-          </a>
+            anthony4work9000@gmail.com
+          </p>
 
-          <a
-            href="https://www.facebook.com/teri.gillard"
-            target="_blank"
-            class="contact-icon facebook"
-          >
-            <i class="fab fa-facebook-f"></i>
-          </a>
+          <div class="contact-social-icons">
+            <a
+              href="mailto:anthony4work9000@gmail.com"
+              class="contact-icon email"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/anthony-gillard-dev"
-            target="_blank"
-            class="contact-icon linkedin"
-          >
-            <i class="fab fa-linkedin-in"></i>
-          </a>
+            <a
+              href="https://www.facebook.com/teri.gillard"
+              target="_blank"
+              class="contact-icon facebook"
+              title="Facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/anthony-gillard-dev"
+              target="_blank"
+              class="contact-icon linkedin"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
