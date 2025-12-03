@@ -64,62 +64,60 @@ document.addEventListener('DOMContentLoaded', function() {
     hamburger.addEventListener('click', toggleMenu);
     overlay.addEventListener('click', closeMenu);
     
-    // Close menu when nav link is clicked (for anchor links)
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            if (window.innerWidth <= 820) {
-                closeMenu();
-            }
-            
-            // Update active state
-            navLinks.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
-        });
-    });
-    
     // Close menu with Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && hamburger.classList.contains('active')) {
             closeMenu();
         }
     });
-    
+
     // Handle window resize
     window.addEventListener('resize', () => {
         if (window.innerWidth > 820) {
             closeMenu();
         }
     });
-    
+
     // Initialize ARIA attributes
     hamburger.setAttribute('aria-expanded', 'false');
     hamburger.setAttribute('aria-controls', 'navRight');
     hamburger.setAttribute('aria-label', 'Toggle navigation menu');
     navRight.setAttribute('aria-hidden', 'true');
-    
+
     // Smooth scroll to sections
     function smoothScrollTo(target) {
         const element = document.querySelector(target);
         if (element) {
             const headerOffset = 80; // Account for fixed navbar
-            const elementPosition = element.offsetTop;
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
             const offsetPosition = elementPosition - headerOffset;
-            
+
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
             });
         }
     }
-    
-    // Handle navigation clicks for smooth scrolling
+
+    // Handle navigation clicks - combined single event listener
     navLinks.forEach(link => {
         const href = link.getAttribute('href');
         if (href && href.startsWith('#')) {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
+
+                // Close mobile menu if open
+                if (window.innerWidth <= 820) {
+                    closeMenu();
+                }
+
+                // Update active state
+                navLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+
+                // Smooth scroll to target
                 smoothScrollTo(href);
-                
+
                 // Update URL without jumping
                 if (history.pushState) {
                     history.pushState(null, null, href);
