@@ -56,16 +56,28 @@ document.addEventListener("DOMContentLoaded", () => {
           },
         });
       } else {
-        // Simpler animation for mobile devices - scale and fade without aggressive pinning
+        // Enhanced mobile animation - more visible without pinning
         gsap.to(cardInner, {
-          scale: 0.92,
-          opacity: 0.6,
-          y: -30,
+          scale: 0.85,
+          opacity: 0.4,
+          y: -50,
+          rotateX: 5,
           scrollTrigger: {
             trigger: cards[index + 1],
-            start: "top 90%",
+            start: "top 100%",
+            end: "top 20%",
+            scrub: 0.3,
+          },
+        });
+
+        // Add overlay fade on mobile too
+        gsap.to(cardInner, {
+          "--after-opacity": 0.7,
+          scrollTrigger: {
+            trigger: cards[index + 1],
+            start: "top 80%",
             end: "top 30%",
-            scrub: 0.5, // Slight smoothing without causing jumps
+            scrub: 0.3,
           },
         });
       }
