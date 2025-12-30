@@ -295,9 +295,11 @@ nav {
   visibility: visible;
 }
 
-/* Smooth scrolling for anchor links */
-html {
-  scroll-behavior: smooth;
+/* Smooth scrolling for anchor links - disabled on mobile to prevent conflicts */
+@media (min-width: 821px) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 /* Prevent body scroll when menu is open */

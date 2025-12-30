@@ -92,9 +92,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
             const offsetPosition = elementPosition - headerOffset;
 
+            // Use instant scroll on mobile to prevent skipping
             window.scrollTo({
                 top: offsetPosition,
-                behavior: 'smooth'
+                behavior: window.innerWidth <= 820 ? 'instant' : 'smooth'
             });
         }
     }

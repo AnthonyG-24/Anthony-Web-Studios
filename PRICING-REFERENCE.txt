@@ -19,8 +19,12 @@ WHAT I DON'T DO RIGHT NOW:
 PRICING MODEL:
 ================
 
-BASE WEBSITE - $800
--------------------
+BASE WEBSITE - $950 (Early Client Discount)
+--------------------------------------------
+Regular Rate: $1,500 for 4 pages
+Early Client Discount: $950 for 4 pages (Save $550!)
+Limited to first 5 clients
+
 - 4 custom pages (typical: Home, About, Services, Contact)
 - Modern responsive design
 - Contact form
@@ -29,26 +33,33 @@ BASE WEBSITE - $800
 - Free support after launch (details below)
 - Timeline: 4-6 weeks
 
-ADDITIONAL PAGES - $250 per page
----------------------------------
-- Each additional page beyond 4 pages costs $250
-- Examples:
-  * 5 pages = $1,050 ($800 + $250)
-  * 6 pages = $1,300 ($800 + $500)
-  * 7 pages = $1,550 ($800 + $750)
-  * 8 pages = $1,800 ($800 + $1,000)
+ADDITIONAL PAGES - $400 per page (Early Client Discount)
+---------------------------------------------------------
+Regular Rate: $500 per page
+Early Client Discount: $400 per page
+
+- Each additional page beyond 4 pages costs $400 (discount) / $500 (regular)
+- Examples (Early Client Discount):
+  * 5 pages = $1,350 ($950 + $400)
+  * 6 pages = $1,750 ($950 + $800)
+  * 7 pages = $2,150 ($950 + $1,200)
+  * 8 pages = $2,550 ($950 + $1,600)
 - Timeline: 6-8 weeks for larger sites (6-8 pages)
 
 PAYMENT STRUCTURE:
 ==================
-- 50% deposit required to start project (FULLY REFUNDABLE until client approves initial design)
+- 50% deposit required to start project
 - 50% final payment due upon completion and launch
 - All payments processed through Stripe
-- Deposit becomes non-refundable only after design approval
+
+REFUND POLICY:
+- Deposit is FULLY REFUNDABLE until client approves initial design mockup in writing (email/text)
+- Deposit also becomes non-refundable if client requests design changes/revisions, or if 14 days pass without response
+- Once approved or after engaging with design, deposit becomes non-refundable (covers time and development already invested)
 
 ADDITIONAL COSTS (BEYOND BASE PAGES):
 ======================================
-- Additional pages beyond 4 pages: $250 each
+- Additional pages beyond 4 pages: $400 each (Early Client Discount) / $500 (Regular Rate)
 - Custom features beyond standard offerings: Starting at $150
 - **NOTE: New pages added after launch cost extra, even during free support period**
 
@@ -62,33 +73,34 @@ FREE SUPPORT (Always free, even after support period):
 - Basic technical help
 
 PAID WORK (Costs extra even during free support):
-- Adding new pages ($250 each)
+- Adding new pages ($400 each during early discount / $500 regular)
 - Custom features ($150+)
 - Major functionality changes
 
-STRIPE PAYMENT LINKS NEEDED:
-============================
-1. 4-Page Website - 50% Deposit ($400)
-2. 4-Page Website - Final Payment ($400)
-3. 5-Page Website - 50% Deposit ($525)
-4. 5-Page Website - Final Payment ($525)
-5. 6-Page Website - 50% Deposit ($650)
-6. 6-Page Website - Final Payment ($650)
-7. 7-Page Website - 50% Deposit ($775)
-8. 7-Page Website - Final Payment ($775)
-9. 8-Page Website - 50% Deposit ($900)
-10. 8-Page Website - Final Payment ($900)
-11. Additional Page ($250)
-12. Custom Feature - Base Rate ($150)
+STRIPE PAYMENT LINKS NEEDED (EARLY CLIENT DISCOUNT):
+=====================================================
+1. 4-Page Website - 50% Deposit ($475)
+2. 4-Page Website - Final Payment ($475)
+3. 5-Page Website - 50% Deposit ($675)
+4. 5-Page Website - Final Payment ($675)
+5. 6-Page Website - 50% Deposit ($875)
+6. 6-Page Website - Final Payment ($875)
+7. 7-Page Website - 50% Deposit ($1,075)
+8. 7-Page Website - Final Payment ($1,075)
+9. 8-Page Website - 50% Deposit ($1,275)
+10. 8-Page Website - Final Payment ($1,275)
+11. Additional Page - Early Discount ($400)
+12. Additional Page - Regular Rate ($500)
+13. Custom Feature - Base Rate ($150)
 
 COMMON CLIENT QUESTIONS & ANSWERS:
 ==================================
 
 Q: "How does your pricing work?"
-A: Projects start at $800 for 4 pages. Each additional page beyond 4 is $250. For example: 5 pages = $1,050, 6 pages = $1,300, 8 pages = $1,800. You only pay for what you need.
+A: Early client discount: Projects start at $950 for 4 pages (regular $1,500). Each additional page beyond 4 is $400 (regular $500). For example: 5 pages = $1,350, 6 pages = $1,750, 8 pages = $2,550. You only pay for what you need. This discount is limited to the first 5 clients.
 
 Q: "What's included in free support?"
-A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($250) or custom features ($150+) cost extra even during the free support period.
+A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($400 early / $500 regular) or custom features ($150+) cost extra even during the free support period.
 
 Q: "Do you build online stores?"
 A: I don't specialize in e-commerce right now. I focus on informational websites that showcase businesses and services.
@@ -97,7 +109,7 @@ Q: "How long does a project take?"
 A: Smaller sites (4-5 pages): 4-6 weeks. Larger sites (6-8 pages): 6-8 weeks from deposit to launch.
 
 Q: "What if I need changes after launch?"
-A: Small updates (text, images) remain free forever. New pages or custom features require additional payment.
+A: Small updates (text, images) remain free forever. New pages ($400 early / $500 regular) or custom features ($150+) require additional payment.
 
 Q: "Can you help with domain setup?"
 A: Yes, I provide guidance and can help configure DNS settings, but you purchase and own the domain.

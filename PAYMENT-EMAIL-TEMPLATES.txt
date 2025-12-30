@@ -1,0 +1,180 @@
+PAYMENT & CONTRACT EMAIL TEMPLATES
+===================================
+
+These simple email templates provide legal protection without needing a formal contract.
+Save client replies as proof they agreed to terms.
+
+
+===========================================
+OPTION 1: STRIPE INVOICE MESSAGE (EASIEST)
+===========================================
+
+Add this to your Stripe invoice description/email:
+
+---
+By submitting payment, you agree to the refund policy at
+https://[yourwebsite.com]/#pricing - deposit is refundable
+until you approve the initial design mockup in writing, request
+revisions, or 14 days pass.
+---
+
+
+=======================================================
+OPTION 2: PRE-INVOICE CONFIRMATION EMAIL (RECOMMENDED)
+=======================================================
+
+Subject: Quick Confirmation Before We Start - [Client Name] Website
+
+---
+Hi [Client Name],
+
+Excited to build your website! Before I send the invoice, let's confirm the details:
+
+PROJECT DETAILS:
+- [4/5/6/etc] page website
+- Total Cost: $[amount]
+- 50% Deposit: $[amount] - Fully refundable until you approve the initial design mockup in writing, request revisions, or 14 days pass
+- 50% Final Payment: $[amount] - Due when your website is complete and ready to launch
+
+WHAT'S INCLUDED:
+- Custom responsive design
+- Contact form
+- Mobile-friendly (works on all devices)
+- Domain connection help
+- Free lifetime updates (text, images, bug fixes)
+
+TIMELINE:
+- [4-6 weeks / 6-8 weeks] from deposit to launch
+- Regular updates throughout the project
+
+REFUND POLICY:
+Your deposit is fully refundable until you approve the initial design mockup in writing (email/text). It becomes non-refundable after you approve the design, request revisions, or if 14 days pass without a response.
+
+Please reply "CONFIRMED" or "Looks good!" to acknowledge these terms, and I'll send you the secure Stripe payment link to get started.
+
+Full terms are also available at: https://[yourwebsite.com]/#pricing
+
+Looking forward to working with you!
+
+Best,
+Anthony
+Anthony Web Studio
+---
+
+IMPORTANT: Save their "CONFIRMED" reply as proof they agreed to terms.
+
+
+===============================================
+OPTION 3: STRIPE INVOICE + FOLLOW-UP REMINDER
+===============================================
+
+Send the Stripe invoice with this message:
+
+Subject: Invoice #[number] - 50% Deposit for [Client Name] Website
+
+---
+Hi [Client Name],
+
+Here's your invoice to get started on your website project!
+
+INVOICE DETAILS:
+- Amount: $[amount] (50% deposit)
+- What it covers: Project start, initial design phase, development
+- Refund Policy: Fully refundable until you approve the initial design mockup in writing, request revisions, or 14 days pass
+
+[STRIPE PAYMENT LINK]
+
+By submitting payment, you agree to the terms at https://[yourwebsite.com]/#pricing
+
+Questions? Just reply to this email.
+
+Thanks!
+Anthony
+---
+
+
+==============================================
+WHEN SENDING THE FINAL PAYMENT INVOICE
+==============================================
+
+Subject: Final Invoice - [Client Name] Website Ready to Launch!
+
+---
+Hi [Client Name],
+
+Your website is complete and ready to launch! Here's the final payment invoice.
+
+FINAL INVOICE:
+- Amount: $[amount] (50% final payment)
+- What you get: Full website files, launch assistance, lifetime free updates
+
+[STRIPE PAYMENT LINK]
+
+Once payment is received, I'll:
+1. Send you all website files
+2. Help you launch the site
+3. Provide setup instructions
+
+Excited to see your site go live!
+
+Best,
+Anthony
+---
+
+
+========================================
+QUICK REFERENCE: WHAT YOU NEED TO SAVE
+========================================
+
+For legal protection, keep records of:
+✓ Client's "confirmed" email reply (before sending invoice)
+✓ Stripe invoice receipt (automatic)
+✓ Stripe payment confirmation (automatic)
+✓ Email where you send initial design mockup
+✓ Client's written approval of design (email/text)
+✓ Any revision requests (email/text)
+
+These prove:
+- They agreed to terms before paying
+- When design approval happened (when deposit became non-refundable)
+- Payment was processed
+
+
+====================================
+CANCELLATION REQUEST EMAIL TEMPLATE
+====================================
+
+If a client wants to cancel, use this:
+
+Subject: Re: Cancellation Request - [Client Name]
+
+---
+Hi [Client Name],
+
+I understand you'd like to cancel the project. Let me check the status:
+
+[IF BEFORE DESIGN APPROVAL:]
+Since we haven't reached the design approval milestone yet, your deposit is fully refundable. I'll process the refund within 2-3 business days. You should see it back in your account within 5-7 business days depending on your bank.
+
+[IF AFTER DESIGN APPROVAL:]
+Since you approved the initial design on [date] / requested revisions on [date], the deposit has become non-refundable per our agreement. However, I'll send you all work completed so far including [list what you've done].
+
+Let me know if you have any questions.
+
+Best,
+Anthony
+---
+
+
+===================
+TIPS FOR PROTECTION
+===================
+
+1. ALWAYS get written confirmation before sending invoice
+2. ALWAYS document when you send the initial design mockup
+3. ALWAYS save client's written design approval (email/text/message)
+4. ALWAYS save any revision requests as proof of engagement
+5. NEVER start work without deposit received
+6. NEVER deliver final files without final payment
+
+Keep all emails organized in folders by client name for easy reference.

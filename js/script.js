@@ -56,15 +56,16 @@ document.addEventListener("DOMContentLoaded", () => {
           },
         });
       } else {
-        // Simple fade animation for mobile devices without pinning
+        // Simpler animation for mobile devices - scale and fade without aggressive pinning
         gsap.to(cardInner, {
-          opacity: 0.7,
-          scale: 0.95,
+          scale: 0.92,
+          opacity: 0.6,
+          y: -30,
           scrollTrigger: {
             trigger: cards[index + 1],
-            start: "top 85%",
-            end: "top 25%",
-            scrub: true,
+            start: "top 90%",
+            end: "top 30%",
+            scrub: 0.5, // Slight smoothing without causing jumps
           },
         });
       }
