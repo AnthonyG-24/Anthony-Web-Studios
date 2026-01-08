@@ -19,8 +19,8 @@ professional website.
 PRICING FOR YOUR PROJECT:
 Based on the [X] pages you mentioned, here's your quote:
 
-Base Package (4 pages): $800
-Additional [X] pages: $[amount] ($340 per page)
+Base Package (4 pages): $680
+Additional [X] pages: $[amount] ($255 per page)
 -----------------------------------
 TOTAL: $[total]
 
@@ -238,7 +238,7 @@ PROJECT DETAILS:
 [Brief summary of what they asked for]
 
 PRICING BREAKDOWN:
-Base Package (4 pages): $[950 or 800]
+Base Package (4 pages): $[800 or 680]
 Additional [X] pages: $[amount]
 -----------------------------------
 TOTAL PROJECT COST: $[total]

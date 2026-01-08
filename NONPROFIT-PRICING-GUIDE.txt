@@ -4,19 +4,19 @@ ANTHONY WEB STUDIO LLC - NONPROFIT & PAYMENT PLAN PRICING GUIDE
 This guide is for churches, nonprofits, and budget-conscious small businesses.
 
 
-STANDARD PRICING (Early Client Discount - 4 spots left!)
+STANDARD PRICING (Early Client Discount - Limited Time!)
 =========================================================
 
 SMALL BUSINESSES:
 -----------------
-Base Package (4 pages): $950
-Additional pages: $400 per page
+Base Package (4 pages): $800
+Additional pages: $300 per page
 
 Examples:
-- 4 pages: $950
-- 6 pages: $1,750
-- 8 pages: $2,550
-- 11 pages: $3,750
+- 4 pages: $800
+- 6 pages: $1,400
+- 8 pages: $2,000
+- 11 pages: $2,900
 
 
 NONPROFIT/CHURCH PRICING (15% Community Discount)
@@ -30,15 +30,15 @@ WHO QUALIFIES:
 
 PRICING:
 --------
-Base Package (4 pages): $800 (save $150)
-Additional pages: $340 per page (save $60 each)
+Base Package (4 pages): $680 (save $120)
+Additional pages: $255 per page (save $45 each)
 
 Examples:
-- 4 pages: $800 (save $150)
-- 6 pages: $1,480 (save $270)
-- 8 pages: $2,160 (save $390)
-- 11 pages: $3,180 (save $570)
-- 15 pages: $4,540 (save $810)
+- 4 pages: $680 (save $120)
+- 6 pages: $1,190 (save $210)
+- 8 pages: $1,700 (save $300)
+- 11 pages: $2,465 (save $435)
+- 15 pages: $3,400 (save $600)
 
 WHAT'S INCLUDED:
 - Custom responsive design
@@ -67,9 +67,9 @@ Payment Schedule:
 - 50% deposit to start project
 - 50% final payment at launch
 
-Example (6-page nonprofit site - $1,480):
-- Deposit: $740
-- Final: $740
+Example (6-page nonprofit site - $1,190):
+- Deposit: $595
+- Final: $595
 
 
 OPTION 2: 3-Payment Plan
@@ -81,10 +81,10 @@ Payment Schedule:
 - 1/3 after design approval
 - 1/3 at launch
 
-Example (8-page nonprofit site - $2,160):
-- Deposit: $720
-- Design approval: $720
-- Launch: $720
+Example (8-page nonprofit site - $1,700):
+- Deposit: $567
+- Design approval: $567
+- Launch: $566
 
 
 OPTION 3: Monthly Installments (6 months)
@@ -96,15 +96,15 @@ Payment Schedule:
 - Equal monthly payments for 6 months
 - Website launches after deposit, payments continue
 
-Example (11-page church site - $3,180):
-- Deposit: $500
-- Monthly: $447 × 6 months
-- Total: $3,180
+Example (11-page church site - $2,465):
+- Deposit: $400
+- Monthly: $344 × 6 months
+- Total: $2,465
 
-Example (6-page nonprofit - $1,480):
-- Deposit: $300
-- Monthly: $197 × 6 months
-- Total: $1,480
+Example (6-page nonprofit - $1,190):
+- Deposit: $250
+- Monthly: $157 × 6 months
+- Total: $1,190
 
 
 OPTION 4: Phased Development
@@ -113,23 +113,23 @@ Best for: Very tight budgets, want to spread work over time
 
 Build your website in phases, pay as you go:
 
-Phase 1 - Essential Launch ($800-1,480)
+Phase 1 - Essential Launch ($680-1,190)
 - Home, About, Contact, Services/Beliefs
 - Get online quickly with core pages
 
-Phase 2 - Content Expansion ($680-1,020)
+Phase 2 - Content Expansion ($510-765)
 - Add 2-3 additional pages
 - Leadership, History, Events, etc.
 
-Phase 3 - Advanced Features ($680-1,020)
+Phase 3 - Advanced Features ($510-765)
 - Gallery, Videos, Donation portal
 - Blog, Resources, etc.
 
 Example (Church starting with 4 pages, growing to 11):
-- Phase 1: $800 (4 pages) - Launch in 4-6 weeks
-- Phase 2: $1,020 (3 more pages) - Add 2-3 months later
-- Phase 3: $1,360 (4 more pages) - Add when budget allows
-- Total: $3,180 (same as all at once, just spread out)
+- Phase 1: $680 (4 pages) - Launch in 4-6 weeks
+- Phase 2: $765 (3 more pages) - Add 2-3 months later
+- Phase 3: $1,020 (4 more pages) - Add when budget allows
+- Total: $2,465 (same as all at once, just spread out)
 
 
 QUICK PRICING CALCULATOR
@@ -137,29 +137,29 @@ QUICK PRICING CALCULATOR
 
 NONPROFIT/CHURCH PRICING (15% off):
 
-4 pages  = $800
-5 pages  = $1,140  ($800 + $340)
-6 pages  = $1,480  ($800 + $680)
-7 pages  = $1,820  ($800 + $1,020)
-8 pages  = $2,160  ($800 + $1,360)
-9 pages  = $2,500  ($800 + $1,700)
-10 pages = $2,840  ($800 + $2,040)
-11 pages = $3,180  ($800 + $2,380)
-12 pages = $3,520  ($800 + $2,720)
-15 pages = $4,540  ($800 + $3,740)
+4 pages  = $680
+5 pages  = $935   ($680 + $255)
+6 pages  = $1,190 ($680 + $510)
+7 pages  = $1,445 ($680 + $765)
+8 pages  = $1,700 ($680 + $1,020)
+9 pages  = $1,955 ($680 + $1,275)
+10 pages = $2,210 ($680 + $1,530)
+11 pages = $2,465 ($680 + $1,785)
+12 pages = $2,720 ($680 + $2,040)
+15 pages = $3,400 ($680 + $2,720)
 
 REGULAR BUSINESS PRICING:
 
-4 pages  = $950
-5 pages  = $1,350  ($950 + $400)
-6 pages  = $1,750  ($950 + $800)
-7 pages  = $2,150  ($950 + $1,200)
-8 pages  = $2,550  ($950 + $1,600)
-9 pages  = $2,950  ($950 + $2,000)
-10 pages = $3,350  ($950 + $2,400)
-11 pages = $3,750  ($950 + $2,800)
-12 pages = $4,150  ($950 + $3,200)
-15 pages = $5,350  ($950 + $4,400)
+4 pages  = $800
+5 pages  = $1,100 ($800 + $300)
+6 pages  = $1,400 ($800 + $600)
+7 pages  = $1,700 ($800 + $900)
+8 pages  = $2,000 ($800 + $1,200)
+9 pages  = $2,300 ($800 + $1,500)
+10 pages = $2,600 ($800 + $1,800)
+11 pages = $2,900 ($800 + $2,100)
+12 pages = $3,200 ($800 + $2,400)
+15 pages = $4,100 ($800 + $3,300)
 
 
 HOW TO PRESENT PRICING TO CLIENTS
@@ -173,20 +173,20 @@ YOUR RESPONSE:
 "I totally understand - church budgets are tight. I have a few options:
 
 Option A - Phased Approach (Recommended):
-Start with 6 essential pages now for $1,480 (within your budget!), then add
+Start with 6 essential pages now for $1,190 (within your budget!), then add
 the rest when your building fund has more. You'll be online in 4-6 weeks.
 
-Phase 1 Now: Home, About, Beliefs, Contact, Events, Donate = $1,480
-Phase 2 Later: Leadership, Church Mothers, History, Videos, Gallery = $1,700
-Total still $3,180, just spread over time.
+Phase 1 Now: Home, About, Beliefs, Contact, Events, Donate = $1,190
+Phase 2 Later: Leadership, Church Mothers, History, Videos, Gallery = $1,275
+Total still $2,465, just spread over time.
 
 Option B - Payment Plan:
-I can do all 11 pages for $3,180 (15% church discount), with a $500 deposit
-and $447/month for 6 months. Website launches after the deposit.
+I can do all 11 pages for $2,465 (15% church discount), with a $400 deposit
+and $344/month for 6 months. Website launches after the deposit.
 
 Option C - Smaller Scope:
-If you want everything now within $2,000, I can do 7 pages for $1,820.
-You can add the other 4 pages later.
+If you want everything now within $2,000, I can do 10 pages for $1,955.
+You can add the other page later.
 
 Which works best for your church?"
 
@@ -197,14 +197,14 @@ Client: "We're a small nonprofit. Can you do it for half price?"
 
 YOUR RESPONSE:
 "I really appreciate the work your organization does! I already offer a 15%
-community discount for nonprofits, which brings your 8-page site to $2,160
-(regularly $2,550).
+community discount for nonprofits, which brings your 8-page site to $1,700
+(regularly $2,000).
 
 To make it even more manageable, I can offer:
 
-- 6-month payment plan: $360/month (no interest, no fees)
-- 3-payment plan: $720 deposit, $720 at design approval, $720 at launch
-- Phased development: Start with 5 pages now ($1,480), add 3 more later
+- 6-month payment plan: $283/month (no interest, no fees)
+- 3-payment plan: $567 deposit, $567 at design approval, $566 at launch
+- Phased development: Start with 5 pages now ($935), add 3 more later
 
 I keep my pricing fair so I can provide quality work and ongoing support.
 These options should help fit your budget. Which sounds best?"
@@ -223,8 +223,8 @@ pricing different:
 3. Direct access to me - not a support ticket system
 4. Proven track record - [show them your portfolio]
 
-My 10-page rate is $3,350, which includes all of that. I also offer payment
-plans if that helps ($558/month for 6 months).
+My 10-page rate is $2,600, which includes all of that. I also offer payment
+plans if that helps ($433/month for 6 months).
 
 If budget is the main concern, the other option might work better for you.
 But if you want professional quality that represents your business well and
@@ -313,8 +313,8 @@ What they got:
 - Social media integration
 
 Pricing:
-- Nonprofit rate: $3,180 (saved $570)
-- Payment plan: $500 deposit + $447/month × 6 months
+- Nonprofit rate: $2,465 (saved $435)
+- Payment plan: $400 deposit + $344/month × 6 months
 - Timeline: 6-8 weeks to launch
 
 Result: Professional website that represents their ministry well, affordable
@@ -333,8 +333,8 @@ What they got:
 - Mobile-responsive design
 
 Pricing:
-- Regular rate: $1,750
-- Payment: $875 deposit, $875 at launch
+- Regular rate: $1,400
+- Payment: $700 deposit, $700 at launch
 - Timeline: 4-6 weeks
 
 Result: Professional site that brings in new clients, simple 50/50 payment.
@@ -344,17 +344,17 @@ Example 3: Nonprofit Starting Small (Phased)
 ---------------------------------------------
 Nonprofit had $1,000 budget now, more funding coming in 3 months.
 
-Phase 1 (Now - $800):
+Phase 1 (Now - $680):
 - 4 essential pages (Home, About, Programs, Contact)
 - Got them online quickly
 
-Phase 2 (3 months later - $680):
+Phase 2 (3 months later - $510):
 - Added 2 pages (Events, Resources)
 
-Phase 3 (6 months later - $680):
+Phase 3 (6 months later - $510):
 - Added 2 pages (Gallery, Blog)
 
-Total: $2,160 for 8 pages (same as doing all at once)
+Total: $1,700 for 8 pages (same as doing all at once)
 Benefit: Fit their cash flow, got online quickly
 
 
@@ -364,10 +364,10 @@ QUICK SCRIPTS FOR COMMON SITUATIONS
 "How much for a website?"
 -------------------------
 "Great question! It depends on how many pages you need. My base package is
-4 pages for $950 (or $800 for nonprofits). Each additional page is $400
-(or $340 for nonprofits).
+4 pages for $800 (or $680 for nonprofits). Each additional page is $300
+(or $255 for nonprofits).
 
-Most of my clients end up between $1,500-3,000 depending on their needs.
+Most of my clients end up between $1,200-2,500 depending on their needs.
 I also offer payment plans if that helps.
 
 How many pages were you thinking?"
@@ -401,7 +401,7 @@ you get. I'm happy to discuss payment plans if that helps!"
 SUMMARY - YOUR PRICING PHILOSOPHY
 ==================================
 
-1. Your base pricing is already very fair ($950 for 4 pages)
+1. Your base pricing is already very fair ($800 for 4 pages)
 2. Offer 15% nonprofit discount freely - it's good for your community
 3. ALWAYS offer payment plans - solves most budget issues
 4. Reduce scope before reducing price - better work, better client
