@@ -100,7 +100,7 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .thank-you-container {
     padding: 1.5rem;
   }
@@ -131,7 +131,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .thank-you-content {
     padding: 1.5rem 1rem;
   }

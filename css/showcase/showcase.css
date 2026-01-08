@@ -14,7 +14,7 @@
   padding: 9rem;
 }
 
-.project-showcase h1 {
+.project-showcase h2 {
   font-size: var(--fs-h3);
   font-weight: var(--fw-extra-bold);
   font-family: var(--font-heading);
@@ -22,12 +22,9 @@
   margin-bottom: 1rem;
   line-height: var(--lh-h3);
   letter-spacing: var(--ls-h3);
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
-  text-decoration-thickness: 0.1875rem;
 }
 
-.project-showcase-outro h1 {
+.project-showcase-outro h2 {
   font-size: var(--fs-h3);
   font-weight: var(--fw-extra-bold);
   font-family: var(--font-heading);
@@ -134,7 +131,7 @@
   margin-bottom: 1.5rem;
 }
 
-.card-title h1 {
+.card-title h3 {
   font-size: clamp(1.75rem, 3vw + 1rem, 3.5rem);
   font-weight: var(--fw-extra-bold);
   font-family: var(--font-heading);
@@ -143,17 +140,17 @@
   letter-spacing: -0.02em;
 }
 
-#card-1 .card-title h1 {
+#card-1 .card-title h3 {
   color: white;
 }
 
-#card-2 .card-title h1,
-#card-3 .card-title h1 {
+#card-2 .card-title h3,
+#card-3 .card-title h3 {
   color: #2d3748;
 }
 
-#card-4 .card-title h1,
-#card-5 .card-title h1 {
+#card-4 .card-title h3,
+#card-5 .card-title h3 {
   color: white;
 }
 
@@ -281,8 +278,8 @@
     padding: 6rem;
   }
 
-  .project-showcase h1,
-  .project-showcase-outro h1 {
+  .project-showcase h2,
+  .project-showcase-outro h2 {
     font-size: var(--fs-h2);
     line-height: var(--lh-h2);
     letter-spacing: var(--ls-h2);
@@ -311,14 +308,14 @@
   }
 }
 
-@media (max-width: 912px) {
+@media (max-width: 900px) {
   .project-showcase,
   .project-showcase-outro {
     padding: 5rem;
   }
 
-  .project-showcase h1,
-  .project-showcase-outro h1 {
+  .project-showcase h2,
+  .project-showcase-outro h2 {
     font-size: var(--fs-h2);
     line-height: var(--lh-h2);
     letter-spacing: var(--ls-h2);
@@ -346,14 +343,14 @@
   }
 }
 
-@media (max-width: 820px) {
+@media (max-width: 768px) {
   .project-showcase,
   .project-showcase-outro {
     padding: 4.5rem 1.5rem;
   }
 
-  .project-showcase h1,
-  .project-showcase-outro h1 {
+  .project-showcase h2,
+  .project-showcase-outro h2 {
     font-size: var(--fs-h3);
     line-height: var(--lh-h3);
     letter-spacing: var(--ls-h3);
@@ -377,14 +374,14 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .project-showcase,
   .project-showcase-outro {
     padding: 3.5rem 1rem;
   }
 
-  .project-showcase h1,
-  .project-showcase-outro h1 {
+  .project-showcase h2,
+  .project-showcase-outro h2 {
     line-height: var(--lh-h4);
     letter-spacing: var(--ls-h4);
     margin-bottom: 0.875rem;
@@ -420,7 +417,7 @@
     margin-bottom: 0.75rem;
   }
 
-  .card-title h1 {
+  .card-title h3 {
     font-size: var(--fs-h5);
     line-height: var(--lh-h5);
     letter-spacing: var(--ls-h5);
@@ -450,82 +447,14 @@
   }
 }
 
-@media (max-width: 350px) {
-  .project-showcase,
-  .project-showcase-outro {
-    padding: 2.5rem 0.75rem;
-  }
-
-  .project-showcase h1,
-  .project-showcase-outro h1 {
-    font-size: var(--fs-h5);
-    line-height: var(--lh-h5);
-    letter-spacing: var(--ls-h5);
-    margin-bottom: 0.75rem;
-  }
-
-  .project-showcase p,
-  .project-showcase-outro p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-    max-width: 400px;
-  }
-
-  .card-inner {
-    padding: 1.5rem 0.75rem 0;
-  }
-
-  .card-info {
-    margin-bottom: 0.5rem;
-  }
-
-  .card-info p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-  }
-
-  .card-title {
-    margin-bottom: 0.5rem;
-  }
-
-  .card-title h1 {
-    font-size: var(--fs-h6);
-    line-height: var(--lh-h6);
-    letter-spacing: var(--ls-h6);
-  }
-
-  .card-description {
-    margin-bottom: 0.5rem;
-    flex-grow: 0;
-  }
-
-  .card-description p {
-    font-size: var(--fs-base);
-    line-height: var(--lh-base);
-    margin-bottom: 0.75rem;
-  }
-
-  .card-link {
-    font-size: var(--fs-base);
-    padding: 0.5rem 1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .card-img {
-    margin: 1.25rem -0.75rem 0 -0.75rem;
-    height: 16rem;
-    flex-shrink: 0;
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .project-showcase,
   .project-showcase-outro {
     padding: 2rem 0.5rem;
   }
 
-  .project-showcase h1,
-  .project-showcase-outro h1 {
+  .project-showcase h2,
+  .project-showcase-outro h2 {
     font-size: var(--fs-h6);
     line-height: var(--lh-h6);
     letter-spacing: var(--ls-h6);
@@ -556,7 +485,7 @@
     margin-bottom: 0.375rem;
   }
 
-  .card-title h1 {
+  .card-title h3 {
     font-size: var(--fs-base);
     line-height: var(--lh-base);
   }

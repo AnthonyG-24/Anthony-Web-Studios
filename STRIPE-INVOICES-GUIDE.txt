@@ -1,5 +1,5 @@
 ================================================================================
-STRIPE INVOICES - COMPLETE GUIDE FOR ANTHONY WEB STUDIO
+STRIPE INVOICES - COMPLETE GUIDE FOR ANTHONY WEB STUDIO LLC
 ================================================================================
 
 HOW STRIPE INVOICES WORK

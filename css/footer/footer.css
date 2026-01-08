@@ -279,7 +279,13 @@
   letter-spacing: 0.02em;
 }
 
-@media (max-width: 820px) {
+.footer-llc-designation {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
   .footer {
     padding: clamp(2.5rem, 4vw, 3rem) 1.5rem 2rem 1.5rem;
   }
@@ -343,7 +349,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .footer {
     padding: 2rem 1rem 1.5rem 1rem;
   }
