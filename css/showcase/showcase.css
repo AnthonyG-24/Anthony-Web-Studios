@@ -98,6 +98,11 @@
   color: white;
 }
 
+#card-6 .card-inner {
+  background: linear-gradient(135deg, #6a0dad 0%, #b19cd9 100%);
+  color: white;
+}
+
 .card-info {
   text-align: center;
   margin-bottom: 1rem;
@@ -122,7 +127,8 @@
 }
 
 #card-4 .card-info p,
-#card-5 .card-info p {
+#card-5 .card-info p,
+#card-6 .card-info p {
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -150,7 +156,8 @@
 }
 
 #card-4 .card-title h3,
-#card-5 .card-title h3 {
+#card-5 .card-title h3,
+#card-6 .card-title h3 {
   color: white;
 }
 
@@ -183,7 +190,8 @@
 }
 
 #card-4 .card-description p,
-#card-5 .card-description p {
+#card-5 .card-description p,
+#card-6 .card-description p {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -226,14 +234,16 @@
 }
 
 #card-4 .card-link,
-#card-5 .card-link {
+#card-5 .card-link,
+#card-6 .card-link {
   background: rgba(255, 255, 255, 0.2);
   color: white;
   border: 0.125rem solid rgba(255, 255, 255, 0.3);
 }
 
 #card-4 .card-link:hover,
-#card-5 .card-link:hover {
+#card-5 .card-link:hover,
+#card-6 .card-link:hover {
   background: rgba(255, 255, 255, 0.35);
   border-color: rgba(255, 255, 255, 0.6);
 }
