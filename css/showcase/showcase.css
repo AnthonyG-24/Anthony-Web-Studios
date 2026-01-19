@@ -74,32 +74,34 @@
 }
 
 #card-1 .card-inner {
-  background: linear-gradient(135deg, #0a0a0a 0%, #2a2a2a 100%);
-  color: white;
+  background: linear-gradient(135deg, #f4acb7 0%, #f8d7da 100%);
+  color: black;
 }
 
 #card-2 .card-inner {
-  background: linear-gradient(135deg, #f1faee 0%, #d8f2d8 100%);
+  background: linear-gradient(135deg, #4169e1 0%, #ffd700 100%);
+
   color: #2d3748;
 }
 
 #card-3 .card-inner {
-  background: linear-gradient(135deg, #f4acb7 0%, #f8d7da 100%);
+  background: linear-gradient(135deg, #f1faee 0%, #d8f2d8 100%);
   color: #2d3748;
 }
 
 #card-4 .card-inner {
+  background: linear-gradient(135deg, #f4acb7 0%, #f8d7da 100%);
+  color: black;
+}
+
+#card-5 .card-inner {
   background: linear-gradient(135deg, #627f61 0%, #8fa88f 100%);
   color: white;
 }
 
-#card-5 .card-inner {
-  background: linear-gradient(135deg, #4169e1 0%, #ffd700 100%);
-  color: white;
-}
-
 #card-6 .card-inner {
-  background: linear-gradient(135deg, #6a0dad 0%, #b19cd9 100%);
+  background: linear-gradient(135deg, #0a0a0a 0%, #2a2a2a 100%);
+
   color: white;
 }
 
@@ -118,7 +120,7 @@
 }
 
 #card-1 .card-info p {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 #card-2 .card-info p,
@@ -126,7 +128,10 @@
   color: rgba(45, 55, 72, 0.7);
 }
 
-#card-4 .card-info p,
+#card-4 .card-info p {
+  color: black;
+}
+
 #card-5 .card-info p,
 #card-6 .card-info p {
   color: rgba(255, 255, 255, 0.8);
@@ -147,7 +152,7 @@
 }
 
 #card-1 .card-title h3 {
-  color: white;
+  color: black;
 }
 
 #card-2 .card-title h3,
@@ -155,7 +160,10 @@
   color: #2d3748;
 }
 
-#card-4 .card-title h3,
+#card-4 .card-title h3 {
+  color: black;
+}
+
 #card-5 .card-title h3,
 #card-6 .card-title h3 {
   color: white;
@@ -181,7 +189,7 @@
 }
 
 #card-1 .card-description p {
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
 }
 
 #card-2 .card-description p,
@@ -189,7 +197,10 @@
   color: rgba(45, 55, 72, 0.85);
 }
 
-#card-4 .card-description p,
+#card-4 .card-description p {
+  color: black;
+}
+
 #card-5 .card-description p,
 #card-6 .card-description p {
   color: rgba(255, 255, 255, 0.9);
@@ -211,7 +222,7 @@
 
 #card-1 .card-link {
   background: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: black;
   border: 0.125rem solid rgba(255, 255, 255, 0.3);
 }
 
@@ -233,7 +244,12 @@
   border-color: rgba(45, 55, 72, 0.5);
 }
 
-#card-4 .card-link,
+#card-4 .card-link {
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: 0.125rem solid rgba(255, 255, 255, 0.3);
+}
+
 #card-5 .card-link,
 #card-6 .card-link {
   background: rgba(255, 255, 255, 0.2);
