@@ -56,10 +56,47 @@ Early Client Discount: $300 per page
   * 8 pages = $2,000 ($800 + $1,200)
 - Timeline: 4-6 weeks for larger sites (6-8 pages)
 
+WEBSITE CARE PLAN - $50/month (Optional Recurring)
+===================================================
+Monthly maintenance service for hands-off website management.
+
+INCLUDES:
+- Website hosting & management (you handle Netlify, they don't worry about it)
+- Security monitoring & SSL certificate
+- Monthly backups (Git repo + local copy)
+- Up to 2 small updates per month (text/image changes)
+- Priority support - you handle any issues first
+
+WHO IT'S FOR:
+- Clients who don't want to think about their website
+- Business owners who want a "website person" on call
+- Those who need regular small updates
+- Anyone who wants affordable post-30-day support
+
+WHY CLIENTS SHOULD SUBSCRIBE:
+- After 30-day window, this is the cheapest ongoing support option
+- $50/month vs $50/hour - Care Plan pays for itself with just 1 hour of work
+- Predictable costs for the client
+- Predictable income for you
+
+CARE PLAN MATH:
+- 5 clients = $250/month passive income
+- 10 clients = $500/month passive income
+- 20 clients = $1,000/month passive income
+
+WHAT "BACKUPS" MEANS FOR YOU:
+- Keep client projects in Git repos (you already do this)
+- Push to GitHub regularly = automatic backup
+- Optionally: keep dated zip files of projects monthly
+- Static sites don't have databases, so backups are simple
+
+CANCELLATION: 30 days notice, can cancel anytime
+
 PAYMENT STRUCTURE:
 ==================
 - 50% deposit required to start project
 - 50% final payment due upon completion and launch
+- Care Plan: Monthly recurring via Stripe subscription
 - All payments processed through Stripe
 
 REFUND POLICY:
@@ -76,16 +113,26 @@ ADDITIONAL COSTS (BEYOND BASE PAGES):
 SUPPORT BREAKDOWN:
 ==================
 
-FREE SUPPORT (Always free, even after support period):
+30-DAY SUPPORT WINDOW (Included with every project):
+- Starts when website launches
+- Small tweaks and adjustments
 - Text changes/updates
 - Image swaps
-- Bug fixes
-- Basic technical help
+- Minor fixes
+- Getting settled into the new site
 
-PAID WORK (Costs extra even during free support):
+AFTER 30 DAYS - TWO OPTIONS:
+1. Website Care Plan ($50/month) - best value for ongoing updates
+2. Hourly billing ($50/hour, 30-minute minimum) - for occasional updates
+
+ALWAYS COVERED (No charge, ever):
+- Bug fixes for issues caused by my original work
+
+PAID WORK:
 - Adding new pages ($300 each during early discount / $350 regular)
 - Custom features ($150+)
 - Major functionality changes
+- Updates after 30-day window (via Care Plan or hourly)
 
 STRIPE PAYMENT LINKS NEEDED (EARLY CLIENT DISCOUNT):
 =====================================================
@@ -102,6 +149,8 @@ STRIPE PAYMENT LINKS NEEDED (EARLY CLIENT DISCOUNT):
 11. Additional Page - Early Discount ($300)
 12. Additional Page - Regular Rate ($350)
 13. Custom Feature - Base Rate ($150)
+14. Website Care Plan - Monthly Subscription ($50/month) **CREATE AS RECURRING PRODUCT IN STRIPE**
+15. Hourly Support - $50/hour (30-minute minimum = $25)
 
 COMMON CLIENT QUESTIONS & ANSWERS:
 ==================================
@@ -109,8 +158,8 @@ COMMON CLIENT QUESTIONS & ANSWERS:
 Q: "How does your pricing work?"
 A: Early client discount: Projects start at $800 for 4 pages (regular $1,000). Each additional page beyond 4 is $300 (regular $350). For example: 5 pages = $1,100, 6 pages = $1,400, 8 pages = $2,000. You only pay for what you need. This discount is available for a limited time.
 
-Q: "What's included in free support?"
-A: Text changes, image swaps, bug fixes, and basic technical help. These stay free forever. Adding new pages ($300 early / $350 regular) or custom features ($150+) cost extra even during the free support period.
+Q: "What's included after launch?"
+A: You get a 30-day support window for small tweaks, text changes, and adjustments. After 30 days, updates are handled through the Care Plan ($50/month) or billed at $50/hour. Bug fixes for my original work are always covered.
 
 Q: "Do you build online stores?"
 A: I don't specialize in e-commerce right now. I focus on informational websites that showcase businesses and services.
@@ -118,8 +167,11 @@ A: I don't specialize in e-commerce right now. I focus on informational websites
 Q: "How long does a project take?"
 A: Smaller sites (4-5 pages): 2-4 weeks. Larger sites (6-8 pages): 4-6 weeks from deposit to launch.
 
-Q: "What if I need changes after launch?"
-A: Small updates (text, images) remain free forever. New pages ($300 early / $350 regular) or custom features ($150+) require additional payment.
+Q: "What if I need changes after the 30-day window?"
+A: Two options: Website Care Plan ($50/month) which includes 2 updates per month, or hourly billing at $50/hour (30-minute minimum). New pages are $300 each (early discount).
+
+Q: "Do you offer ongoing maintenance?"
+A: Yes! The Website Care Plan is $50/month. Includes hosting management, security monitoring, monthly backups, up to 2 small updates per month, and priority support. After your 30-day support window, this is the most affordable way to keep your site updated.
 
 Q: "Can you help with domain setup?"
 A: Yes, I provide guidance and can help configure DNS settings, but you purchase and own the domain.
@@ -141,4 +193,5 @@ PROJECT WORKFLOW:
 5. Begin work after deposit received
 6. Regular updates throughout project
 7. Final payment and launch
-8. Support period begins
+8. Offer Website Care Plan ($50/month) - optional upsell
+9. Ongoing support (free basic updates, or care plan if subscribed)
