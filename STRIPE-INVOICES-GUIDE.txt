@@ -374,6 +374,167 @@ Anthony"
 
 
 ================================================================================
+CARE PLAN SUBSCRIPTION (MONTHLY $50)
+================================================================================
+
+The Care Plan is DIFFERENT from invoices. It's a recurring subscription.
+
+HOW TO SET IT UP (ONE TIME):
+-----------------------------
+1. Go to Stripe Dashboard > Products
+2. Click "+ Add Product"
+3. Name: "Website Care Plan"
+4. Description: "Monthly website maintenance and support. Includes hosting
+   management, security monitoring, monthly backups, up to 2 small updates
+   per month (text/image changes), and priority support. Cancel anytime
+   with 30 days notice."
+5. Price: $50
+6. Select: RECURRING > Monthly
+7. Save
+
+CREATE A PAYMENT LINK:
+-----------------------
+1. Go to Stripe Dashboard > Payment Links
+2. Click "+ New"
+3. Select your "Website Care Plan" product
+4. Customize the page if you want
+5. Click "Create Link"
+6. SAVE THIS LINK - you'll send it to clients
+
+WHEN CLIENT SUBSCRIBES:
+------------------------
+- They click your link
+- Enter their card info
+- Stripe charges them $50 immediately
+- Stripe auto-charges $50 every month after that
+- You get paid automatically, no chasing invoices
+
+
+================================================================================
+FULL CLIENT SCENARIO - FROM QUOTE TO CARE PLAN
+================================================================================
+
+EXAMPLE: Pastor Williams wants a 5-page church website ($1,100)
+
+---------------------------------------------------------------------------
+STEP 1: DEPOSIT
+---------------------------------------------------------------------------
+
+Pastor Williams fills out your quote form. You email back:
+
+   "Hi Pastor Williams! A 5-page site would be $1,100. Here's the invoice
+   for your 50% deposit ($550). Once paid, we'll get started!"
+
+YOU CREATE IN STRIPE:
+- Invoices > Create Invoice
+- Customer: Pastor Williams' email
+- Description: "5-Page Church Website - Deposit (50%)"
+- Amount: $550
+- Due: 7 days
+- Send
+
+PASTOR WILLIAMS: Gets email, clicks "Pay Invoice", pays with card.
+
+YOU: Get notified, start working on the site.
+
+
+---------------------------------------------------------------------------
+STEP 2: FINAL PAYMENT
+---------------------------------------------------------------------------
+
+Site is done. You email:
+
+   "Your site is ready! Here's the final invoice for $550. Once paid,
+   we'll go live!"
+
+YOU CREATE IN STRIPE:
+- Invoices > Create Invoice
+- Customer: Pastor Williams (already saved)
+- Description: "5-Page Church Website - Final Payment (50%)"
+- Amount: $550
+- Due: 7 days
+- Send
+
+PASTOR WILLIAMS: Pays. You make the site live.
+
+
+---------------------------------------------------------------------------
+STEP 3: 30-DAY SUPPORT WINDOW
+---------------------------------------------------------------------------
+
+Over the next 30 days, Pastor Williams asks for:
+
+- "Can you change the service time to 10:30am?"
+  → FREE. You do it.
+
+- "Can you swap out the pastor's photo?"
+  → FREE. You do it.
+
+This is included in the 30-day support window. No charge.
+
+
+---------------------------------------------------------------------------
+STEP 4: DAY 30 - OFFER THE CARE PLAN
+---------------------------------------------------------------------------
+
+You email:
+
+   "Hi Pastor Williams! Your 30-day support window is ending. If you'd
+   like me to stay on as your website guy - handling updates, security,
+   and backups - the Care Plan is $50/month. Here's the link to subscribe:
+
+   [YOUR STRIPE PAYMENT LINK]
+
+   Otherwise, future updates are billed at $50/hour. Let me know what
+   works for you!"
+
+PASTOR WILLIAMS: Clicks link, enters card, subscribes.
+
+STRIPE: Auto-charges $50 now, then $50 every month automatically.
+
+
+---------------------------------------------------------------------------
+STEP 5: ONGOING (CARE PLAN ACTIVE)
+---------------------------------------------------------------------------
+
+MONTH 2:
+Pastor Williams emails "Can you add our Easter service times?"
+→ You do it. Covered by Care Plan.
+
+MONTH 4:
+Pastor Williams emails "Can you update 3 photos and change our phone number?"
+→ You do it. That's 2 updates, covered by Care Plan.
+
+MONTH 6:
+Pastor Williams emails "Can you add a whole new Youth Ministry page?"
+→ That's a NEW PAGE. You send a separate invoice for $300.
+
+YOU CREATE IN STRIPE:
+- Invoices > Create Invoice
+- Customer: Pastor Williams
+- Description: "Additional Page - Youth Ministry"
+- Amount: $300
+- Send
+
+
+---------------------------------------------------------------------------
+THE MONEY FROM THIS ONE CLIENT
+---------------------------------------------------------------------------
+
+| When       | What                    | Amount      |
+|------------|-------------------------|-------------|
+| Week 1     | Deposit invoice         | $550        |
+| Week 4     | Final payment invoice   | $550        |
+| Month 2-12 | Care Plan (11 months)   | $550        |
+| Month 6    | New page invoice        | $300        |
+|------------|-------------------------|-------------|
+| YEAR 1 TOTAL                         | $1,950      |
+
+That's nearly $2,000 from ONE client in year one.
+If they stay subscribed, that's $600/year ongoing.
+
+
+================================================================================
 PRO TIPS
 ================================================================================
 
