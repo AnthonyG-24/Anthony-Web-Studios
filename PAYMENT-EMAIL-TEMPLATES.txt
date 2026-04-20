@@ -41,7 +41,7 @@ WHAT'S INCLUDED:
 - Contact form
 - Mobile-friendly (works on all devices)
 - Domain connection help
-- Free lifetime updates (text, images, bug fixes)
+- 30 days of free post-launch support (tweaks, text, images, minor fixes)
 
 TIMELINE:
 - [2-4 weeks / 4-6 weeks] from deposit to launch
@@ -106,7 +106,7 @@ Your website is complete and ready to launch! Here's the final payment invoice.
 
 FINAL INVOICE:
 - Amount: $[amount] (50% final payment)
-- What you get: Full website files, launch assistance, lifetime free updates
+- What you get: Full website files, launch assistance, 30 days of free post-launch support
 
 [STRIPE PAYMENT LINK]
 

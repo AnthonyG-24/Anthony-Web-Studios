@@ -19,16 +19,6 @@ WHAT I DON'T DO RIGHT NOW:
 PRICING MODEL:
 ================
 
-STARTER WEBSITE PACKAGE - $500 (First 10 Clients Only!)
--------------------------------------------------------
-$500 - A complete website for your business
-- Up to 5 pages or sections
-- Clean, professional design
-- Mobile friendly
-- Live in 7-10 days
-- Need more? We can discuss!
-- This special offer is only available for the first 10 paying clients!
-
 BASE WEBSITE - $800 (Early Client Discount)
 --------------------------------------------
 Regular Rate: $1,000 for 4 pages
@@ -152,6 +142,8 @@ STRIPE PAYMENT LINKS NEEDED (EARLY CLIENT DISCOUNT):
 14. Website Care Plan - Monthly Subscription ($50/month) **CREATE AS RECURRING PRODUCT IN STRIPE**
 15. Hourly Support - $50/hour (30-minute minimum = $25)
 
+NOTE: Starter Package ($500) has been removed from offerings.
+
 COMMON CLIENT QUESTIONS & ANSWERS:
 ==================================
 
@@ -194,4 +186,4 @@ PROJECT WORKFLOW:
 6. Regular updates throughout project
 7. Final payment and launch
 8. Offer Website Care Plan ($50/month) - optional upsell
-9. Ongoing support (free basic updates, or care plan if subscribed)
+9. Ongoing support (30-day free window, then Care Plan or hourly)
