@@ -50,7 +50,7 @@ For DEPOSIT:
 Example for 5-page site:
 - Description: "Website Development - 5 pages - Deposit (50%)"
 - Quantity: 1
-- Unit price: $525
+- Unit price: $550
 
 
 For FINAL PAYMENT:
@@ -88,37 +88,37 @@ FINAL INVOICE:
 - Amount: $400
 
 
-5 PAGE SITE ($1,050 total)
+5 PAGE SITE ($1,100 total)
 ---------------------------
 DEPOSIT INVOICE:
 - Description: "Website Development - 5 pages - Deposit (50%)"
-- Amount: $525
+- Amount: $550
 
 FINAL INVOICE:
 - Description: "Website Development - 5 pages - Final Payment (50%)"
-- Amount: $525
+- Amount: $550
 
 
-6 PAGE SITE ($1,300 total)
+6 PAGE SITE ($1,400 total)
 ---------------------------
 DEPOSIT INVOICE:
 - Description: "Website Development - 6 pages - Deposit (50%)"
-- Amount: $650
+- Amount: $700
 
 FINAL INVOICE:
 - Description: "Website Development - 6 pages - Final Payment (50%)"
-- Amount: $650
+- Amount: $700
 
 
-8 PAGE SITE ($1,800 total)
+8 PAGE SITE ($2,000 total)
 ---------------------------
 DEPOSIT INVOICE:
 - Description: "Website Development - 8 pages - Deposit (50%)"
-- Amount: $900
+- Amount: $1,000
 
 FINAL INVOICE:
 - Description: "Website Development - 8 pages - Final Payment (50%)"
-- Amount: $900
+- Amount: $1,000
 
 
 ================================================================================
@@ -210,15 +210,15 @@ TYPICAL WORKFLOW FOR A NEW CLIENT
    → You receive their project details
 
 2. YOU CALCULATE THE TOTAL
-   Example: 5 pages = $800 + $250 = $1,050
-   50% deposit = $525
+   Example: 5 pages = $800 + $300 = $1,100
+   50% deposit = $550
 
 3. YOU EMAIL THEM
    "Hi [Name],
 
-   Thanks for reaching out! Your 5-page website will be $1,050 total.
+   Thanks for reaching out! Your 5-page website will be $1,100 total.
 
-   To get started, I'll need a 50% deposit ($525). I'm sending you a
+   To get started, I'll need a 50% deposit ($550). I'm sending you a
    Stripe invoice now - just click the 'Pay Invoice' button in the email.
 
    The deposit is fully refundable until you approve the initial design.
@@ -234,7 +234,7 @@ TYPICAL WORKFLOW FOR A NEW CLIENT
    → You start the project
 
 6. PROJECT IS COMPLETE
-   → You create the FINAL PAYMENT invoice ($525)
+   → You create the FINAL PAYMENT invoice ($550)
    → Client pays
    → Done!
 
@@ -256,14 +256,14 @@ Formula: NEW TOTAL - DEPOSIT PAID = FINAL PAYMENT
 SCENARIO 1: CLIENT WANTS FEWER PAGES
 -------------------------------------
 
-Original: 5 pages ($1,050 total, deposit $525 paid ✓)
+Original: 5 pages ($1,100 total, deposit $550 paid ✓)
 Change: "Actually, I only need 4 pages"
 New total: $800
 
 THE MATH:
 - New total: $800
-- Already paid: $525
-- Final payment: $800 - $525 = $275
+- Already paid: $550
+- Final payment: $800 - $550 = $250
 
 WHAT YOU DO:
 1. Email them:
@@ -271,18 +271,18 @@ WHAT YOU DO:
 
    No problem changing from 5 pages to 4 pages!
 
-   Your new project total is $800 (instead of $1,050).
+   Your new project total is $800 (instead of $1,100).
 
-   You already paid $525 as your deposit, so your final payment when
-   the site is complete will be $275 (instead of $525).
+   You already paid $550 as your deposit, so your final payment when
+   the site is complete will be $250 (instead of $550).
 
    Everything else stays the same!
 
    Anthony"
 
-2. When project is done, create final invoice for $275 (not $525)
-3. They pay $275
-4. Total paid: $525 + $275 = $800 ✓
+2. When project is done, create final invoice for $250 (not $550)
+3. They pay $250
+4. Total paid: $550 + $250 = $800 ✓
 
 NOTE: You don't need to refund anything. Just adjust the final payment.
 
@@ -290,55 +290,55 @@ NOTE: You don't need to refund anything. Just adjust the final payment.
 SCENARIO 2: CLIENT WANTS MORE PAGES
 ------------------------------------
 
-Original: 5 pages ($1,050 total, deposit $525 paid ✓)
+Original: 5 pages ($1,100 total, deposit $550 paid ✓)
 Change: "Actually, I want 6 pages"
-New total: $1,300
+New total: $1,400
 
 THE MATH:
-- New total: $1,300
-- Already paid: $525
-- Final payment: $1,300 - $525 = $775
+- New total: $1,400
+- Already paid: $550
+- Final payment: $1,400 - $550 = $850
 
 WHAT YOU DO:
 1. Email them:
    "Hi [Client],
 
-   Adding the extra page will bring your total to $1,300 (instead of $1,050).
+   Adding the extra page will bring your total to $1,400 (instead of $1,100).
 
-   You already paid $525 as your deposit, so your final payment when
-   the site is complete will be $775.
+   You already paid $550 as your deposit, so your final payment when
+   the site is complete will be $850.
 
    Sound good?
 
    Anthony"
 
-2. When project is done, create final invoice for $775 (not $525)
-3. They pay $775
-4. Total paid: $525 + $775 = $1,300 ✓
+2. When project is done, create final invoice for $850 (not $550)
+3. They pay $850
+4. Total paid: $550 + $850 = $1,400 ✓
 
 
 QUICK REFERENCE - FINAL PAYMENT CALCULATOR
 -------------------------------------------
 
-If they originally wanted 5 pages (paid $525 deposit) but changed to:
+If they originally wanted 5 pages (paid $550 deposit) but changed to:
 
 3 pages ($800 total):
-  Final payment = $800 - $525 = $275
+  Final payment = $800 - $550 = $250
 
 4 pages ($800 total):
-  Final payment = $800 - $525 = $275
+  Final payment = $800 - $550 = $250
 
-5 pages ($1,050 total) - ORIGINAL PLAN:
-  Final payment = $1,050 - $525 = $525
+5 pages ($1,100 total) - ORIGINAL PLAN:
+  Final payment = $1,100 - $550 = $550
 
-6 pages ($1,300 total):
-  Final payment = $1,300 - $525 = $775
+6 pages ($1,400 total):
+  Final payment = $1,400 - $550 = $850
 
-7 pages ($1,550 total):
-  Final payment = $1,550 - $525 = $1,025
+7 pages ($1,700 total):
+  Final payment = $1,700 - $550 = $1,150
 
-8 pages ($1,800 total):
-  Final payment = $1,800 - $525 = $1,275
+8 pages ($2,000 total):
+  Final payment = $2,000 - $550 = $1,450
 
 
 IMPORTANT TIPS FOR SCOPE CHANGES:
@@ -414,7 +414,8 @@ WHEN CLIENT SUBSCRIBES:
 FULL CLIENT SCENARIO - FROM QUOTE TO CARE PLAN
 ================================================================================
 
-EXAMPLE: Pastor Williams wants a 5-page church website ($1,100)
+EXAMPLE: Pastor Williams wants a 5-page church website
+        ($935 with 15% church/nonprofit discount)
 
 ---------------------------------------------------------------------------
 STEP 1: DEPOSIT
@@ -422,14 +423,15 @@ STEP 1: DEPOSIT
 
 Pastor Williams fills out your quote form. You email back:
 
-   "Hi Pastor Williams! A 5-page site would be $1,100. Here's the invoice
-   for your 50% deposit ($550). Once paid, we'll get started!"
+   "Hi Pastor Williams! A 5-page church website would be $935 (with your
+   15% church discount). Here's the invoice for your 50% deposit ($468).
+   Once paid, we'll get started!"
 
 YOU CREATE IN STRIPE:
 - Invoices > Create Invoice
 - Customer: Pastor Williams' email
 - Description: "5-Page Church Website - Deposit (50%)"
-- Amount: $550
+- Amount: $468
 - Due: 7 days
 - Send
 
@@ -444,14 +446,14 @@ STEP 2: FINAL PAYMENT
 
 Site is done. You email:
 
-   "Your site is ready! Here's the final invoice for $550. Once paid,
+   "Your site is ready! Here's the final invoice for $467. Once paid,
    we'll go live!"
 
 YOU CREATE IN STRIPE:
 - Invoices > Create Invoice
 - Customer: Pastor Williams (already saved)
 - Description: "5-Page Church Website - Final Payment (50%)"
-- Amount: $550
+- Amount: $467
 - Due: 7 days
 - Send
 
@@ -507,13 +509,13 @@ Pastor Williams emails "Can you update 3 photos and change our phone number?"
 
 MONTH 6:
 Pastor Williams emails "Can you add a whole new Youth Ministry page?"
-→ That's a NEW PAGE. You send a separate invoice for $300.
+→ That's a NEW PAGE. You send a separate invoice for $255 (church rate).
 
 YOU CREATE IN STRIPE:
 - Invoices > Create Invoice
 - Customer: Pastor Williams
 - Description: "Additional Page - Youth Ministry"
-- Amount: $300
+- Amount: $255
 - Send
 
 
@@ -523,14 +525,14 @@ THE MONEY FROM THIS ONE CLIENT
 
 | When       | What                    | Amount      |
 |------------|-------------------------|-------------|
-| Week 1     | Deposit invoice         | $550        |
-| Week 4     | Final payment invoice   | $550        |
+| Week 1     | Deposit invoice         | $468        |
+| Week 4     | Final payment invoice   | $467        |
 | Month 2-12 | Care Plan (11 months)   | $550        |
-| Month 6    | New page invoice        | $300        |
+| Month 6    | New page invoice        | $255        |
 |------------|-------------------------|-------------|
-| YEAR 1 TOTAL                         | $1,950      |
+| YEAR 1 TOTAL                         | $1,740      |
 
-That's nearly $2,000 from ONE client in year one.
+That's nearly $1,750 from ONE client in year one.
 If they stay subscribed, that's $600/year ongoing.
 
 

@@ -38,7 +38,7 @@ Examples:
 - 6 pages: $1,190 (save $210)
 - 8 pages: $1,700 (save $300)
 - 11 pages: $2,465 (save $435)
-- 15 pages: $3,400 (save $600)
+- 15 pages: $3,485 (save $615)
 
 WHAT'S INCLUDED:
 - Custom responsive design
@@ -148,7 +148,7 @@ NONPROFIT/CHURCH PRICING (15% off):
 10 pages = $2,210 ($680 + $1,530)
 11 pages = $2,465 ($680 + $1,785)
 12 pages = $2,720 ($680 + $2,040)
-15 pages = $3,400 ($680 + $2,720)
+15 pages = $3,485 ($680 + $2,805)
 
 REGULAR BUSINESS PRICING:
 

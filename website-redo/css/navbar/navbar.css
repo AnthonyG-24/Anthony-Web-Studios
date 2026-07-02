@@ -1,0 +1,390 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--neutral-light);
+  width: 100%;
+  z-index: 150;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav {
+  height: 4rem;
+  width: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  position: relative;
+  z-index: 151;
+}
+
+.hamburger i {
+  font-size: 1.5rem;
+  color: var(--primary);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.hamburger .fa-xmark {
+  position: absolute;
+  opacity: 0;
+  transform: rotate(180deg);
+}
+
+.hamburger.active .fa-bars {
+  opacity: 0;
+  transform: rotate(-180deg);
+}
+
+.hamburger.active .fa-xmark {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+  background-color: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.nav-link.active {
+  color: var(--accent);
+  background-color: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0.25rem;
+  left: 50%;
+  width: 0;
+  height: 0.125rem;
+  background-color: var(--accent);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 80%;
+}
+
+.nav-link-cta {
+  background: var(--accent);
+  color: var(--neutral-light) !important;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.75rem 1.5rem !important;
+  margin-left: 0.5rem;
+}
+
+.nav-link-cta:hover,
+.nav-link-cta.active {
+  background: color-mix(in srgb, var(--accent) 80%, black) !important;
+  color: var(--neutral-light) !important;
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.25rem 0.75rem color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.nav-link-cta::after {
+  display: none;
+}
+
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 148;
+}
+
+.nav-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 900px) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+.nav-link:focus {
+  outline: 0.125rem solid var(--accent);
+  outline-offset: 0.125rem;
+}
+
+.hamburger:focus {
+  outline: 0.125rem solid var(--accent);
+  outline-offset: 0.125rem;
+}
+
+@media (min-width: 901px) {
+  .nav-link:hover {
+    transform: translateY(-0.125rem);
+  }
+
+  .nav-link-cta:hover {
+    transform: translateY(-0.125rem);
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-wrapper {
+    max-width: 90%;
+    padding: 1rem 1.25rem;
+  }
+
+  .nav-right {
+    gap: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.625rem 0.875rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.625rem 1.25rem !important;
+  }
+}
+
+@media (max-width: 912px) {
+  .nav-wrapper {
+    max-width: 92%;
+    padding: 0.9375rem 1.125rem;
+  }
+
+  .nav-right {
+    gap: 0.375rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.5625rem 0.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-wrapper {
+    padding: 0.875rem 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-right {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 18.75rem;
+    height: 100vh;
+    background: var(--neutral-light);
+    box-shadow: -0.25rem 0 1rem rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 149;
+    padding: 5rem 1rem 1rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .nav-right.active {
+    right: 0;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+    margin-left: 0;
+  }
+
+  .nav-link::after {
+    display: none;
+  }
+
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .nav-link-cta {
+    background: var(--accent);
+    color: var(--neutral-light) !important;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem !important;
+  }
+
+  .nav-link-cta:hover {
+    background: color-mix(in srgb, var(--accent) 80%, black) !important;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .logo-nav {
+    height: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    padding: 0.75rem 0.875rem;
+  }
+
+  .nav-right {
+    width: 16.25rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.875rem 1.25rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.875rem 1.25rem !important;
+  }
+
+  .logo-nav {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-wrapper {
+    padding: 0.6875rem 0.8rem;
+  }
+
+  .nav-right {
+    width: 15rem;
+  }
+
+  .nav-link {
+    font-size: 0.975rem;
+    padding: 0.8rem 1.1rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.8rem 1.1rem !important;
+  }
+
+  .logo-nav {
+    height: 2.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-wrapper {
+    padding: 0.625rem 0.75rem;
+  }
+
+  .nav-right {
+    width: 100%;
+    right: -100%;
+    padding: 5rem 0.75rem 1rem 0.75rem;
+  }
+
+  .nav-right.active {
+    right: 0;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.75rem 1rem !important;
+  }
+
+  .logo-nav {
+    height: 2.5rem;
+  }
+
+  .hamburger i {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-wrapper {
+    padding: 0.5rem 0.625rem;
+  }
+
+  .nav-right {
+    padding: 4.5rem 0.625rem 1rem 0.625rem;
+  }
+
+  .nav-link {
+    font-size: 0.875rem;
+    padding: 0.625rem 0.875rem;
+  }
+
+  .nav-link-cta {
+    padding: 0.625rem 0.875rem !important;
+  }
+
+  .logo-nav {
+    height: 2.25rem;
+  }
+
+  .hamburger i {
+    font-size: 1.15rem;
+  }
+}

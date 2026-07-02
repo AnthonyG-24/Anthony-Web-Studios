@@ -1,0 +1,193 @@
+================================================================================
+                        ANTHONY WEB STUDIO LLC
+                         PROJECT AGREEMENT
+                    anthony4work9000@gmail.com
+================================================================================
+
+Client:         ___________________________
+Project:        Website Redesign
+Date:           ___________________________
+
+--------------------------------------------------------------------------------
+SCOPE OF WORK
+--------------------------------------------------------------------------------
+
+Anthony Web Studio LLC will design and develop a custom front-end website
+(HTML/CSS/JavaScript) for the client listed above. This is a design-only
+project. No backend systems, booking platforms, login systems, e-commerce,
+or complex web applications are included unless explicitly stated in writing.
+
+Any existing booking or reservation systems will not be modified. All
+booking or login buttons will link directly to the client's existing system.
+
+Pages included: ___ pages
+
+--------------------------------------------------------------------------------
+PRICING
+--------------------------------------------------------------------------------
+
+  Base package (4 pages):         $800.00
+  Additional pages ($300 each):   $______
+  Total project cost:             $______
+
+--------------------------------------------------------------------------------
+PAYMENT
+--------------------------------------------------------------------------------
+
+  - 50% deposit ($______) is due before any work begins
+  - 50% final payment ($______) is due upon completion, before launch
+  - All payments are processed securely through Stripe
+  - Payment plans are available upon request
+  - No work begins until the deposit is received and confirmed
+
+No free work is provided under any circumstances.
+
+--------------------------------------------------------------------------------
+REFUND POLICY
+--------------------------------------------------------------------------------
+
+Deposit (first 50%):
+  - Fully refundable until the client approves the initial design in writing
+    (via email or text message)
+  - Becomes non-refundable after written design approval, OR after 14 days
+    have passed since the initial design was sent without a response
+  - A reminder will be sent before the 14-day mark
+
+Final payment (last 50%):
+  - Refundable within 7 days of project completion only if the agreed
+    deliverables were not met (example: paid for 4 pages, only received 2)
+
+--------------------------------------------------------------------------------
+REVISIONS
+--------------------------------------------------------------------------------
+
+  - Minor tweaks and adjustments are included throughout development at
+    no extra cost
+  - Major changes beyond the original agreed scope (additional pages,
+    new features not discussed) require a separate quote and may extend
+    the timeline
+  - Once a section or design is approved in writing, requesting significant
+    changes to that approved work may incur an additional fee
+  - Client has 5 business days to respond to progress updates. No response
+    means Anthony will continue with what has already been approved
+
+--------------------------------------------------------------------------------
+CLIENT RESPONSIBILITIES
+--------------------------------------------------------------------------------
+
+Client agrees to provide the following within 3 business days of project start:
+
+  - All written content for each page
+  - Photos and images (client confirms these are legally owned or licensed)
+  - Logo files (if available)
+  - Any specific design preferences or requirements
+
+Client is solely responsible for ensuring all provided content (text, images,
+logos) does not violate any copyright or trademark laws.
+
+Delays in providing materials may extend the project timeline. Anthony is
+not responsible for timeline delays caused by the client.
+
+--------------------------------------------------------------------------------
+TIMELINE
+--------------------------------------------------------------------------------
+
+  - Timeline begins on the date the deposit is received
+  - 4-5 pages:  estimated 2-4 weeks
+  - 6-8 pages:  estimated 4-6 weeks
+  - Timeline may extend if client feedback or materials are delayed
+
+--------------------------------------------------------------------------------
+POST-LAUNCH SUPPORT
+--------------------------------------------------------------------------------
+
+  - A free 30-day support window is included starting on the launch date
+  - Covered during this window: minor text changes, image swaps, small fixes
+  - After 30 days, two options are available:
+      1. Website Care Plan - $50/month (up to 2 small updates/month,
+         security monitoring, backups, priority support, cancel anytime
+         with 30 days notice)
+      2. Hourly rate - $50/hour (30-minute minimum = $25)
+  - Bug fixes caused by Anthony's original code are always free, no matter
+    when they are reported
+
+--------------------------------------------------------------------------------
+CANCELLATION
+--------------------------------------------------------------------------------
+
+  By the client:
+  - Client may cancel at any time before approving the initial design in
+    writing for a full deposit refund
+  - After written design approval, the deposit is non-refundable
+  - Client will receive all completed work files upon cancellation
+
+  By Anthony Web Studio LLC:
+  - In the rare event Anthony must cancel, a full refund of all payments
+    will be issued and all completed work will be provided to the client
+    at no charge
+
+--------------------------------------------------------------------------------
+LIMITATIONS & LIABILITY
+--------------------------------------------------------------------------------
+
+  - Anthony Web Studio LLC is not responsible for issues outside of his
+    control (hosting provider outages, third-party platform changes, etc.)
+  - Maximum liability is limited to the total amount paid by the client
+    for this project
+  - Anthony is responsible for delivering a website that matches the agreed
+    package specifications and functions properly
+
+--------------------------------------------------------------------------------
+HOW TO SIGN THIS CONTRACT
+--------------------------------------------------------------------------------
+
+This contract is sent via Google Docs link to the client's email address.
+No account or app is required to view it.
+
+To agree, the client simply replies to the email with the words "I agree"
+or "I agree to the terms." That email reply serves as the client's legal
+confirmation of this contract. Anthony will save that email as the record
+of agreement.
+
+Paying the deposit also confirms the client has read and agreed to all
+terms outlined in this contract.
+
+  *** IMPORTANT NOTE FOR ANTHONY ***
+
+  An email reply saying "I agree" is legally binding in most US states
+  and works fine for small projects. However, for projects $800 or more
+  (your standard package and above), always use DocuSign instead.
+
+  DocuSign is free for up to 3 documents per month. The client receives
+  an email, clicks a button, and signs digitally. You both automatically
+  get a signed PDF copy saved. That is a real legal signature and much
+  stronger protection if a dispute ever comes up.
+
+  Bottom line:
+    - Under $500  -->  email reply "I agree" is fine
+    - $800+       -->  use DocuSign (free at docusign.com)
+
+  You built a real business. Protect it properly.
+
+--------------------------------------------------------------------------------
+AGREEMENT
+--------------------------------------------------------------------------------
+
+By replying "I agree" via email and/or paying the deposit, the client
+confirms they have read, understood, and agreed to all terms in this
+contract.
+
+  Anthony Web Studio LLC
+  Signature: Anthony G.
+  Email:     anthony4work9000@gmail.com
+  Date:      ___________________________
+
+  Client
+  Full Name: ___________________________
+  Email:     ___________________________
+  Date:      ___________________________
+
+================================================================================
+                        ANTHONY WEB STUDIO LLC
+                    "Bold Websites. Big Impact."
+================================================================================
