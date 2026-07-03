@@ -7,7 +7,6 @@ WHAT I DO:
 - Custom HTML/CSS/JavaScript development
 - Responsive design (works on all devices)
 - Domain setup assistance
-- Basic logo design (if needed)
 
 WHAT I DON'T DO RIGHT NOW:
 --------------------------
@@ -29,7 +28,6 @@ Limited time offer
 - Modern responsive design
 - Contact form
 - Domain connection help
-- Simple logo design (if needed)
 - Free support after launch (details below)
 - Timeline: 2-4 weeks
 
