@@ -111,35 +111,40 @@
 
 #showcase-card-1 {
   background-color: var(--primary);
-  z-index: 7;
+  z-index: 8;
 }
 
 #showcase-card-2 {
+  background-color: color-mix(in srgb, var(--primary) 70%, var(--neutral-dark) 30%);
+  z-index: 7;
+}
+
+#showcase-card-3 {
   background-color: var(--accent);
   z-index: 6;
 }
 
-#showcase-card-3 {
+#showcase-card-4 {
   background-color: var(--neutral-dark);
   z-index: 5;
 }
 
-#showcase-card-4 {
+#showcase-card-5 {
   background: var(--accent-gradient);
   z-index: 4;
 }
 
-#showcase-card-5 {
+#showcase-card-6 {
   background-color: color-mix(in srgb, var(--primary) 60%, var(--accent) 40%);
   z-index: 3;
 }
 
-#showcase-card-6 {
+#showcase-card-7 {
   background-color: color-mix(in srgb, var(--accent) 55%, var(--neutral-dark) 45%);
   z-index: 2;
 }
 
-#showcase-card-7 {
+#showcase-card-8 {
   background-color: color-mix(in srgb, var(--neutral-dark) 65%, var(--primary) 35%);
   z-index: 1;
 }
